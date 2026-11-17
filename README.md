@@ -114,7 +114,7 @@ SeaP1
 ### 更新日志
 
 <details><summary>点击展开</summary>
-0.1.0a COC2 0.9.0版本基本汉化完成
+0.1.0a TITS 0.9.167版本基本汉化完成
 
 
 
