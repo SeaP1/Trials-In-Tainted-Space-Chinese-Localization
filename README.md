@@ -1,0 +1,124 @@
+# Corruption of Champions II 中文本地化项目
+
+
+
+## 在提交 Issue、参与翻译或使用本项目内容前，请先阅读本文档。
+
+
+
+## 目录 - [写在最前](#写在最前) - [关于本仓库](#关于本仓库) - [关于汉化发布下载](#关于汉化发布下载) - [反馈问题](#反馈问题) - [版本号规则](#版本号规则) - [文件结构](#文件结构) - [致谢名单](#致谢名单) - [免责声明](#免责声明) - [更新日志](#更新日志)
+
+### 写在最前
+
+<br>
+
+> 本项目为非官方中文本地化项目。
+>
+> 汉化为AI润色。汉化对应游戏版本为0.9.167
+>
+> 与原作者及官方团队无直接关系。
+>
+> exe哈希值为20C46DE031B9774910564C4FC461C562BD654A22C03440DC1CB129E8D6B86692 
+
+<br>
+
+#### 使用指北
+
+##### 电脑
+将exe与translator放入游戏根目录下，双击exe即可启动汉化
+
+<big>是translator文件夹**里面的文件**，translator-/<版本号>放进去是打不开汉化的</big>
+
+若发现无法启动，请使用noSandBox.exe启动
+##### 安卓 （还没完成，预计下个版本更新）
+下载APK，安装
+
+#### 不同版本使用指北
+下载对应版本的translator文件夹，去掉版本后缀即可
+例 translator 0.8.38 -> translator
+
+**游戏作者** 
+
+[作者博客](https://www.fenoxo.com/) · [英文游戏维基](https://wiki.smutosaur.us/TiTS/Main_Page) · [中文游戏维基](https://titswiki.kefengcreative.cc/)
+
+### 关于本仓库
+
+本仓库将会不定期放出游戏的简体中文本地化版本，仅供交流学习，请于下载后 24 小时内删除。如果你未满 18 岁，请勿下载此游戏。仓库本身不含游戏相关内容，仅作为发布地址。**对在其它平台下载的汉化游戏文件不保证安全性，请谨慎下载。**
+
+游戏完全免费游玩，**严禁**将中文本地化版本**用作商业盈利用途**或**公开大肆传播**，对于商业盈利或公开传播导致的可能法律后果完全由使用者自行承担，与汉化成员无关。
+
+如在游玩过程中遇到任何问题，或对汉化文本有建议，请[发布 issue(议题)](https://github.com/SeaP1/Trials-In-Tainted-Space-Chinese-Localization/issues) 反馈，反馈时请附上出现问题时的**截图 + 游戏存档文件 / 游戏存档代码**，在其它平台反馈问题可能得不到回应。请不要删除自己的议题, 方便后来人查阅相关问题。请注意，本仓库仅解决由于游戏汉化版本导致的问题，如果问题在英文版能复现，请去游戏官方 [Discord(待填)]() 反映。
+
+### 关于汉化发布下载
+
+可以在仓库右侧/底部的 [releases(发行版)](https://github.com/SeaP1/Trials-In-Tainted-Space-Chinese-Localization/releases/)页面下载。
+
+### 汉化修正方法
+
+需求环境 NodeJS Ollama
+
+于根目录输入
+
+```powershell
+node ./translator/extract_text.mjs -all
+```
+
+提取文字
+
+#### 手动修正
+
+通过修改./translator/translator_json里面对应文件，后通过输入
+
+```powershell
+// 可通过node ./translator/validate_translations.mjs 检测是否存在错误
+node ./translator/apply_translations_to_apply.mjs
+```
+
+完成手动更新汉化
+
+#### 通过大模型自动批量翻译文本
+
+输入
+
+```powershell
+node ./translator/translate_each_file.mjs 100 --with-core // 数字可调，可用--core-only实现部分翻译具体内容阅读代码
+node ./translator/apply_translations_to_apply.mjs
+```
+
+简单解释
+
+translate_each_file会调用ollama_translate_v2文件。通过修改ollama_translate_v2文件内容可以修正对应的prompt，实现期望的翻译格式/内容。
+
+### 反馈问题
+
+请参考<b>关于本仓库</b>部分，于issue反馈
+
+### 版本号规则
+
+待填
+
+### 文件结构
+
+待填
+
+### 致谢名单(名单不分先后)
+
+刻风雫
+SeaP1
+
+### 免责声明
+
+1. 汉化认可且负责的汉化版唯一发布渠道为 GitHub（即本仓库），其余渠道均不受认可，译者也不对来自其他渠道的汉化版本出现或造成的问题负责。自非官方 GitHub 渠道获取的汉化版可能会被篡改，可能会造成不可预料的后果，请务必以 GitHub 渠道发布的汉化版为准。译者可能不会接受使用非官方发布版本的内容反馈。
+2. 译者不对任何修改后的汉化版本负责，包括但不限于修改游戏本体 js 文件，使用可能改变游戏内容的模组，使用他人发布的整合包等；译者也不会为任何第三方发布的模组版/修改版/魔改版/整合包等背书或担保。请在反馈问题前检查游戏是否已被修改，若被修改请勿提交，译者可能不会接受使用修改版本的内容反馈。
+
+### 更新日志
+
+<details><summary>点击展开</summary>
+0.1.0a TITS 0.9.167版本基本汉化完成
+
+
+
+
+
+
+

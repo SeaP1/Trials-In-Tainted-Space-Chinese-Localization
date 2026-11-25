@@ -1,0 +1,29 @@
+{
+  "profiles": [
+    {
+      "oldVersion": "0.9.167",
+      "newVersion": "0.9.168",
+      "pairs": [
+    { "module": "content_follower", "oldId": "content_follower.b4d0c3de.js:11295635:11295641:bc981983e7f5", "newId": "content_follower.ba76c355.js:11297756:11297762:bc981983e7f5", "original": "Next", "reason": "verified_exact_js_context" },
+    { "module": "content_follower", "oldId": "content_follower.b4d0c3de.js:11508824:11508830:bc981983e7f5", "newId": "content_follower.ba76c355.js:11512525:11512531:bc981983e7f5", "original": "Next", "reason": "verified_exact_js_context" },
+    { "module": "content_follower", "oldId": "content_follower.b4d0c3de.js:15722922:15722931:64de3ff53843", "newId": "content_follower.ba76c355.js:15746049:15746058:64de3ff53843", "original": "Winston", "reason": "verified_exact_js_context" },
+    { "module": "content_follower", "oldId": "content_follower.b4d0c3de.js:15754871:15754877:bc981983e7f5", "newId": "content_follower.ba76c355.js:15782177:15782183:bc981983e7f5", "original": "Next", "reason": "verified_exact_js_context" },
+    { "module": "content_follower", "oldId": "content_follower.b4d0c3de.js:15755693:15755709:3c4c3a1903e7", "newId": "content_follower.ba76c355.js:15799502:15799518:3c4c3a1903e7", "original": "Shizuya & Crew", "reason": "verified_exact_js_context" },
+    { "module": "content_follower", "oldId": "content_follower.b4d0c3de.js:15840186:15840197:7180a61f563a", "newId": "content_follower.ba76c355.js:15792078:15792089:7180a61f563a", "original": " and Anno", "reason": "verified_exact_js_context" },
+    { "module": "content_follower", "oldId": "content_follower.b4d0c3de.js:15841915:15841926:7180a61f563a", "newId": "content_follower.ba76c355.js:15793747:15793758:7180a61f563a", "original": " and Anno", "reason": "verified_exact_js_context" },
+    { "module": "content_follower", "oldId": "content_follower.b4d0c3de.js:15890077:15890083:bc981983e7f5", "newId": "content_follower.ba76c355.js:15789098:15789104:bc981983e7f5", "original": "Next", "reason": "verified_exact_js_context" },
+    { "module": "content_follower", "oldId": "content_follower.b4d0c3de.js:15923869:15923878:64de3ff53843", "newId": "content_follower.ba76c355.js:15750092:15750101:64de3ff53843", "original": "Winston", "reason": "verified_exact_js_context" },
+    { "module": "content_mhenga", "oldId": "content_mhenga.95ae86a7.js:413015:413022:7e3520a97331", "newId": "content_mhenga.6abad12d.js:413031:413038:7e3520a97331", "original": "Leave", "reason": "verified_exact_js_context" },
+    { "module": "content_tarkus", "oldId": "content_tarkus.fe5b8e57.js:3840949:3840957:34660a5de9ae", "newId": "content_tarkus.94f001c8.js:3864158:3864166:34660a5de9ae", "original": "Defeat", "reason": "verified_exact_js_context" },
+    { "module": "main", "oldId": "main.0077a16c.js:33416707:33416715:bae7d5be7082", "newId": "main.0b7f3f1c.js:33477932:33477940:bae7d5be7082", "original": "Status", "reason": "verified_exact_js_context" },
+    { "module": "main", "oldId": "main.0077a16c.js:33416717:33416737:2e44dda8de11", "newId": "main.0b7f3f1c.js:33477942:33477962:2e44dda8de11", "original": "Currently affected", "reason": "verified_exact_js_context" },
+    { "module": "main", "oldId": "main.0077a16c.js:36599460:36599466:bc981983e7f5", "newId": "main.0b7f3f1c.js:36655126:36655132:bc981983e7f5", "original": "Next", "reason": "verified_exact_js_context" },
+    { "module": "main", "oldId": "main.0077a16c.js:33307313:33307321:3bade34ecbc5", "newId": "main.0b7f3f1c.js:33362686:33362694:3bade34ecbc5", "original": "Length", "reason": "verified_generic_stat_label_after_helper_refactor" },
+    { "module": "main", "oldId": "main.0077a16c.js:33313380:33313397:a0b560ac7b3b", "newId": "main.0b7f3f1c.js:33384116:33384133:a0b560ac7b3b", "original": "Looseness Level", "reason": "verified_generic_stat_label_after_helper_refactor" },
+    { "module": "main", "oldId": "main.0077a16c.js:33322943:33322960:a0b560ac7b3b", "newId": "main.0b7f3f1c.js:33384168:33384185:a0b560ac7b3b", "original": "Looseness Level", "reason": "verified_generic_stat_label_after_helper_refactor" },
+    { "module": "main", "oldId": "main.0077a16c.js:33313926:33313941:a0dda97bdfb0", "newId": "main.0b7f3f1c.js:33384577:33384592:a0dda97bdfb0", "original": "Wetness Level", "reason": "verified_generic_stat_label_after_helper_refactor" },
+    { "module": "main", "oldId": "main.0077a16c.js:33323402:33323417:a0dda97bdfb0", "newId": "main.0b7f3f1c.js:33384627:33384642:a0dda97bdfb0", "original": "Wetness Level", "reason": "verified_generic_stat_label_after_helper_refactor" }
+      ]
+    }
+  ]
+}

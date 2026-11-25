@@ -1,0 +1,2533 @@
+{
+  "version": 1,
+  "runtimeTemplates": [
+    {
+      "id": "appearance_half_gryvain_intro",
+      "pattern": "You are a half-gryvain\\.",
+      "flags": "gi",
+      "replacement": "你是半格里文。"
+    },
+    {
+      "id": "appearance_player_height_measurements",
+      "pattern": "你的身高约为\\s+a good\\s+(?<imperial>.+?)\\s+tall by ancient imperial measurements and\\s+(?<metric>[0-9.]+)\\s+meters in the more accepted metric system\\.",
+      "flags": "gi",
+      "replacement": "按古老的英制单位计算，你的身高足有$<imperial>；按更通用的公制则为$<metric>米。"
+    },
+    {
+      "id": "appearance_dark_yellow_iris_mixed",
+      "pattern": "每只都位于一片a dark yellow虹膜中[。. ]",
+      "flags": "gi",
+      "replacement": "每只都位于一片深黄色虹膜中。"
+    },
+    {
+      "id": "appearance_slim_belly_mixed",
+      "pattern": "Your slim (?:middle|belly|腹部)平滑而漂亮[。. ]",
+      "flags": "gi",
+      "replacement": "你纤细的腰腹平滑而漂亮。"
+    },
+    {
+      "id": "appearance_two_melons_partially_mapped",
+      "pattern": "(?:You have two melons, capped with one (?<size>[0-9.]+)-inch (?:prominent )?(?:bud|nipple) each|你有两巨乳, capped with 一枚(?<size2>[0-9.]+)英寸长的(?:bud|nipple|乳芽)，每只皆有)[。. ]?",
+      "flags": "gi",
+      "replacement": "你有一对巨乳，每只顶端都有一枚长$<size>$<size2>英寸的乳芽。"
+    },
+    {
+      "id": "appearance_scrotum_gonads_prick_mixed",
+      "pattern": "(?:A |An |一个)?(?:scrotum|阴囊)[，,]\\s*装着(?:a pair of large gonads|一对硕大的性腺)\\s*沉甸甸地垂在(?:your|你的)\\s*(?:(?:dragon-?|龙形\\s*)(?:prick|肉棒))[。. ]",
+      "flags": "gi",
+      "replacement": "一个阴囊装着一对硕大的性腺，沉甸甸地垂在你的龙形肉棒下方。"
+    },
+    {
+      "id": "appearance_full_knot_terminal_punctuation",
+      "pattern": "(完全胀大时）)\\.",
+      "flags": "g",
+      "replacement": "$1。"
+    },
+    {
+      "id": "stats_duration_hours_minutes",
+      "pattern": "^(?<hours>[0-9]+) hours? (?<minutes>[0-9]+) minutes?$",
+      "flags": "i",
+      "replacement": "$<hours>小时$<minutes>分钟"
+    },
+    {
+      "id": "tent_sleep_dynamic_item",
+      "pattern": "^Use your (?<item>.+?) to sleep\\.$",
+      "flags": "i",
+      "replacement": "使用你的$<item>睡觉。"
+    },
+    {
+      "id": "stats_nipples_per_breast",
+      "pattern": "(?<count>[0-9]+) per 乳房",
+      "flags": "gi",
+      "replacement": "每个乳房$<count>枚"
+    },
+    {
+      "id": "stats_dimensions_across_around_each",
+      "pattern": "(?<across>[0-9 /]+)\\\" across, (?<around>[0-9 /]+)\\\" around, each",
+      "flags": "gi",
+      "replacement": "每颗横径$<across>英寸、周长$<around>英寸"
+    },
+    {
+      "id": "stats_each_cubic_inches",
+      "pattern": "(?<volume>[0-9.]+) cubic inches, each",
+      "flags": "gi",
+      "replacement": "每颗$<volume>立方英寸"
+    },
+    {
+      "id": "stats_cubic_inches_unit",
+      "pattern": "(?<volume>[0-9.]+) cubic inches",
+      "flags": "gi",
+      "replacement": "$<volume>立方英寸"
+    },
+    {
+      "id": "stats_total_pounds",
+      "pattern": "(?<weight>[0-9.]+) lbs, total",
+      "flags": "gi",
+      "replacement": "总重$<weight>磅"
+    },
+    {
+      "id": "stats_each_inches",
+      "pattern": "(?<length>[0-9.]+) in, each",
+      "flags": "gi",
+      "replacement": "每枚长$<length>英寸"
+    },
+    {
+      "id": "stats_pounds_unit",
+      "pattern": "(?<value>[0-9.]+) lbs(?=$|[ ,）)])",
+      "flags": "gi",
+      "replacement": "$<value>磅"
+    },
+    {
+      "id": "stats_tons_unit",
+      "pattern": "(?<value>[0-9.]+) tons?(?=$|[ ,）)])",
+      "flags": "gi",
+      "replacement": "$<value>吨"
+    },
+    {
+      "id": "stats_inches_unit",
+      "pattern": "(?<value>[0-9.]+) in(?=$|[ ,）)])",
+      "flags": "gi",
+      "replacement": "$<value>英寸"
+    },
+    {
+      "id": "stats_milliliters_unit",
+      "pattern": "(?<value>[0-9.]+) mLs?",
+      "flags": "gi",
+      "replacement": "$<value>毫升"
+    },
+    {
+      "id": "stats_personal_virginities_anal_vaginal_cock_taken",
+      "pattern": "^Your anal, vaginal and cock virginities taken$",
+      "flags": "i",
+      "replacement": "你的肛门、阴道和阴茎贞洁均已失去"
+    },
+    {
+      "id": "stats_duration_hours",
+      "pattern": "^(?<hours>[0-9]+) hours?$",
+      "flags": "i",
+      "replacement": "$<hours>小时"
+    },
+    {
+      "id": "stats_duration_minutes",
+      "pattern": "^(?<minutes>[0-9]+) minutes?$",
+      "flags": "i",
+      "replacement": "$<minutes>分钟"
+    },
+    {
+      "id": "stats_personal_virginities_taken",
+      "pattern": "^Your (?<parts>.+?) virginities taken$",
+      "flags": "i",
+      "replacement": "已失去$<parts>贞洁"
+    },
+    {
+      "id": "stats_personal_virginity_taken",
+      "pattern": "^Your (?<part>.+?) virginity taken$",
+      "flags": "i",
+      "replacement": "已失去$<part>贞洁"
+    },
+    {
+      "id": "stats_personal_virginities_retained",
+      "pattern": "^Your (?<parts>.+?) virginities retained$",
+      "flags": "i",
+      "replacement": "仍保有$<parts>贞洁"
+    },
+    {
+      "id": "stats_personal_virginity_retained",
+      "pattern": "^Your (?<part>.+?) virginity retained$",
+      "flags": "i",
+      "replacement": "仍保有$<part>贞洁"
+    },
+    {
+      "id": "appearance_two_boobs_prefix",
+      "pattern": "You have two boobs(?=[，,。.!?]|$)",
+      "flags": "gi",
+      "replacement": "你有一对乳房"
+    },
+    {
+      "id": "appearance_coin_areolae_runtime",
+      "pattern": "\\s*The coin-sized areolae(?:(?: are)|呈)?(?<color>.+?)[。.](?=$|\\s)",
+      "flags": "gi",
+      "replacement": "硬币大小的乳晕呈$<color>。"
+    },
+    {
+      "id": "appearance_six_clits_runtime",
+      "pattern": "\\s*with six (?<size>[0-9.]+)-inch clits[。. ]",
+      "flags": "gi",
+      "replacement": "长着六枚长$<size>英寸的阴蒂。"
+    },
+    {
+      "id": "appearance_one_sphincter_prefix",
+      "pattern": "(?:You have one|你有一个)sphincter(?=[，,。.!?]|$)",
+      "flags": "gi",
+      "replacement": "你有一个肛门"
+    },
+    {
+      "id": "appearance_hybrid_dragon_cock_runtime",
+      "pattern": "dragon-(?:肉棒|阴茎)",
+      "flags": "gi",
+      "replacement": "龙形肉棒"
+    },
+    {
+      "id": "appearance_big_bra_runtime",
+      "pattern": "你可以轻松撑满一件big (?<cup>[A-Z]+)-cup胸罩[。. ]",
+      "flags": "g",
+      "replacement": "你可以轻松撑满一件大号$<cup>罩杯胸罩。"
+    },
+    {
+      "id": "appearance_girly_hips_runtime",
+      "pattern": "You have girly 胯部",
+      "flags": "gi",
+      "replacement": "你有一副女性化的胯部"
+    },
+    {
+      "id": "appearance_your_tush_runtime",
+      "pattern": "\\s*your tush\\s*",
+      "flags": "gi",
+      "replacement": "你的小屁股"
+    },
+    {
+      "id": "appearance_your_noticeable_hips_runtime",
+      "pattern": "\\s*your noticeable 胯部\\s*",
+      "flags": "gi",
+      "replacement": "你显眼的胯部"
+    },
+    {
+      "id": "appearance_current_clothing_mixed",
+      "pattern": "Right now, you’re wearing (?<armor>.+?), using (?<lower>.+?) for underwear, 并用(?<upper>.+?)。",
+      "flags": "gi",
+      "replacement": "现在，你穿着$<armor>，以$<lower>作下装内衣，并用$<upper>护住上身。"
+    },
+    {
+      "id": "appearance_iris_mixed",
+      "pattern": "each sat within a dark yellow iris\\.",
+      "flags": "gi",
+      "replacement": "分别位于一片深黄色虹膜中央。"
+    },
+    {
+      "id": "appearance_upper_body_mixed",
+      "pattern": "You have a (?<body>人形上半身.+?手指), and a pair of",
+      "flags": "gi",
+      "replacement": "你有$<body>，以及一对"
+    },
+    {
+      "id": "appearance_noticeable_hips_mixed",
+      "pattern": "You have noticeable 胯部\\s*[，,]吸引了周围你的目光",
+      "flags": "gi",
+      "replacement": "你有一对显眼的胯部，吸引了周围人的目光"
+    },
+    {
+      "id": "appearance_tail_height_mixed",
+      "pattern": "一条逐渐收细、可抓握的尾巴, almost as long as you are tall,",
+      "flags": "gi",
+      "replacement": "一条逐渐收细、可抓握的尾巴，长度几乎与你的身高相当，"
+    },
+    {
+      "id": "appearance_two_tails_height_mixed",
+      "pattern": "(?<count>两|三|四|五|六|七|八|九|十)条逐渐收细、可抓握的尾巴, each almost as long as you are tall,",
+      "flags": "gi",
+      "replacement": "$<count>条逐渐收细、可抓握的尾巴，每条长度都几乎与你的身高相当，"
+    },
+    {
+      "id": "appearance_hefty_tail_mixed",
+      "pattern": "覆盖着 your hefty 整条尾巴",
+      "flags": "gi",
+      "replacement": "覆盖着你粗壮的整条尾巴"
+    },
+    {
+      "id": "appearance_slim_middle_mixed",
+      "pattern": "Your slim middle平滑而漂亮。",
+      "flags": "gi",
+      "replacement": "你纤细的腰腹平滑而漂亮。"
+    },
+    {
+      "id": "appearance_two_melons_mixed",
+      "pattern": "You have two melons, capped with one (?<size>[0-9.]+)-inch prominent 乳头 each\\.",
+      "flags": "gi",
+      "replacement": "你有一对硕大圆乳，每只顶端都有一个长$<size>英寸的突出乳头。"
+    },
+    {
+      "id": "appearance_coin_areolae_mixed",
+      "pattern": "The coin-sized areolae are (?<color>[\\u3400-\\u9fff]+?)(?:色)?。",
+      "flags": "gi",
+      "replacement": "硬币大小的乳晕呈$<color>色。"
+    },
+    {
+      "id": "appearance_bra_capacity_mixed",
+      "pattern": "You could easily fill a big (?<cup>[A-Z]+)-cup bra\\.",
+      "flags": "g",
+      "replacement": "你可以轻松撑满一件大号$<cup>罩杯胸罩。"
+    },
+    {
+      "id": "appearance_cock_dimensions_mixed",
+      "pattern": "(?<part>你的[^。.!?]+) is (?<length>[0-9.]+) inches long and (?<width>[0-9.]+) inches across when fully erect\\.",
+      "flags": "gi",
+      "replacement": "$<part>完全勃起时长$<length>英寸、直径$<width>英寸。"
+    },
+    {
+      "id": "appearance_gryvain_tip_mixed",
+      "pattern": "凭借其 tapered、\\s*(?<color>[\\u3400-\\u9fff]+)色尖端",
+      "flags": "gi",
+      "replacement": "凭借其渐细的$<color>尖端"
+    },
+    {
+      "id": "appearance_vaginal_moisture_mixed",
+      "pattern": "Moisture gleams from your soaked wyrm-cunt\\.",
+      "flags": "gi",
+      "replacement": "湿润的光泽在你湿透的龙穴上闪动。"
+    },
+    {
+      "id": "appearance_nub_protrusions_mixed",
+      "pattern": "nub状的 protrusions",
+      "flags": "gi",
+      "replacement": "凸粒状的突起"
+    },
+    {
+      "id": "appearance_single_sphincter_mixed",
+      "pattern": "You have one sphincter, placed between your cheeks where it belongs\\.",
+      "flags": "gi",
+      "replacement": "你有一个肛门，位于两瓣臀肉之间该在的位置。"
+    },
+    {
+      "id": "chinese_punctuation_ascii_space_cleanup",
+      "pattern": "(?<=[，。！？；：]) +(?=[\\u3400-\\u9fff])",
+      "flags": "g",
+      "replacement": ""
+    },
+    {
+      "id": "sense_unknown_your_preference",
+      "pattern": "^You cannot tell if (?:he|she|it|they) likes? your (?<label>.+)\\.$",
+      "flags": "i",
+      "replacement": "无法判断对方是否喜欢你的$<label>。"
+    },
+    {
+      "id": "sense_unknown_preference",
+      "pattern": "^You cannot tell if (?:he|she|it|they) likes? (?<label>.+)\\.$",
+      "flags": "i",
+      "replacement": "无法判断对方是否喜欢$<label>。"
+    },
+    {
+      "id": "sense_loves_your_preference",
+      "pattern": "^Loves your (?<label>.+)!$",
+      "flags": "i",
+      "replacement": "非常喜欢你的$<label>！"
+    },
+    {
+      "id": "sense_likes_your_preference",
+      "pattern": "^Likes your (?<label>.+)\\.$",
+      "flags": "i",
+      "replacement": "喜欢你的$<label>。"
+    },
+    {
+      "id": "sense_dislikes_your_preference",
+      "pattern": "^Dislikes your (?<label>.+)\\.$",
+      "flags": "i",
+      "replacement": "不喜欢你的$<label>。"
+    },
+    {
+      "id": "sense_strongly_dislikes_your_preference",
+      "pattern": "^(?:DISLIKES|Hates) your (?<label>.+)!$",
+      "flags": "i",
+      "replacement": "非常不喜欢你的$<label>！"
+    },
+    {
+      "id": "sense_loves_preference",
+      "pattern": "^Loves (?<label>.+)!$",
+      "flags": "i",
+      "replacement": "非常喜欢$<label>！"
+    },
+    {
+      "id": "sense_likes_preference",
+      "pattern": "^Likes (?<label>.+)\\.$",
+      "flags": "i",
+      "replacement": "喜欢$<label>。"
+    },
+    {
+      "id": "sense_dislikes_preference",
+      "pattern": "^Dislikes (?<label>.+)\\.$",
+      "flags": "i",
+      "replacement": "不喜欢$<label>。"
+    },
+    {
+      "id": "sense_hates_preference",
+      "pattern": "^Hates (?<label>.+)!$",
+      "flags": "i",
+      "replacement": "非常不喜欢$<label>！"
+    },
+    {
+      "id": "tease_target_unimpressed",
+      "pattern": "^(?<target>.+?) seems? unimpressed\\.$",
+      "flags": "i",
+      "replacement": "$<target>似乎不为所动。"
+    },
+    {
+      "id": "tease_target_intrigued",
+      "pattern": "^(?<target>.+?) looks? (?:a little )?intrigued\\.$",
+      "flags": "i",
+      "replacement": "$<target>似乎有点感兴趣。"
+    },
+    {
+      "id": "tease_target_enjoying",
+      "pattern": "^(?<target>.+?) definitely seems? to be enjoying (?:the show|(?:him|her|it|them)self)\\.$",
+      "flags": "i",
+      "replacement": "$<target>显然很享受这场表演。"
+    },
+    {
+      "id": "tease_target_touches_self",
+      "pattern": "^(?<target>.+?) openly (?:touches|stroke) (?:him|her|it|them)self\\.$",
+      "flags": "i",
+      "replacement": "$<target>毫不掩饰地抚摸着自己。"
+    },
+    {
+      "id": "tease_target_flushes",
+      "pattern": "^(?<target>.+?) flush(?:es)? hotly with desire, (?:his|her|its|their) eyes filled with longing\\.$",
+      "flags": "i",
+      "replacement": "$<target>因欲望而浑身燥热，眼中充满渴望。"
+    },
+    {
+      "id": "tease_target_licks_lips",
+      "pattern": "^(?<target>.+?) lick(?:s)? (?:his|her|its|their) lips in anticipation, (?:his|her|its|their) hands idly stroking (?:his|her|its|their) (?:own )?(?:body|bodies)\\.$",
+      "flags": "i",
+      "replacement": "$<target>期待地舔着嘴唇，双手漫不经心地爱抚着自己的身体。"
+    },
+    {
+      "id": "lift_go_to_floor",
+      "pattern": "^Go to (?<destination>.+)\\.$",
+      "flags": "i",
+      "replacement": "前往$<destination>。"
+    },
+    {
+      "id": "lift_already_on_floor",
+      "pattern": "^You are already on (?<destination>.+)\\.$",
+      "flags": "i",
+      "replacement": "你已经在$<destination>。"
+    },
+    {
+      "id": "lift_unable_to_floor",
+      "pattern": "^Unable to go to (?<destination>.+)\\.$",
+      "flags": "i",
+      "replacement": "无法前往$<destination>。"
+    },
+    {
+      "id": "event_log_title",
+      "pattern": "^(?<name>.+?)(?:’s|'s) log:$",
+      "flags": "i",
+      "replacement": "$<name>的日志："
+    },
+    {
+      "id": "npc_completely_covered_in_cum",
+      "pattern": "^(?<target>.+?) (?:are|is) completely covered in cum!$",
+      "flags": "i",
+      "replacement": "$<target>浑身都沾满了精液！"
+    },
+    {
+      "id": "npc_completely_covered_in_girlcum",
+      "pattern": "^(?<target>.+?) (?:are|is) completely covered in girlcum!$",
+      "flags": "i",
+      "replacement": "$<target>浑身都沾满了爱液！"
+    },
+    {
+      "id": "npc_completely_covered_in_breastmilk",
+      "pattern": "^(?<target>.+?) (?:are|is) completely covered in breastmilk!$",
+      "flags": "i",
+      "replacement": "$<target>浑身都沾满了乳汁！"
+    },
+    {
+      "id": "player_attack_miss",
+      "pattern": "^You (?<attackVerb>.+?) at (?<target>.+?) with your (?<weapon>.+?), but just can’t connect\\.$",
+      "flags": "i",
+      "replacement": "你用$<weapon>朝$<target>$<attackVerb>，但没能命中。"
+    },
+    {
+      "id": "player_custom_dodge",
+      "pattern": "^You (?<attackVerb>.+?) at (?<target>.+?)\\. (?<customDodge>.+)$",
+      "flags": "i",
+      "replacement": "你朝$<target>$<attackVerb>。$<customDodge>"
+    },
+    {
+      "id": "npc_custom_dodge_with_attack_noun",
+      "pattern": "^(?<attacker>.+?) (?<attackVerb>\\S+) (?:a|an) (?<attackNoun>.+?) at (?<target>.+?)\\. (?<customDodge>.+)$",
+      "flags": "i",
+      "replacement": "$<attacker>朝$<target>发动$<attackNoun>。$<customDodge>"
+    },
+    {
+      "id": "npc_custom_dodge",
+      "pattern": "^(?<attacker>.+?) (?<attackVerb>.+?) at (?<target>.+?)\\. (?<customDodge>.+)$",
+      "flags": "i",
+      "replacement": "$<attacker>朝$<target>$<attackVerb>。$<customDodge>"
+    },
+    {
+      "id": "player_attack_hit",
+      "pattern": "^You land a hit on (?<target>.+?) with your (?<weapon>.+)!$",
+      "flags": "i",
+      "replacement": "你用$<weapon>击中了$<target>！"
+    },
+    {
+      "id": "plural_npc_attack_hit",
+      "pattern": "^(?<attackers>.+?) (?:connect|land a hit) with their (?<weapons>.+)!$",
+      "flags": "i",
+      "replacement": "$<attackers>用他们的$<weapons>命中了！"
+    },
+    {
+      "id": "single_npc_hits_player",
+      "pattern": "^(?<attacker>.+?) hits you with (?<possessive>his|her|their|its) (?<weapon>.+)!$",
+      "flags": "i",
+      "replacement": "$<attacker>用$<possessive> $<weapon>击中了你！"
+    },
+    {
+      "id": "single_npc_hits_other",
+      "pattern": "^(?<attacker>.+?) (?:connects|lands a hit) with (?<possessive>his|her|their|its) (?<weapon>.+)!$",
+      "flags": "i",
+      "replacement": "$<attacker>用$<possessive> $<weapon>命中了目标！"
+    },
+    {
+      "id": "asshole_now_somewhat_loose",
+      "pattern": "^Your (?<part>.+?) is now somewhat loose\\.$",
+      "flags": "i",
+      "replacement": "你的$<part>现在有些松弛。"
+    },
+    {
+      "id": "asshole_more_used_to_insertions",
+      "pattern": "^Your (?<part>.+?) is a little more used to insertions\\.$",
+      "flags": "i",
+      "replacement": "你的$<part>稍微适应了一些插入。"
+    },
+    {
+      "id": "asshole_stretched_little",
+      "pattern": "^Your (?<part>.+?) is stretched out a little bit\\.$",
+      "flags": "i",
+      "replacement": "你的$<part>被稍微撑开了一些。"
+    },
+    {
+      "id": "asshole_painfully_stretches",
+      "pattern": "^Your (?<part>.+?) painfully stretches, the lips now wide enough to gape slightly\\.$",
+      "flags": "i",
+      "replacement": "你的$<part>被痛苦地撑开，边缘已经宽得微微张开。"
+    },
+    {
+      "id": "asshole_stretched_painfully_wide",
+      "pattern": "^Your (?<part>.+?) is stretched painfully wide, gaped in a way that practically invites huge monster-cocks to plow you\\.$",
+      "flags": "i",
+      "replacement": "你的$<part>被痛苦地撑得大开，仿佛在邀请巨大的怪物肉棒长驱直入。"
+    },
+    {
+      "id": "hairstyle_page_button",
+      "pattern": "^Styles \\((?<range>.+)\\)$",
+      "replacement": "发型（$<range>）"
+    },
+    {
+      "id": "hairstyle_page_title",
+      "pattern": "^A Selection of Styles: (?<range>.+)$",
+      "replacement": "发型选集：$<range>"
+    },
+    {
+      "id": "hairstyle_page_range",
+      "pattern": "^(?<first>.+?) through (?<last>.+?)\\.$",
+      "replacement": "$<first>至$<last>。"
+    },
+    {
+      "id": "personality_numeric_change",
+      "pattern": "^Personality: (?<delta>[+-]?\\d+)$",
+      "replacement": "性格：$<delta>"
+    },
+    {
+      "id": "numeric_ordinal_before_floor",
+      "pattern": "\\b(?<floor>\\d+)(?:st|nd|rd|th)(?=层)",
+      "flags": "gi",
+      "replacement": "第$<floor>"
+    },
+    {
+      "id": "dynamic_you_after_chinese_hit",
+      "pattern": "(?<prefix>[\\u3400-\\u9fff])\\s+you(?=\\s*[！!。.?，,：:]|$)",
+      "flags": "gi",
+      "replacement": "$<prefix>你"
+    },
+    {
+      "id": "appearance_frostwyrm_blunt_tip_pc",
+      "pattern": "其头部钝而宽平，龟头边缘环绕着一圈肌肉；这根攻城槌般的阴茎必定会让任何被 you use 它操过的人留下深刻印象。",
+      "flags": "g",
+      "replacement": "其头部钝而宽平，龟头边缘环绕着一圈肌肉；这根攻城槌般的阴茎，必定会让任何被你用它操过的人留下深刻印象。"
+    },
+    {
+      "id": "appearance_janeria_smooth_prehensile_lubricated_pc",
+      "pattern": "Your (?<color>.+?) dick is smooth and prehensile，更不用说摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "你的$<color>阴茎光滑而灵活，更不用说摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_smooth_prehensile_pc",
+      "pattern": "Your (?<color>.+?) dick is smooth and prehensile。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "你的$<color>阴茎光滑而灵活。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_smooth_lubricated_pc",
+      "pattern": "Your (?<color>.+?) dick is smooth ，摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "你的$<color>阴茎光滑，摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_smooth_pc",
+      "pattern": "Your (?<color>.+?) dick is smooth。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "你的$<color>阴茎光滑。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_prehensile_lubricated_pc",
+      "pattern": "Your (?<color>.+?) dick is prehensile ，摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "你的$<color>阴茎灵活，摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_prehensile_pc",
+      "pattern": "Your (?<color>.+?) dick is prehensile。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "你的$<color>阴茎灵活。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_lubricated_pc",
+      "pattern": "Your (?<color>.+?) dick is 摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "你的$<color>阴茎摸起来有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_average_pc",
+      "pattern": "Your (?<color>.+?) dick is average。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "你的$<color>阴茎很普通。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_saurmorian_tip_blunted",
+      "pattern": "这根 (?<color>.+?)色的索尔莫里安阴茎从根部沿主体向上，环绕着粗厚肥大的脊状突起，一直延伸到 blunted tip\\.",
+      "flags": "g",
+      "replacement": "这根$<color>色的索尔莫里安阴茎从根部沿主体向上，环绕着粗厚肥大的脊状突起，一直延伸到钝圆的尖端。"
+    },
+    {
+      "id": "appearance_saurmorian_tip_plain",
+      "pattern": "这根 (?<color>.+?)色的索尔莫里安阴茎从根部沿主体向上，环绕着粗厚肥大的脊状突起，一直延伸到 tip\\.",
+      "flags": "g",
+      "replacement": "这根$<color>色的索尔莫里安阴茎从根部沿主体向上，环绕着粗厚肥大的脊状突起，一直延伸到尖端。"
+    },
+    {
+      "id": "appearance_blunted_equine_tip_pc",
+      "pattern": "Your shaft ends in a blunted tip similar to a terran horse’s\\.",
+      "flags": "g",
+      "replacement": "你的阴茎主体末端为钝头，类似地球马的阴茎。"
+    },
+    {
+      "id": "appearance_blunted_tip_pc",
+      "pattern": "Your shaft ends in a blunted tip\\.",
+      "flags": "g",
+      "replacement": "你的阴茎主体末端为钝头。"
+    },
+    {
+      "id": "appearance_double_headed_cock_pc",
+      "pattern": "这根 your 外星异形阴茎的头部由一对球状龟头组成，随时准备带来双倍的插入刺激。",
+      "flags": "g",
+      "replacement": "你的这根外星异形阴茎头部由一对球状龟头组成，随时准备带来双倍的插入刺激。"
+    },
+    {
+      "id": "appearance_stinger_foreskin_aphrodisiac_pc",
+      "pattern": "从 your 的包皮裂口中探出一簇 携带有毒载荷的细小触手, aphrodisiac payload\\.",
+      "flags": "g",
+      "replacement": "从你的包皮裂口中探出一簇携带催情毒液的细小触手。"
+    },
+    {
+      "id": "appearance_stinger_foreskin_venomous_pc",
+      "pattern": "从 your 的包皮裂口中探出一簇 携带有毒载荷的细小触手 payload\\.",
+      "flags": "g",
+      "replacement": "从你的包皮裂口中探出一簇携带毒液的细小触手。"
+    },
+    {
+      "id": "appearance_stinger_crown_aphrodisiac",
+      "pattern": "The crown is surrounded by 携带有毒载荷的细小触手, aphrodisiac payload\\.",
+      "flags": "g",
+      "replacement": "冠部周围环绕着携带催情毒液的细小触手。"
+    },
+    {
+      "id": "appearance_stinger_crown_venomous",
+      "pattern": "The crown is surrounded by 携带有毒载荷的细小触手 payload\\.",
+      "flags": "g",
+      "replacement": "冠部周围环绕着携带毒液的细小触手。"
+    },
+    {
+      "id": "appearance_indefinite_race_article_pc",
+      "pattern": "你是(?:a|an)\\s+(?<race>[^。.!?]+)[。. ]",
+      "flags": "gi",
+      "replacement": "你是$<race>。"
+    },
+    {
+      "id": "appearance_exposed_parts_three",
+      "pattern": "乳房, 胯间(?:,)? and 屁股",
+      "flags": "g",
+      "replacement": "乳房、胯间和屁股"
+    },
+    {
+      "id": "appearance_exposed_parts_breasts_crotch",
+      "pattern": "乳房 and 胯间",
+      "flags": "g",
+      "replacement": "乳房和胯间"
+    },
+    {
+      "id": "appearance_exposed_parts_breasts_ass",
+      "pattern": "乳房 and 屁股",
+      "flags": "g",
+      "replacement": "乳房和屁股"
+    },
+    {
+      "id": "appearance_exposed_parts_crotch_ass",
+      "pattern": "胯间 and 屁股",
+      "flags": "g",
+      "replacement": "胯间和屁股"
+    },
+    {
+      "id": "appearance_anal_puffiness_medium_plain_runtime",
+      "pattern": "(?<poss>Your|His|Her|Their) soft and puffy 肛门皱褶淫靡地从 (?:your|his|her|their) 臀瓣间隆起[。. ]",
+      "flags": "gi",
+      "replacement": "$<poss>柔软饱满的肛门皱褶淫靡地从臀瓣间隆起。"
+    },
+    {
+      "id": "appearance_anal_puffiness_soft_plain_runtime",
+      "pattern": "(?<poss>Your|His|Her|Their) soft 肛门皱褶淫靡地从 (?:your|his|her|their) 臀瓣间隆起[。. ]",
+      "flags": "gi",
+      "replacement": "$<poss>柔软的肛门皱褶淫靡地从臀瓣间隆起。"
+    },
+    {
+      "id": "appearance_lizan_iridescent_runtime",
+      "pattern": "它呈深邃的虹彩(?: (?<color>[^。]+?) in)? 色。棒身分布着多处球状隆起，用来刺激潜在伴侣，整根阴茎油亮而光滑。",
+      "flags": "gi",
+      "replacement": "它呈深邃的$<color>虹彩。棒身分布着多处球状隆起，用来刺激潜在伴侣，整根阴茎油亮而光滑。"
+    },
+    {
+      "id": "appearance_lizan_iridescent_unlike_race_runtime",
+      "pattern": "它呈深邃的虹彩(?: (?<color>[^。]+?) in)? 色。与 (?:an? )?(?<race>[^。]+?) 阴茎不同，棒身分布着多处球状隆起，用来刺激潜在伴侣，整根阴茎油亮而光滑。",
+      "flags": "gi",
+      "replacement": "它呈深邃的$<color>虹彩。与$<race>阴茎不同，棒身分布着多处球状隆起，用来刺激潜在伴侣，整根阴茎油亮而光滑。"
+    },
+    {
+      "id": "appearance_hrad_single_color_runtime",
+      "pattern": " The phallic member has (?:an? )?(?<color>[^，,。]+?)[,，] 外形明显呈子弹状的尖端。",
+      "flags": "gi",
+      "replacement": " 这根阴茎有一个$<color>、轮廓鲜明的子弹状尖端。"
+    },
+    {
+      "id": "appearance_breast_nipples_unsized_one",
+      "pattern": ", capped with (?<prefix>[^.!?。]{0,60}?)one (?<nipple>[^.!?。]{1,80}?) each\\.",
+      "flags": "g",
+      "replacement": "，每只乳房顶端都有$<prefix>一枚$<nipple>。"
+    },
+    {
+      "id": "appearance_breast_nipples_unsized_two",
+      "pattern": ", capped with (?<prefix>[^.!?。]{0,60}?)two (?<nipple>[^.!?。]{1,80}?) each\\.",
+      "flags": "g",
+      "replacement": "，每只乳房顶端都有$<prefix>两枚$<nipple>。"
+    },
+    {
+      "id": "appearance_breast_nipples_unsized_three",
+      "pattern": ", capped with (?<prefix>[^.!?。]{0,60}?)three (?<nipple>[^.!?。]{1,80}?) each\\.",
+      "flags": "g",
+      "replacement": "，每只乳房顶端都有$<prefix>三枚$<nipple>。"
+    },
+    {
+      "id": "appearance_breast_nipples_unsized_four",
+      "pattern": ", capped with (?<prefix>[^.!?。]{0,60}?)four (?<nipple>[^.!?。]{1,80}?) each\\.",
+      "flags": "g",
+      "replacement": "，每只乳房顶端都有$<prefix>四枚$<nipple>。"
+    },
+    {
+      "id": "appearance_bra_capacity_player",
+      "pattern": "你 could easily fill (?:a|an) (?<cup>[^.!?。]{1,40}?) bra\\.",
+      "flags": "g",
+      "replacement": "你可以轻松撑满一件$<cup>胸罩。"
+    },
+    {
+      "id": "appearance_bra_capacity_rows",
+      "pattern": "它们可以轻松撑满(?:a|an) (?<cup>[^.!?。]{1,40}?) bra\\.",
+      "flags": "g",
+      "replacement": "它们可以轻松撑满一件$<cup>胸罩。"
+    },
+    {
+      "id": "appearance_bounty_bra_endless_player",
+      "pattern": " 从 your 欢乐公司孕妇胸罩传出的按摩震动提醒 you， you永远不会停止泌乳，但想到 your 的乳汁似乎永远流淌不止，你不禁怀疑这是否真有必要。",
+      "flags": "g",
+      "replacement": " 欢乐公司孕妇胸罩传出的按摩震动提醒你：你的泌乳永远不会停止；但想到乳汁似乎会永远流淌不止，你不禁怀疑这是否真有必要。"
+    },
+    {
+      "id": "appearance_bounty_bra_worn_player",
+      "pattern": " 幸运的是，从 your 欢乐公司孕妇胸罩传出的按摩震动提醒 you， you永远不会停止泌乳，只要 你继续 穿着 (?<item>[^.!?。]{1,80}?)。",
+      "flags": "g",
+      "replacement": " 幸运的是，你的欢乐公司孕妇胸罩以按摩震动提醒你：只要继续穿着$<item>，你的泌乳就永远不会停止。"
+    },
+    {
+      "id": "appearance_painted_tits_player_single_row",
+      "pattern": "\\n\\nAccentuating your (?<breast>[^.!?。]{1,100}?) 如同一幅淫靡壁画，表面绘着一幅引人注目的图案。",
+      "flags": "g",
+      "replacement": "\n\n一道醒目的图案被画在你的$<breast>表面，宛如淫靡壁画，更显惹眼。"
+    },
+    {
+      "id": "genitals_concealed_slit_player",
+      "pattern": "Your男性性器官(?: is |s are )不用时藏在一道隐蔽得很好的裂缝中，但有需要时， you 可以分开 your 隐藏的入口，显露 your 真正的自我。",
+      "flags": "g",
+      "replacement": "你的男性性器官在不用时隐藏在一道隐蔽的裂缝中；需要时，你可以分开这道隐蔽入口，展露真正的自己。"
+    },
+    {
+      "id": "genitals_modest_taur_player",
+      "pattern": "You’re 因此，你或许是世上最含蓄的牛兽之一。",
+      "flags": "g",
+      "replacement": "因此，你或许是世上最含蓄的牛兽之一。"
+    },
+    {
+      "id": "genitals_location_humanoid_waist_player",
+      "pattern": "Your 性器官位于 your类人腰部。",
+      "flags": "g",
+      "replacement": "你的性器官位于类人腰部。"
+    },
+    {
+      "id": "genitals_location_middle_player",
+      "pattern": "Your 性器官位于 your(?<part>长尾|下半身)\\. ",
+      "flags": "g",
+      "replacement": "你的性器官位于$<part>中央。 "
+    },
+    {
+      "id": "genitals_location_half_leithan_player",
+      "pattern": "Your 性器官位于 your 牛兽后躯，而不是位于 your 类人腰部。",
+      "flags": "g",
+      "replacement": "你的性器官位于牛兽后躯，而非类人腰部。"
+    },
+    {
+      "id": "genitals_location_taur_relocated_player",
+      "pattern": "Your性器官位于不再位于your腰部下方，而是位于your(?<type>马形|牛形|牛兽式)后躯。",
+      "flags": "g",
+      "replacement": "你的性器官已不在腰部下方，而是位于$<type>后躯。"
+    },
+    {
+      "id": "genitals_location_taur_native_player",
+      "pattern": "Your性器官位于位于your(?<type>马形|牛形|牛兽式)后躯。",
+      "flags": "g",
+      "replacement": "你的性器官位于$<type>后躯。"
+    },
+    {
+      "id": "genitals_location_rear_player",
+      "pattern": "Your 性器官位于 your 后部(?<part>尾巴|双腿)?\\. ",
+      "flags": "g",
+      "replacement": "你的性器官位于$<part>后部。 "
+    },
+    {
+      "id": "genitals_location_drider_player",
+      "pattern": "Your性器官位于在your蛛化者腹部末端\\. ",
+      "flags": "g",
+      "replacement": "你的性器官位于蛛化者腹部末端。 "
+    },
+    {
+      "id": "genitals_location_tail_underside_player",
+      "pattern": "Your性器官位于在your长尾下侧\\. ",
+      "flags": "g",
+      "replacement": "你的性器官位于长尾下侧。 "
+    },
+    {
+      "id": "genitals_location_lower_body_underside_player",
+      "pattern": "Your性器官位于在your下半身下侧\\. ",
+      "flags": "g",
+      "replacement": "你的性器官位于下半身下侧。 "
+    },
+    {
+      "id": "genitals_single_cock_dimensions_erect_player",
+      "pattern": "Your (?<part>[^\\n.]+?) is (?<length>[0-9.]+) inches long and (?<width>[0-9.]+) inches (?:across|thick) when fully erect\\.",
+      "flags": "g",
+      "replacement": "你的$<part>完全勃起时长$<length>英寸、直径$<width>英寸。"
+    },
+    {
+      "id": "genitals_single_cock_dimensions_player",
+      "pattern": "Your (?<part>[^\\n.]+?) is (?<length>[0-9.]+) inches long and (?<width>[0-9.]+) inches (?:across|thick)\\.",
+      "flags": "g",
+      "replacement": "你的$<part>长$<length>英寸、直径$<width>英寸。"
+    },
+    {
+      "id": "genitals_single_cock_one_inch_erect_player",
+      "pattern": "Your (?<part>[^\\n.]+?) is (?<length>[0-9.]+) inches long and one inch thick when fully erect\\.",
+      "flags": "g",
+      "replacement": "你的$<part>完全勃起时长$<length>英寸、直径一英寸。"
+    },
+    {
+      "id": "genitals_single_cock_one_inch_player",
+      "pattern": "Your (?<part>[^\\n.]+?) is (?<length>[0-9.]+) inches long and one inch thick\\.",
+      "flags": "g",
+      "replacement": "你的$<part>长$<length>英寸、直径一英寸。"
+    },
+    {
+      "id": "genitals_multi_cock_first_next_erect_player",
+      "pattern": "\\nYour (?<order>first|next) (?<part>[^\\n.]+?) is (?<length>[0-9.]+) inches long and (?<width>[0-9.]+) inches (?:wide|thick|in diameter) when fully erect\\.",
+      "flags": "g",
+      "replacement": "\n你的$<order>根$<part>完全勃起时长$<length>英寸，宽$<width>英寸。"
+    },
+    {
+      "id": "genitals_multi_cock_first_next_player",
+      "pattern": "\\nYour (?<order>first|next) (?<part>[^\\n.]+?) is (?<length>[0-9.]+) inches long and (?<width>[0-9.]+) inches (?:wide|thick|in diameter)\\.",
+      "flags": "g",
+      "replacement": "\n你的$<order>根$<part>长$<length>英寸，宽$<width>英寸。"
+    },
+    {
+      "id": "genitals_multi_cock_first_next_one_inch_erect_player",
+      "pattern": "\\nYour (?<order>first|next) (?<part>[^\\n.]+?) is (?<length>[0-9.]+) inches long and (?<width>宽一英寸|粗一英寸|直径一英寸) when fully erect\\.",
+      "flags": "g",
+      "replacement": "\n你的$<order>根$<part>完全勃起时长$<length>英寸，$<width>。"
+    },
+    {
+      "id": "genitals_multi_cock_first_next_one_inch_player",
+      "pattern": "\\nYour (?<order>first|next) (?<part>[^\\n.]+?) is (?<length>[0-9.]+) inches long and (?<width>宽一英寸|粗一英寸|直径一英寸)\\.",
+      "flags": "g",
+      "replacement": "\n你的$<order>根$<part>长$<length>英寸，$<width>。"
+    },
+    {
+      "id": "genitals_testicle_measurement_single_named",
+      "pattern": "你估计这颗睾丸大约有 (?<around>.+?) around and (?<across>.+?)。",
+      "flags": "g",
+      "replacement": "你估计这颗睾丸周长约$<around>，直径约$<across>。"
+    },
+    {
+      "id": "genitals_testicle_measurement_each_named",
+      "pattern": "你估计每颗睾丸大约有 (?<around>.+?) around and (?<across>.+?)。",
+      "flags": "g",
+      "replacement": "你估计每颗睾丸周长约$<around>，直径约$<across>。"
+    },
+    {
+      "id": "genitals_testicle_measurement_single_pronoun",
+      "pattern": "You estimate it to be about (?<around>.+?) around and (?<across>.+?)。",
+      "flags": "g",
+      "replacement": "你估计它的周长约$<around>，直径约$<across>。"
+    },
+    {
+      "id": "genitals_testicle_measurement_each_pronoun",
+      "pattern": "你估计它们每颗大约有 (?<around>.+?) around and (?<across>.+?)。",
+      "flags": "g",
+      "replacement": "你估计它们每颗周长约$<around>，直径约$<across>。"
+    },
+    {
+      "id": "genitals_tauric_vagina_location_player",
+      "pattern": "身为牛兽生物， your 的女性部位位于 your 后腿之间，颇有马匹的风范。",
+      "flags": "g",
+      "replacement": "身为牛兽生物，你的女性生殖器位于两条后腿之间，颇似马匹。"
+    },
+    {
+      "id": "genitals_moisture_gleams_player",
+      "pattern": "Moisture gleams from your (?<vagina>[^.。]+)[.。]",
+      "flags": "g",
+      "replacement": "你的$<vagina>泛着湿润光泽。"
+    },
+    {
+      "id": "genitals_single_asshole_player",
+      "pattern": "You have一个 (?<asshole>[^.。]+?)，位于your两瓣臀肉之间该在的位置",
+      "flags": "g",
+      "replacement": "你有一个$<asshole>，位于两瓣臀肉之间该在的位置"
+    },
+    {
+      "id": "appearance_painted_cock_player",
+      "pattern": "仿佛某种淫秽的画布，\\s*your cock is painted\\s*被涂成",
+      "flags": "gi",
+      "replacement": "仿佛某种淫秽的画布，你的阴茎被涂成"
+    },
+    {
+      "id": "appearance_painted_cock_plural",
+      "pattern": "仿佛某种淫秽的画布，\\s*the cock is painted\\s*被涂成",
+      "flags": "gi",
+      "replacement": "仿佛某种淫秽的画布，这根阴茎被涂成"
+    },
+    {
+      "id": "appearance_painted_cock_npc",
+      "pattern": "仿佛某种淫秽的画布，\\s*(?<owner>his|her|its|their) cock is painted\\s*被涂成",
+      "flags": "gi",
+      "replacement": "仿佛某种淫秽的画布，$<owner>阴茎被涂成"
+    },
+    {
+      "id": "appearance_painted_stallion_player",
+      "pattern": "彰显\\s+you are。",
+      "flags": "gi",
+      "replacement": "彰显你有多像一匹种马。"
+    },
+    {
+      "id": "appearance_painted_stallion_npc",
+      "pattern": "彰显\\s+(?<subject>he|she|it|they)\\s+(?:is|are)\\s*。",
+      "flags": "gi",
+      "replacement": "彰显$<subject>有多像一匹种马。"
+    },
+    {
+      "id": "appearance_candy_cane_cock_player",
+      "pattern": "Like a candy cane,\\s*your 阴茎带有红白相间的条纹。",
+      "flags": "gi",
+      "replacement": "如同拐杖糖，你的阴茎带有红白相间的条纹。"
+    },
+    {
+      "id": "appearance_candy_cane_cock_plural",
+      "pattern": "Like a candy cane,\\s*the 阴茎带有红白相间的条纹。",
+      "flags": "gi",
+      "replacement": "如同拐杖糖，这根阴茎带有红白相间的条纹。"
+    },
+    {
+      "id": "appearance_candy_cane_cock_npc",
+      "pattern": "Like a candy cane,\\s*(?<owner>his|her|its|their) 阴茎带有红白相间的条纹。",
+      "flags": "gi",
+      "replacement": "如同拐杖糖，$<owner>阴茎带有红白相间的条纹。"
+    },
+    {
+      "id": "appearance_mimbrane_cock_looks_slight",
+      "pattern": "The phallus itself looks slightly swollen",
+      "flags": "gi",
+      "replacement": "阴茎本身看起来略微肿胀"
+    },
+    {
+      "id": "appearance_mimbrane_cock_looks_inflated",
+      "pattern": "The phallus itself looks noticeably inflated",
+      "flags": "gi",
+      "replacement": "阴茎本身看起来明显膨胀"
+    },
+    {
+      "id": "appearance_mimbrane_cock_looks_plump",
+      "pattern": "The phallus itself looks unnaturally plump",
+      "flags": "gi",
+      "replacement": "阴茎本身看起来异常丰腴"
+    },
+    {
+      "id": "appearance_mimbrane_cock_feels_slight",
+      "pattern": "The phallus itself feels slightly swollen under your (?<cover>armor|clothing)",
+      "flags": "gi",
+      "replacement": "在你的$<cover>下，阴茎本身摸起来略微肿胀"
+    },
+    {
+      "id": "appearance_mimbrane_cock_feels_inflated",
+      "pattern": "The phallus itself feels noticeably inflated under your (?<cover>armor|clothing)",
+      "flags": "gi",
+      "replacement": "在你的$<cover>下，阴茎本身摸起来明显膨胀"
+    },
+    {
+      "id": "appearance_mimbrane_cock_feels_plump",
+      "pattern": "The phallus itself feels unnaturally plump under your (?<cover>armor|clothing)",
+      "flags": "gi",
+      "replacement": "在你的$<cover>下，阴茎本身摸起来异常丰腴"
+    },
+    {
+      "id": "appearance_genitals_barely_visible",
+      "pattern": "and barely visible under (?<owner>your|his|her|its|their) (?<cover>[^。.!?]+)\\.",
+      "flags": "gi",
+      "replacement": "，并且几乎被$<owner>$<cover>遮住。"
+    },
+    {
+      "id": "appearance_orchid_pair",
+      "pattern": "如同一 pair 兰花",
+      "flags": "g",
+      "replacement": "如同一对兰花"
+    },
+    {
+      "id": "appearance_orchid_bouquet",
+      "pattern": "如同一 bouquet 兰花",
+      "flags": "g",
+      "replacement": "如同一束兰花"
+    },
+    {
+      "id": "appearance_swine_vaginas_plural",
+      "pattern": "\\nEach vagina’s 外阴唇",
+      "flags": "g",
+      "replacement": "\\n每个阴道的外阴唇"
+    },
+    {
+      "id": "appearance_swine_vagina_single",
+      "pattern": " The 外阴唇",
+      "flags": "g",
+      "replacement": " 外阴唇"
+    },
+    {
+      "id": "appearance_frostwyrm_vaginas_plural",
+      "pattern": "\\nThe entire length of each 阴道内",
+      "flags": "g",
+      "replacement": "\\n每个阴道内"
+    },
+    {
+      "id": "appearance_frostwyrm_vagina_player",
+      "pattern": " The entire length of your 阴道内",
+      "flags": "gi",
+      "replacement": " 你的阴道内"
+    },
+    {
+      "id": "appearance_frostwyrm_vagina_npc",
+      "pattern": " The entire length of (?<owner>his|her|its|their) 阴道内",
+      "flags": "gi",
+      "replacement": " $<owner>阴道内"
+    },
+    {
+      "id": "appearance_saurmorian_vaginas_plural",
+      "pattern": "\\nTheir lips 十分丰满",
+      "flags": "g",
+      "replacement": "\\n它们的阴唇十分丰满"
+    },
+    {
+      "id": "appearance_saurmorian_vagina_single",
+      "pattern": " The lips 十分丰满",
+      "flags": "g",
+      "replacement": " 阴唇十分丰满"
+    },
+    {
+      "id": "appearance_pussy_pump_reason",
+      "pattern": ", a result of repeated use of a pussy pump",
+      "flags": "gi",
+      "replacement": "，这是反复使用阴道泵造成的"
+    },
+    {
+      "id": "appearance_pussy_womanly_flesh",
+      "pattern": " with womanly flesh",
+      "flags": "gi",
+      "replacement": "，充满女性的丰肉"
+    },
+    {
+      "id": "appearance_pussy_extreme_exposed_player",
+      "pattern": ", even if you tried。",
+      "flags": "gi",
+      "replacement": "，即使你试图遮掩也一样。"
+    },
+    {
+      "id": "appearance_pussy_extreme_exposed_npc",
+      "pattern": ", even if (?<subject>he|she|it|they) tried。",
+      "flags": "gi",
+      "replacement": "，即使$<subject>试图遮掩也一样。"
+    },
+    {
+      "id": "appearance_pussy_extreme_clothed_player",
+      "pattern": " under your clothing。",
+      "flags": "gi",
+      "replacement": "，哪怕藏在你的衣物下也一样。"
+    },
+    {
+      "id": "appearance_pussy_extreme_clothed_npc",
+      "pattern": " under (?<owner>his|her|its|their) clothing。",
+      "flags": "gi",
+      "replacement": "，哪怕藏在$<owner>衣物下也一样。"
+    },
+    {
+      "id": "appearance_pussy_puffy_exposed_plural_player",
+      "pattern": "。即便 if you tried, there is just no hiding their 巨大的阴阜隆起。",
+      "flags": "gi",
+      "replacement": "。即使你试图遮掩，也藏不住它们巨大的阴阜隆起。"
+    },
+    {
+      "id": "appearance_pussy_puffy_exposed_plural_npc",
+      "pattern": "。即便 if (?<subject>he|she|it|they) tried, there is just no hiding their 巨大的阴阜隆起。",
+      "flags": "gi",
+      "replacement": "。即使$<subject>试图遮掩，也藏不住它们巨大的阴阜隆起。"
+    },
+    {
+      "id": "appearance_pussy_puffy_clothed_plural",
+      "pattern": "。即便 under clothing, they fully display their 巨大的阴阜隆起。",
+      "flags": "gi",
+      "replacement": "。即使隔着衣物，它们仍会清楚显出巨大的阴阜隆起。"
+    },
+    {
+      "id": "appearance_pussy_puffy_exposed_single_player",
+      "pattern": "。即便 if you tried, there is just no hiding its 明显的骆驼趾。",
+      "flags": "gi",
+      "replacement": "。即使你试图遮掩，也藏不住那明显的骆驼趾。"
+    },
+    {
+      "id": "appearance_pussy_puffy_exposed_single_npc",
+      "pattern": "。即便 if (?<subject>he|she|it|they) tried, there is just no hiding its 明显的骆驼趾。",
+      "flags": "gi",
+      "replacement": "。即使$<subject>试图遮掩，也藏不住那明显的骆驼趾。"
+    },
+    {
+      "id": "appearance_pussy_puffy_clothed_single",
+      "pattern": "。即便 under clothing, it generates a 明显的骆驼趾。",
+      "flags": "gi",
+      "replacement": "。即使隔着衣物，也会显出明显的骆驼趾。"
+    },
+    {
+      "id": "appearance_pussy_pumped_since_player",
+      "pattern": " ever since your play with a pussy pump。",
+      "flags": "gi",
+      "replacement": "，自从你用阴道泵玩过之后便一直如此。"
+    },
+    {
+      "id": "appearance_pussy_pumped_since_npc",
+      "pattern": " ever since (?<owner>his|her|its|their) play with a pussy pump。",
+      "flags": "gi",
+      "replacement": "，自从$<owner>用阴道泵玩过之后便一直如此。"
+    },
+    {
+      "id": "appearance_pussy_girl_flesh",
+      "pattern": " with girl flesh。",
+      "flags": "gi",
+      "replacement": "，充满女性的丰肉。"
+    },
+    {
+      "id": "appearance_ovipositor_vaginas_player",
+      "pattern": "收缩内部肌肉时，\\s*you know\\s*它们能把卵产进另一个孔洞。",
+      "flags": "gi",
+      "replacement": "收缩内部肌肉时，你知道自己能把卵产进另一个孔洞。"
+    },
+    {
+      "id": "appearance_ovipositor_vaginas_npc",
+      "pattern": "收缩内部肌肉时，\\s*(?<subject>he|she|it|they) knows\\s*它们能把卵产进另一个孔洞。",
+      "flags": "gi",
+      "replacement": "收缩内部肌肉时，$<subject>知道自己能把卵产进另一个孔洞。"
+    },
+    {
+      "id": "appearance_ovipositor_vagina_player",
+      "pattern": "收缩内部肌肉时，\\s*you know\\s*它能把卵产进另一个孔洞。",
+      "flags": "gi",
+      "replacement": "收缩内部肌肉时，你知道自己能把卵产进另一个孔洞。"
+    },
+    {
+      "id": "appearance_ovipositor_vagina_npc",
+      "pattern": "收缩内部肌肉时，\\s*(?<subject>he|she|it|they) knows\\s*它能把卵产进另一个孔洞。",
+      "flags": "gi",
+      "replacement": "收缩内部肌肉时，$<subject>知道自己能把卵产进另一个孔洞。"
+    },
+    {
+      "id": "appearance_default_tongue_indefinite",
+      "pattern": " (?<poss>Your|His|Her|Their) mouth contains (?:a|an) (?<desc>[^.!?。]{1,100})\\.",
+      "flags": "g",
+      "replacement": " $<poss>嘴里有一条$<desc>。"
+    },
+    {
+      "id": "appearance_demonic_horns_small",
+      "pattern": " 一对 small pair of 尖角刺穿了",
+      "flags": "g",
+      "replacement": " 一对小巧的尖角刺穿了"
+    },
+    {
+      "id": "appearance_demonic_horns_sized",
+      "pattern": " 一对 pair of (?<length>[A-Za-z0-9.-]+)-inch long 尖角刺穿了",
+      "flags": "g",
+      "replacement": " 一对长$<length>英寸的尖角刺穿了"
+    },
+    {
+      "id": "appearance_xhelarfog_horns_subject",
+      "pattern": " 从 (?<poss>your|his|her|their) forehead, (?:you have|he has|she has|they have) 一组向上指、略微弯曲的角。",
+      "flags": "gi",
+      "replacement": " $<poss>额头上长着一组向上指、略微弯曲的角。"
+    },
+    {
+      "id": "appearance_feathered_torso_patches",
+      "pattern": "， covered in patches of (?<cover>[^，。]{1,80})(?=，|。)",
+      "flags": "g",
+      "replacement": "，覆盖着片片$<cover>"
+    },
+    {
+      "id": "appearance_feathered_torso_layer",
+      "pattern": "， covered in a layer of (?<cover>[^，。]{1,80})(?=，|。)",
+      "flags": "g",
+      "replacement": "，覆盖着一层$<cover>"
+    },
+    {
+      "id": "appearance_wing_quantity_pair",
+      "pattern": ", and a pair of (?=[^。.!?]{0,100}(?:翅膀|wings|fins))",
+      "flags": "gi",
+      "replacement": "，并长着一对"
+    },
+    {
+      "id": "appearance_wing_quantity_quartet",
+      "pattern": ", and a quartet of (?=[^。.!?]{0,100}(?:翅膀|wings|fins))",
+      "flags": "gi",
+      "replacement": "，并长着四片"
+    },
+    {
+      "id": "appearance_roehm_steady_stream_runtime",
+      "pattern": " Oozing off (?<poss>your|his|her|their) body is a steady stream 性意味浓郁、甜腻的蛞蝓黏液；毫无疑问，这是遭遇罗姆人的明显痕迹。",
+      "flags": "gi",
+      "replacement": " 一股性意味浓郁、甜腻的蛞蝓黏液正从$<poss>身体上不断淌下；毫无疑问，这是遭遇罗姆人的明显痕迹。"
+    },
+    {
+      "id": "appearance_roehm_flowing_blob_runtime",
+      "pattern": " Oozing off (?<poss>your|his|her|their) body is a flowing blob 性意味浓郁、甜腻的蛞蝓黏液；毫无疑问，这是遭遇罗姆人的明显痕迹。",
+      "flags": "gi",
+      "replacement": " 一大团流动的、性意味浓郁而甜腻的蛞蝓黏液正从$<poss>身体上淌下；毫无疑问，这是遭遇罗姆人的明显痕迹。"
+    },
+    {
+      "id": "appearance_mimbrane_pussy_slight_runtime",
+      "pattern": "Your pussy appears slightly swollen\\.",
+      "flags": "g",
+      "replacement": "你的阴部显得略微肿胀。"
+    },
+    {
+      "id": "appearance_mimbrane_pussy_bit_runtime",
+      "pattern": "Your pussy appears a bit swollen\\.",
+      "flags": "g",
+      "replacement": "你的阴部显得有些肿胀。"
+    },
+    {
+      "id": "appearance_mimbrane_pussy_very_runtime",
+      "pattern": "Your pussy appears very swollen\\.",
+      "flags": "g",
+      "replacement": "你的阴部显得非常肿胀。"
+    },
+    {
+      "id": "appearance_mimbrane_pussy_bulge_beneath_slight_runtime",
+      "pattern": "(?<subject>你的阴部明显肿胀|它显得明显肿胀) and creates a slight bulge beneath your (?<cover>armor|clothing)\\.",
+      "flags": "g",
+      "replacement": "$<subject>，并在你的$<cover>下形成轻微隆起。"
+    },
+    {
+      "id": "appearance_mimbrane_pussy_bulge_beneath_large_runtime",
+      "pattern": "(?<subject>你的阴部明显肿胀|它显得明显肿胀) and creates a large bulge beneath your (?<cover>armor|clothing)\\.",
+      "flags": "g",
+      "replacement": "$<subject>，并在你的$<cover>下形成明显隆起。"
+    },
+    {
+      "id": "appearance_mimbrane_pussy_bulge_beneath_enormous_runtime",
+      "pattern": "(?<subject>你的阴部明显肿胀|它显得明显肿胀) and creates an enormous bulge beneath your (?<cover>armor|clothing)\\.",
+      "flags": "g",
+      "replacement": "$<subject>，并在你的$<cover>下形成巨大的隆起。"
+    },
+    {
+      "id": "appearance_mimbrane_pussy_bulge_in_undeniable_runtime",
+      "pattern": "(?<subject>你的阴部丰满得十分诱人|它显得诱人地丰满), creating an undeniable bulge in your (?<cover>armor|clothing)\\.",
+      "flags": "g",
+      "replacement": "$<subject>，在你的$<cover>下形成无法忽视的隆起。"
+    },
+    {
+      "id": "appearance_mimbrane_pussy_bulge_in_massive_runtime",
+      "pattern": "(?<subject>你的阴部丰满得十分诱人|它显得诱人地丰满), creating a massive bulge in your (?<cover>armor|clothing)\\.",
+      "flags": "g",
+      "replacement": "$<subject>，在你的$<cover>下形成硕大的隆起。"
+    },
+    {
+      "id": "appearance_mimbrane_pussy_bulge_in_gargantuan_runtime",
+      "pattern": "(?<subject>你的阴部丰满得十分诱人|它显得诱人地丰满), creating a gargantuan bulge in your (?<cover>armor|clothing)\\.",
+      "flags": "g",
+      "replacement": "$<subject>，在你的$<cover>下形成巨硕无比的隆起。"
+    },
+    {
+      "id": "appearance_vagina_massive_hole_player_runtime",
+      "pattern": "the massive hole that is your (?<vagina>[^。.!?\\n]{1,100}?)\\.",
+      "flags": "g",
+      "replacement": "你的$<vagina>已经松弛成一个巨大的洞口。"
+    },
+    {
+      "id": "appearance_vagina_massive_hole_npc_runtime",
+      "pattern": "the massive hole that is (?<owner>his|her|its|their) (?<vagina>[^。.!?\\n]{1,100}?)\\.",
+      "flags": "g",
+      "replacement": "$<owner>$<vagina>已经松弛成一个巨大的洞口。"
+    },
+    {
+      "id": "appearance_janeria_smooth_prehensile_lubricated_npc",
+      "pattern": "(?<owner>His|Her|Its|Their) (?<color>.+?) dick is smooth and prehensile，更不用说摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "$<owner>$<color>阴茎光滑而灵活，更不用说摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_smooth_prehensile_npc",
+      "pattern": "(?<owner>His|Her|Its|Their) (?<color>.+?) dick is smooth and prehensile。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "$<owner>$<color>阴茎光滑而灵活。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_smooth_lubricated_npc",
+      "pattern": "(?<owner>His|Her|Its|Their) (?<color>.+?) dick is smooth ，摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "$<owner>$<color>阴茎光滑，摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_smooth_npc",
+      "pattern": "(?<owner>His|Her|Its|Their) (?<color>.+?) dick is smooth。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "$<owner>$<color>阴茎光滑。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_prehensile_lubricated_npc",
+      "pattern": "(?<owner>His|Her|Its|Their) (?<color>.+?) dick is prehensile ，摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "$<owner>$<color>阴茎灵活，摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_prehensile_npc",
+      "pattern": "(?<owner>His|Her|Its|Their) (?<color>.+?) dick is prehensile。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "$<owner>$<color>阴茎灵活。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_lubricated_npc",
+      "pattern": "(?<owner>His|Her|Its|Their) (?<color>.+?) dick is 摸起来还有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "$<owner>$<color>阴茎摸起来有些滑腻。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_janeria_average_npc",
+      "pattern": "(?<owner>His|Her|Its|Their) (?<color>.+?) dick is average。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。",
+      "flags": "g",
+      "replacement": "$<owner>$<color>阴茎很普通。菱形尖端的尿道口隐藏在底面，使它看起来像某种水生生物的触手。"
+    },
+    {
+      "id": "appearance_blunted_equine_tip_npc",
+      "pattern": "(?<owner>His|Her|Its|Their) shaft ends in a blunted tip similar to a terran horse’s\\.",
+      "flags": "g",
+      "replacement": "$<owner>阴茎主体末端为钝头，类似地球马的阴茎。"
+    },
+    {
+      "id": "appearance_blunted_tip_npc",
+      "pattern": "(?<owner>His|Her|Its|Their) shaft ends in a blunted tip\\.",
+      "flags": "g",
+      "replacement": "$<owner>阴茎主体末端为钝头。"
+    },
+    {
+      "id": "appearance_gabilani_gooey_legs_player",
+      "pattern": "You have gooey goblin legs that end in (?<feet>[^.。]+)[.。]",
+      "flags": "g",
+      "replacement": "你有胶质的地精腿，末端是$<feet>。"
+    },
+    {
+      "id": "appearance_gabilani_humanoid_legs_player",
+      "pattern": "You have humanoid goblin legs that end in (?<feet>[^.。]+)[.。]",
+      "flags": "g",
+      "replacement": "你有类人形的地精腿，末端是$<feet>。"
+    },
+    {
+      "id": "appearance_human_shaped_single_foot",
+      "pattern": "a human-shaped foot",
+      "flags": "g",
+      "replacement": "一只类人形的脚"
+    },
+    {
+      "id": "appearance_normal_human_single_foot",
+      "pattern": "a normal human foot",
+      "flags": "g",
+      "replacement": "一只普通人类的脚"
+    },
+    {
+      "id": "appearance_human_shaped_plural_feet",
+      "pattern": "human-shaped feet",
+      "flags": "g",
+      "replacement": "类人形的双脚"
+    },
+    {
+      "id": "appearance_normal_human_plural_feet",
+      "pattern": "normal human feet",
+      "flags": "g",
+      "replacement": "普通人类的双脚"
+    },
+    {
+      "id": "appearance_joyco_maternity_reminder_player",
+      "pattern": " 幸运的是，来自 your 欢乐公司孕妇胸罩的按摩振动提醒 you that you就永远不会停止泌乳，只要 you continue 继续穿着这件 (?<item>[^。]+)。",
+      "flags": "g",
+      "replacement": " 幸运的是，你的欢乐公司孕妇胸罩以按摩振动提醒你：只要继续穿着这件$<item>，你的泌乳就永远不会停止。"
+    },
+    {
+      "id": "appearance_painted_tits_single_row_player",
+      "pattern": "\\n\\nAccentuating your (?![A-Za-z-]+ row of )(?<breasts>[^。]+?) 如同一幅淫靡壁画，表面绘着一幅引人注目的图案。",
+      "flags": "g",
+      "replacement": "\n\n为了像淫靡壁画般衬托你的$<breasts>，其表面绘上了一幅引人注目的图案。"
+    },
+    {
+      "id": "appearance_painted_tits_multi_row_player",
+      "pattern": "\\n\\nAccentuating your (?<ordinal>[A-Za-z-]+) row of (?<breasts>[^。]+?) 如同一幅淫靡壁画，表面绘着一幅引人注目的图案。",
+      "flags": "g",
+      "replacement": "\n\n为了像淫靡壁画般衬托你的$<ordinal>排$<breasts>，其表面绘上了一幅引人注目的图案。"
+    },
+    {
+      "id": "appearance_tail_cover_like_rest_player",
+      "pattern": "(?<cover>(?:(?:smooth|sticky|fluffy|downy), )?[A-Za-z -]{1,40} (?:fur|feathers|scales|chitin|goo|latex|skin)) like the rest of you",
+      "flags": "g",
+      "replacement": "和你身体其他部位一样的$<cover>"
+    },
+    {
+      "id": "appearance_simii_tail_player",
+      "pattern": " Peeking out from behind, you have 一条 可抓握的猴尾摇摆着好奇地来回摆动。",
+      "flags": "g",
+      "replacement": " 从你身后探出一条可抓握的猴尾，好奇地来回摆动。"
+    },
+    {
+      "id": "appearance_simii_long_tail_player",
+      "pattern": " Peeking out from behind, you have 一条 long, 可抓握的猴尾摇摆着好奇地来回摆动。",
+      "flags": "g",
+      "replacement": " 从你身后探出一条修长而可抓握的猴尾，好奇地来回摆动。"
+    },
+    {
+      "id": "appearance_saurmorian_short_tail_player",
+      "pattern": " 尽管很短，也十分丰满， you still useit 仍能提供一定程度的平衡，",
+      "flags": "g",
+      "replacement": " 尽管很短，也十分丰满，你仍会用它维持一定程度的平衡，"
+    },
+    {
+      "id": "appearance_saurmorian_short_tails_player",
+      "pattern": " 尽管很短，也十分丰满， you still usethem 仍能提供一定程度的平衡，",
+      "flags": "g",
+      "replacement": " 尽管很短，也十分丰满，你仍会用它们维持一定程度的平衡，"
+    },
+    {
+      "id": "appearance_canine_two_legs_player",
+      "pattern": " Two legs grow downwards from your waist, ending in (?<feet>[^.!?。]{1,80})\\.",
+      "flags": "g",
+      "replacement": " 你的两条腿从腰部向下延伸，末端是$<feet>。"
+    },
+    {
+      "id": "appearance_canine_two_digitigrade_legs_player",
+      "pattern": " Two digitigrade legs grow downwards from your waist, ending in (?<feet>[^.!?。]{1,80})\\.",
+      "flags": "g",
+      "replacement": " 你的两条趾行型腿从腰部向下延伸，末端是$<feet>。"
+    },
+    {
+      "id": "appearance_canine_two_plantigrade_legs_player",
+      "pattern": " Two plantigrade legs grow downwards from your waist, ending in (?<feet>[^.!?。]{1,80})\\.",
+      "flags": "g",
+      "replacement": " 你的两条跖行型腿从腰部向下延伸，末端是$<feet>。"
+    },
+    {
+      "id": "appearance_canine_many_legs_player",
+      "pattern": " You have  legs that end in (?<feet>[^.!?。]{1,80})\\.",
+      "flags": "g",
+      "replacement": " 你有多条腿，末端是$<feet>。"
+    },
+    {
+      "id": "appearance_canine_many_digitigrade_legs_player",
+      "pattern": " You have  digitigrade legs that end in (?<feet>[^.!?。]{1,80})\\.",
+      "flags": "g",
+      "replacement": " 你有多条趾行型腿，末端是$<feet>。"
+    },
+    {
+      "id": "appearance_canine_many_plantigrade_legs_player",
+      "pattern": " You have  plantigrade legs that end in (?<feet>[^.!?。]{1,80})\\.",
+      "flags": "g",
+      "replacement": " 你有多条跖行型腿，末端是$<feet>。"
+    },
+    {
+      "id": "appearance_goo_amorphous_propulsion_player",
+      "pattern": " 双腿的位置， you have 一团不断变形的无定形团块。好在 to propel your移动起来。",
+      "flags": "g",
+      "replacement": " 双腿的位置变成了一团不断变形的无定形团块。好在推动自己四处移动相当容易。"
+    },
+    {
+      "id": "appearance_xhelarfog_horns_player_mixed",
+      "pattern": " 从 your forehead, you have 一组向上指、略微弯曲的角。",
+      "flags": "g",
+      "replacement": " 你的额头上长着一组向上指、略微弯曲的角。"
+    },
+    {
+      "id": "appearance_xhelarfog_horns_npc_mixed",
+      "pattern": " 从 (?<poss>his|her|their)的额头上，(?<subject>he|she|they)长着 一组向上指、略微弯曲的角。",
+      "flags": "gi",
+      "replacement": " $<poss>额头上长着一组向上指、略微弯曲的角。"
+    },
+    {
+      "id": "appearance_painted_tits_npc_single_row",
+      "pattern": "\\n\\nAccentuating (?<owner>his|her|its|their) (?<breast>[^.!?。]{1,100}?) 如同一幅淫靡壁画，表面绘着一幅引人注目的图案。",
+      "flags": "g",
+      "replacement": "\n\n一道醒目的图案被画在$<owner>的$<breast>表面，宛如淫靡壁画，更显惹眼。"
+    },
+    {
+      "id": "appearance_stinger_foreskin_aphrodisiac_npc",
+      "pattern": "从 (?<owner>his|her|its|their) 的包皮裂口中探出一簇 携带有毒载荷的细小触手, aphrodisiac payload\\.",
+      "flags": "g",
+      "replacement": "从$<owner>包皮裂口中探出一簇携带催情毒液的细小触手。"
+    },
+    {
+      "id": "appearance_stinger_foreskin_venomous_npc",
+      "pattern": "从 (?<owner>his|her|its|their) 的包皮裂口中探出一簇 携带有毒载荷的细小触手 payload\\.",
+      "flags": "g",
+      "replacement": "从$<owner>包皮裂口中探出一簇携带毒液的细小触手。"
+    },
+    {
+      "id": "appearance_imposing_look_player",
+      "pattern": ", giving you an incredibly imposing look",
+      "flags": "gi",
+      "replacement": "，让你显得极具威严"
+    },
+    {
+      "id": "appearance_imposing_look_npc",
+      "pattern": ", giving (?:him|her|it|them) an incredibly imposing look",
+      "flags": "gi",
+      "replacement": "，让其显得极具威严"
+    },
+    {
+      "id": "appearance_arm_flowers_runtime",
+      "pattern": ", as do the small (?<flower>.+?) flowers (?:you’re|he’s|she’s|it’s|they’re) displaying up there",
+      "flags": "gi",
+      "replacement": "，上方绽放的小型$<flower>花朵也是如此"
+    },
+    {
+      "id": "appearance_hips_pillar_waist_runtime",
+      "pattern": " that blend into (?:your|his|her|their) pillar-like waist, and",
+      "flags": "gi",
+      "replacement": "，与柱状腰身融为一体，还有"
+    },
+    {
+      "id": "appearance_hips_thick_form_runtime",
+      "pattern": " that blend into the rest of (?:your|his|her|their) thick form, and",
+      "flags": "gi",
+      "replacement": "，与粗壮身形的其余部分融为一体，还有"
+    },
+    {
+      "id": "appearance_hips_thick_curvy_runtime",
+      "pattern": " that sway and emphasize (?:your|his|her|their) thick, curvy shape, and",
+      "flags": "gi",
+      "replacement": "，摇摆着凸显丰腴曲线，还有"
+    },
+    {
+      "id": "appearance_hips_extra_curvy_runtime",
+      "pattern": " that sway hypnotically on (?:your|his|her|their) extra-curvy frame, and",
+      "flags": "gi",
+      "replacement": "，在格外丰腴的身架上诱人地摇摆，还有"
+    },
+    {
+      "id": "appearance_hips_trim_lithe_runtime",
+      "pattern": " that match (?:your|his|her|their) trim, lithe body, and",
+      "flags": "gi",
+      "replacement": "，与精瘦灵活的身体相称，还有"
+    },
+    {
+      "id": "appearance_hips_trim_waist_runtime",
+      "pattern": " that swell out under (?:your|his|her|their) trim waistline, and",
+      "flags": "gi",
+      "replacement": "，从纤细腰线下方隆起，还有"
+    },
+    {
+      "id": "appearance_hips_narrow_waist_runtime",
+      "pattern": ", emphasized by (?:your|his|her|their) narrow waist, and",
+      "flags": "gi",
+      "replacement": "，在窄腰衬托下格外醒目，还有"
+    },
+    {
+      "id": "appearance_hips_children_runtime",
+      "pattern": " that make it look like (?:you’ve|he has|she has|it has|they have) birthed many children, and",
+      "flags": "gi",
+      "replacement": "，看起来仿佛生育过许多孩子，还有"
+    },
+    {
+      "id": "appearance_hips_graceful_stride_runtime",
+      "pattern": " that give (?:you|him|her|it|them) a graceful stride, and",
+      "flags": "gi",
+      "replacement": "，使步态显得优雅，还有"
+    },
+    {
+      "id": "appearance_hips_cocks_room_runtime",
+      "pattern": " that give (?<poss>your|his|her|their) (?<parts>.+?) plenty of room to swing, and",
+      "flags": "gi",
+      "replacement": "，为$<poss>$<parts>留出充足的摆动空间，还有"
+    },
+    {
+      "id": "appearance_hips_vaginas_room_runtime",
+      "pattern": " that give (?<poss>your|his|her|their) (?<parts>.+?) a nice, wide berth, and",
+      "flags": "gi",
+      "replacement": "，为$<poss>$<parts>留出宽裕空间，还有"
+    },
+    {
+      "id": "appearance_hips_vacant_groin_runtime",
+      "pattern": " that give (?<poss>your|his|her|their) vacant groin plenty of room, and",
+      "flags": "gi",
+      "replacement": "，为$<poss>空荡的胯部留出充足空间，还有"
+    },
+    {
+      "id": "appearance_rabbit_goo_legs_player",
+      "pattern": " Your 的双腿从腰部以下逐渐变粗，变成 goo-covered 兔子般的双腿。 (?:You even have|你甚至还有) 一双硕大的兔脚，跳跃起来比步行还要轻松一些。",
+      "flags": "g",
+      "replacement": " 你的双腿从腰部以下逐渐变粗，变成覆盖胶质的兔腿。你甚至还有一双硕大的兔脚，跳跃起来比步行还要轻松一些。"
+    },
+    {
+      "id": "appearance_rabbit_furred_legs_player",
+      "pattern": " Your 的双腿从腰部以下逐渐变粗，变成 soft-furred 兔子般的双腿。 (?:You even have|你甚至还有) 一双硕大的兔脚，跳跃起来比步行还要轻松一些。",
+      "flags": "g",
+      "replacement": " 你的双腿从腰部以下逐渐变粗，变成覆有柔软毛发的兔腿。你甚至还有一双硕大的兔脚，跳跃起来比步行还要轻松一些。"
+    },
+    {
+      "id": "appearance_avian_plumage_ankles_player",
+      "pattern": "(?<color>[A-Za-z][A-Za-z -]*?)(?: plumage down to |羽毛一直覆盖至)your ankles and (?<skin>[^.。]+?) below\\.",
+      "flags": "g",
+      "replacement": "$<color>羽毛一直覆盖至脚踝，脚踝以下则为$<skin>。"
+    },
+    {
+      "id": "appearance_avian_plumage_knees_player",
+      "pattern": "(?<color>[A-Za-z][A-Za-z -]*?)(?: plumage down to |羽毛一直覆盖至)your knees and (?<skin>[^.。]+?) below\\.",
+      "flags": "g",
+      "replacement": "$<color>羽毛一直覆盖至双膝，双膝以下则为$<skin>。"
+    },
+    {
+      "id": "appearance_siren_goo_two_plantigrade_player",
+      "pattern": " You have two semi-solid legs and clawed, plantigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有两条半固态的腿，脚部带爪并呈跖行型。"
+    },
+    {
+      "id": "appearance_siren_goo_two_digitigrade_player",
+      "pattern": " You have two semi-solid legs and clawed, digitigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有两条半固态的腿，脚部带爪并呈趾行型。"
+    },
+    {
+      "id": "appearance_siren_goo_two_unflagged_player",
+      "pattern": " You have two semi-solid legs and clawed双脚。",
+      "flags": "g",
+      "replacement": " 你有两条半固态的腿，脚部带爪。"
+    },
+    {
+      "id": "appearance_siren_pair_plantigrade_player",
+      "pattern": " You have a pair of powerful legs, with clawed, plantigrade 双脚强健有力，足以推动 you 在水中前进。",
+      "flags": "g",
+      "replacement": " 你有一双强壮有力的腿，脚部带爪并呈跖行型，足以推动你在水中前进。"
+    },
+    {
+      "id": "appearance_siren_pair_digitigrade_player",
+      "pattern": " You have a pair of powerful legs, with clawed, digitigrade 双脚强健有力，足以推动 you 在水中前进。",
+      "flags": "g",
+      "replacement": " 你有一双强壮有力的腿，脚部带爪并呈趾行型，足以推动你在水中前进。"
+    },
+    {
+      "id": "appearance_siren_pair_unflagged_player",
+      "pattern": " You have a pair of powerful legs, with clawed 双脚强健有力，足以推动 you 在水中前进。",
+      "flags": "g",
+      "replacement": " 你有一双强壮有力的腿，脚部带爪，足以推动你在水中前进。"
+    },
+    {
+      "id": "siren_complete_gooey",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) 的手臂和手掌看起来非常像人类, if not for them being completely covered in gooey (?<color>.+?) vestigial feathers, incapable of flight\\.",
+      "flags": "gi",
+      "replacement": "$<poss>手臂和手掌看起来非常像人类，只是完全覆盖着胶质$<color>退化羽毛，无法用于飞行。"
+    },
+    {
+      "id": "siren_complete_plain",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) 的手臂和手掌看起来非常像人类, if not for them being completely covered in (?<color>.+?) vestigial feathers, incapable of flight\\.",
+      "flags": "gi",
+      "replacement": "$<poss>手臂和手掌看起来非常像人类，只是完全覆盖着$<color>退化羽毛，无法用于飞行。"
+    },
+    {
+      "id": "siren_armwarmer_gooey",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) 的手臂和手掌看起来非常像人类, if not for them being covered in gooey (?<color>.+?) vestigial feathers 从肘部一直延伸到手腕——看起来就像天然的护臂，而且 incapable of flight\\.",
+      "flags": "gi",
+      "replacement": "$<poss>手臂和手掌看起来非常像人类，只是从肘部到手腕覆盖着胶质$<color>退化羽毛，看起来就像天然护臂，但无法用于飞行。"
+    },
+    {
+      "id": "siren_armwarmer_plain",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) 的手臂和手掌看起来非常像人类, if not for them being covered in (?<color>.+?) vestigial feathers 从肘部一直延伸到手腕——看起来就像天然的护臂，而且 incapable of flight\\.",
+      "flags": "gi",
+      "replacement": "$<poss>手臂和手掌看起来非常像人类，只是从肘部到手腕覆盖着$<color>退化羽毛，看起来就像天然护臂，但无法用于飞行。"
+    },
+    {
+      "id": "siren_gooey_only",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) 的手臂和手掌看起来非常像人类, if not for them being covered in gooey (?<color>.+?) vestigial feathers, incapable of flight\\.",
+      "flags": "gi",
+      "replacement": "$<poss>手臂和手掌看起来非常像人类，只是覆盖着胶质$<color>退化羽毛，无法用于飞行。"
+    },
+    {
+      "id": "shark_gooey_arms",
+      "pattern": " From the elbows of (?<poss>your|his|her|their|你的|他的|她的|他们的) 胶质手臂上长着小型鱼鳍，不断滴落黏液。",
+      "flags": "gi",
+      "replacement": " $<poss>胶质手臂从肘部起长着小型鱼鳍，不断滴落黏液。"
+    },
+    {
+      "id": "shark_slick_furred_arms",
+      "pattern": " From the elbows of (?<poss>your|his|her|their|你的|他的|她的|他们的) slick, (?<color>.+?) 覆毛手臂上长着小型鱼鳍。",
+      "flags": "gi",
+      "replacement": " $<poss>光滑的$<color>覆毛手臂从肘部起长着小型鱼鳍。"
+    },
+    {
+      "id": "shark_furred_arms",
+      "pattern": " From the elbows of (?<poss>your|his|her|their|你的|他的|她的|他们的) (?<color>.+?) 覆毛手臂上长着小型鱼鳍。",
+      "flags": "gi",
+      "replacement": " $<poss>$<color>覆毛手臂从肘部起长着小型鱼鳍。"
+    },
+    {
+      "id": "shark_slick_scaled_arms",
+      "pattern": " From the elbows of (?<poss>your|his|her|their|你的|他的|她的|他们的) slick, (?<color>.+?) 覆鳞手臂上长着小型鱼鳍。",
+      "flags": "gi",
+      "replacement": " $<poss>光滑的$<color>覆鳞手臂从肘部起长着小型鱼鳍。"
+    },
+    {
+      "id": "shark_scaled_arms",
+      "pattern": " From the elbows of (?<poss>your|his|her|their|你的|他的|她的|他们的) (?<color>.+?) 覆鳞手臂上长着小型鱼鳍。",
+      "flags": "gi",
+      "replacement": " $<poss>$<color>覆鳞手臂从肘部起长着小型鱼鳍。"
+    },
+    {
+      "id": "arms_goo_amorphous",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in an amorphous胶质层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层无定形胶质。"
+    },
+    {
+      "id": "arms_goo_thick",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a thick胶质层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层厚实胶质。"
+    },
+    {
+      "id": "arms_goo_thin",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a thin胶质层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层薄薄的胶质。"
+    },
+    {
+      "id": "arms_fur_fluffy",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a fluffy毛发层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层蓬松毛发。"
+    },
+    {
+      "id": "arms_fur_thick",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a thick毛发层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层浓密毛发。"
+    },
+    {
+      "id": "arms_fur_light",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a light毛发层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层稀薄毛发。"
+    },
+    {
+      "id": "arms_scales_thick",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a thick鳞片层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层厚实鳞片。"
+    },
+    {
+      "id": "arms_scales_smooth",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a smooth鳞片层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层光滑鳞片。"
+    },
+    {
+      "id": "arms_scales_light",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a light鳞片层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层轻薄鳞片。"
+    },
+    {
+      "id": "arms_chitin_thick",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a thick甲壳层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层厚实甲壳。"
+    },
+    {
+      "id": "arms_chitin_smooth",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a smooth甲壳层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层光滑甲壳。"
+    },
+    {
+      "id": "arms_chitin_light",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a light甲壳层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层轻薄甲壳。"
+    },
+    {
+      "id": "arms_feathers_fluffy",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a fluffy羽毛层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层蓬松羽毛。"
+    },
+    {
+      "id": "arms_feathers_thick",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a thick羽毛层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层浓密羽毛。"
+    },
+    {
+      "id": "arms_feathers_light",
+      "pattern": "(?<poss>Your|His|Her|Their|你的|他的|她的|他们的) arms are covered in a light羽毛层。",
+      "flags": "gi",
+      "replacement": "$<poss>双臂覆盖着一层稀薄羽毛。"
+    },
+    {
+      "id": "appearance_siren_goo_one_plantigrade_player_closure",
+      "pattern": " You have one semi-solid legs and clawed, plantigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有一条半固态的腿，脚部带爪并呈跖行型。"
+    },
+    {
+      "id": "appearance_siren_goo_one_digitigrade_player_closure",
+      "pattern": " You have one semi-solid legs and clawed, digitigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有一条半固态的腿，脚部带爪并呈趾行型。"
+    },
+    {
+      "id": "appearance_siren_goo_three_plantigrade_player_closure",
+      "pattern": " You have three semi-solid legs and clawed, plantigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有三条半固态的腿，脚部带爪并呈跖行型。"
+    },
+    {
+      "id": "appearance_siren_goo_three_digitigrade_player_closure",
+      "pattern": " You have three semi-solid legs and clawed, digitigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有三条半固态的腿，脚部带爪并呈趾行型。"
+    },
+    {
+      "id": "appearance_siren_goo_four_plantigrade_player_closure",
+      "pattern": " You have four semi-solid legs and clawed, plantigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有四条半固态的腿，脚部带爪并呈跖行型。"
+    },
+    {
+      "id": "appearance_siren_goo_four_digitigrade_player_closure",
+      "pattern": " You have four semi-solid legs and clawed, digitigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有四条半固态的腿，脚部带爪并呈趾行型。"
+    },
+    {
+      "id": "appearance_siren_goo_five_plantigrade_player_closure",
+      "pattern": " You have five semi-solid legs and clawed, plantigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有五条半固态的腿，脚部带爪并呈跖行型。"
+    },
+    {
+      "id": "appearance_siren_goo_five_digitigrade_player_closure",
+      "pattern": " You have five semi-solid legs and clawed, digitigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有五条半固态的腿，脚部带爪并呈趾行型。"
+    },
+    {
+      "id": "appearance_siren_goo_six_plantigrade_player_closure",
+      "pattern": " You have six semi-solid legs and clawed, plantigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有六条半固态的腿，脚部带爪并呈跖行型。"
+    },
+    {
+      "id": "appearance_siren_goo_six_digitigrade_player_closure",
+      "pattern": " You have six semi-solid legs and clawed, digitigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有六条半固态的腿，脚部带爪并呈趾行型。"
+    },
+    {
+      "id": "appearance_siren_goo_seven_plantigrade_player_closure",
+      "pattern": " You have seven semi-solid legs and clawed, plantigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有七条半固态的腿，脚部带爪并呈跖行型。"
+    },
+    {
+      "id": "appearance_siren_goo_seven_digitigrade_player_closure",
+      "pattern": " You have seven semi-solid legs and clawed, digitigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有七条半固态的腿，脚部带爪并呈趾行型。"
+    },
+    {
+      "id": "appearance_siren_goo_eight_plantigrade_player_closure",
+      "pattern": " You have eight semi-solid legs and clawed, plantigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有八条半固态的腿，脚部带爪并呈跖行型。"
+    },
+    {
+      "id": "appearance_siren_goo_eight_digitigrade_player_closure",
+      "pattern": " You have eight semi-solid legs and clawed, digitigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有八条半固态的腿，脚部带爪并呈趾行型。"
+    },
+    {
+      "id": "appearance_siren_goo_nine_plantigrade_player_closure",
+      "pattern": " You have nine semi-solid legs and clawed, plantigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有九条半固态的腿，脚部带爪并呈跖行型。"
+    },
+    {
+      "id": "appearance_siren_goo_nine_digitigrade_player_closure",
+      "pattern": " You have nine semi-solid legs and clawed, digitigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有九条半固态的腿，脚部带爪并呈趾行型。"
+    },
+    {
+      "id": "appearance_siren_goo_ten_plantigrade_player_closure",
+      "pattern": " You have ten semi-solid legs and clawed, plantigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有十条半固态的腿，脚部带爪并呈跖行型。"
+    },
+    {
+      "id": "appearance_siren_goo_ten_digitigrade_player_closure",
+      "pattern": " You have ten semi-solid legs and clawed, digitigrade双脚。",
+      "flags": "g",
+      "replacement": " 你有十条半固态的腿，脚部带爪并呈趾行型。"
+    },
+    {
+      "id": "appearance_npc_markings_subject_cleanup",
+      "pattern": "(?:He|She|It|They) (?<color>[^。.!?\\n]+?)(?<marking>条纹|斑点|环纹)遍布",
+      "flags": "g",
+      "replacement": "$<color>$<marking>遍布"
+    },
+    {
+      "id": "appearance_reveal_indefinite_article_connector",
+      "pattern": "，露出(?:a|an)\\s+",
+      "flags": "gi",
+      "replacement": "，露出"
+    },
+    {
+      "id": "appearance_or_indefinite_article_connector",
+      "pattern": "，或是(?:a|an)\\s+",
+      "flags": "gi",
+      "replacement": "，或是"
+    },
+    {
+      "id": "appearance_breast_nipple_count_one_connector",
+      "pattern": "\\bone\\s+(?=[0-9]+(?:\\.[0-9]+)?英寸长的)",
+      "flags": "gi",
+      "replacement": "一枚"
+    },
+    {
+      "id": "appearance_breast_nipple_count_two_connector",
+      "pattern": "\\btwo\\s+(?=[0-9]+(?:\\.[0-9]+)?英寸长的)",
+      "flags": "gi",
+      "replacement": "两枚"
+    },
+    {
+      "id": "appearance_breast_nipple_count_three_connector",
+      "pattern": "\\bthree\\s+(?=[0-9]+(?:\\.[0-9]+)?英寸长的)",
+      "flags": "gi",
+      "replacement": "三枚"
+    },
+    {
+      "id": "appearance_breast_nipple_count_four_connector",
+      "pattern": "\\bfour\\s+(?=[0-9]+(?:\\.[0-9]+)?英寸长的)",
+      "flags": "gi",
+      "replacement": "四枚"
+    },
+    {
+      "id": "appearance_scrotum_indefinite_article_connector",
+      "pattern": "(?<lead>^|[。.!?\\n]\\s*)(?:A|An)\\s+(?<sack>[^，。.!?\\n]{1,60})，装着",
+      "flags": "g",
+      "replacement": "$<lead>一个$<sack>，装着"
+    },
+    {
+      "id": "appearance_hrad_body_indefinite_article_connector",
+      "pattern": "主体为\\s*(?:a|an)\\s+",
+      "flags": "gi",
+      "replacement": "主体为"
+    },
+    {
+      "id": "appearance_hrad_end_indefinite_article_connector",
+      "pattern": "末端则是\\s*(?:a|an)\\s+",
+      "flags": "gi",
+      "replacement": "末端则是"
+    },
+    {
+      "id": "appearance_hrad_same_color_indefinite_article_connector",
+      "pattern": "末端是\\s*(?:a|an)\\s+",
+      "flags": "gi",
+      "replacement": "末端是"
+    },
+    {
+      "id": "appearance_compressed_chinese_list_and_connector",
+      "pattern": "(?<=[\\u3400-\\u9fff])(?:,\\s*)?and\\s+(?=[\\u3400-\\u9fff])",
+      "flags": "g",
+      "replacement": "和"
+    },
+    {
+      "id": "appearance_soaked_trailing_object_connector",
+      "pattern": "一览无余(?:him|her|it|them)",
+      "flags": "gi",
+      "replacement": "一览无余"
+    },
+    {
+      "id": "appearance_anal_trailing_subject_connector",
+      "pattern": "(?<tail>臀瓣|臀瓣的耻丘|臀瓣的微型耻丘)(?:he|she|it|they)",
+      "flags": "gi",
+      "replacement": "$<tail>"
+    },
+    {
+      "id": "appearance_hips_sway_trailing_subject_connector",
+      "pattern": "扭腰摆臀(?:he|she|it|they)",
+      "flags": "gi",
+      "replacement": "扭腰摆臀"
+    }
+  ],
+  "functionMappings": {
+    "fluidNoun": [
+      {
+        "original": "milk",
+        "translation": "乳汁"
+      },
+      {
+        "original": "moo juice",
+        "translation": "奶牛汁"
+      },
+      {
+        "original": "cum",
+        "translation": "精液"
+      },
+      {
+        "original": "spunk",
+        "translation": "精液"
+      },
+      {
+        "original": "jism",
+        "translation": "精液"
+      },
+      {
+        "original": "jizz",
+        "translation": "精液"
+      },
+      {
+        "original": "spooge",
+        "translation": "精液"
+      },
+      {
+        "original": "girl-cum",
+        "translation": "淫液"
+      },
+      {
+        "original": "fem-cum",
+        "translation": "淫液"
+      },
+      {
+        "original": "girl-lube",
+        "translation": "女性润滑液"
+      },
+      {
+        "original": "girl-juice",
+        "translation": "女性汁液"
+      },
+      {
+        "original": "cunny-honey",
+        "translation": "蜜穴汁"
+      },
+      {
+        "original": "girl-spunk",
+        "translation": "女性精液"
+      },
+      {
+        "original": "fem-spunk",
+        "translation": "女性精液"
+      },
+      {
+        "original": "honey",
+        "translation": "蜂蜜"
+      },
+      {
+        "original": "oil",
+        "translation": "油液"
+      },
+      {
+        "original": "milk-sap",
+        "translation": "乳汁树液"
+      },
+      {
+        "original": "cum-sap",
+        "translation": "精液树液"
+      },
+      {
+        "original": "botanical spunk",
+        "translation": "植物精液"
+      },
+      {
+        "original": "floral jism",
+        "translation": "花卉精液"
+      },
+      {
+        "original": "nectar",
+        "translation": "花蜜"
+      },
+      {
+        "original": "yogurt",
+        "translation": "酸奶"
+      },
+      {
+        "original": "syrup",
+        "translation": "糖浆"
+      },
+      {
+        "original": "slime",
+        "translation": "黏液"
+      },
+      {
+        "original": "goo",
+        "translation": "胶液"
+      },
+      {
+        "original": "slime-spunk",
+        "translation": "黏液精液"
+      },
+      {
+        "original": "goo-cum",
+        "translation": "胶质精液"
+      },
+      {
+        "original": "slime-semen",
+        "translation": "黏液精液"
+      },
+      {
+        "original": "goo-spooge",
+        "translation": "胶质精液"
+      },
+      {
+        "original": "slime-spooge",
+        "translation": "黏液精液"
+      },
+      {
+        "original": "goo-spunk",
+        "translation": "胶质精液"
+      },
+      {
+        "original": "slime-cum",
+        "translation": "黏液精液"
+      },
+      {
+        "original": "seed",
+        "translation": "种液"
+      },
+      {
+        "original": "juice",
+        "translation": "果汁"
+      },
+      {
+        "original": "eggnog",
+        "translation": "蛋奶酒"
+      },
+      {
+        "original": "glaze",
+        "translation": "糖浆衣"
+      },
+      {
+        "original": "frosting",
+        "translation": "糖霜"
+      },
+      {
+        "original": "icing",
+        "translation": "糖衣"
+      }
+    ],
+    "fluidColor": [
+      {
+        "original": "pinkish white",
+        "translation": "淡粉白色"
+      },
+      {
+        "original": "white",
+        "translation": "白色"
+      },
+      {
+        "original": "alabaster",
+        "translation": "雪花石色"
+      },
+      {
+        "original": "ivory",
+        "translation": "象牙白"
+      },
+      {
+        "original": "amber",
+        "translation": "琥珀色"
+      },
+      {
+        "original": "yellow",
+        "translation": "黄色"
+      },
+      {
+        "original": "gold",
+        "translation": "金色"
+      },
+      {
+        "original": "tawny",
+        "translation": "黄褐色"
+      },
+      {
+        "original": "semi-transparent",
+        "translation": "半透明"
+      },
+      {
+        "original": "translucent brown",
+        "translation": "半透明棕色"
+      },
+      {
+        "original": "lucent",
+        "translation": "透亮"
+      },
+      {
+        "original": "whitish-yellow",
+        "translation": "黄白色"
+      },
+      {
+        "original": "ivory gold",
+        "translation": "象牙金色"
+      },
+      {
+        "original": "off-white",
+        "translation": "灰白色"
+      },
+      {
+        "original": "translucent",
+        "translation": "半透明"
+      },
+      {
+        "original": "clear",
+        "translation": "透明"
+      },
+      {
+        "original": "pearl-marbled amber",
+        "translation": "珠纹琥珀色"
+      },
+      {
+        "original": "ivory-amber",
+        "translation": "象牙琥珀色"
+      },
+      {
+        "original": "chocolate",
+        "translation": "巧克力色"
+      },
+      {
+        "original": "creamy brown",
+        "translation": "奶油棕色"
+      },
+      {
+        "original": "dark chocolate",
+        "translation": "黑巧克力色"
+      },
+      {
+        "original": "pink",
+        "translation": "粉色"
+      },
+      {
+        "original": "creamy pink",
+        "translation": "奶油粉色"
+      },
+      {
+        "original": "light pink",
+        "translation": "浅粉色"
+      },
+      {
+        "original": "orange",
+        "translation": "橙色"
+      },
+      {
+        "original": "creamy orange",
+        "translation": "奶油橙色"
+      },
+      {
+        "original": "light orange",
+        "translation": "浅橙色"
+      },
+      {
+        "original": "creamy yellow",
+        "translation": "奶油黄色"
+      },
+      {
+        "original": "light yellow",
+        "translation": "浅黄色"
+      },
+      {
+        "original": "green",
+        "translation": "绿色"
+      },
+      {
+        "original": "creamy green",
+        "translation": "奶油绿色"
+      },
+      {
+        "original": "light green",
+        "translation": "浅绿色"
+      },
+      {
+        "original": "blue",
+        "translation": "蓝色"
+      },
+      {
+        "original": "creamy blue",
+        "translation": "奶油蓝色"
+      },
+      {
+        "original": "light blue",
+        "translation": "浅蓝色"
+      },
+      {
+        "original": "lavender",
+        "translation": "薰衣草色"
+      },
+      {
+        "original": "creamy lavender",
+        "translation": "奶油薰衣草色"
+      },
+      {
+        "original": "light lavender",
+        "translation": "浅薰衣草色"
+      },
+      {
+        "original": "silvery",
+        "translation": "银亮色"
+      },
+      {
+        "original": "metallic silver",
+        "translation": "金属银色"
+      },
+      {
+        "original": "silver",
+        "translation": "银色"
+      },
+      {
+        "original": "milky-pink",
+        "translation": "乳粉色"
+      },
+      {
+        "original": "pink-marbled cream",
+        "translation": "粉纹奶油色"
+      },
+      {
+        "original": "violet",
+        "translation": "紫罗兰色"
+      },
+      {
+        "original": "milky-violet",
+        "translation": "乳紫色"
+      },
+      {
+        "original": "violet-marbled cream",
+        "translation": "紫纹奶油色"
+      },
+      {
+        "original": "glowing blue",
+        "translation": "发光蓝色"
+      },
+      {
+        "original": "glow-in-the-dark",
+        "translation": "夜光色"
+      },
+      {
+        "original": "purple",
+        "translation": "紫色"
+      },
+      {
+        "original": "semi-clear",
+        "translation": "半透明"
+      },
+      {
+        "original": "translucent white",
+        "translation": "半透明白色"
+      },
+      {
+        "original": "creamy white",
+        "translation": "乳白色"
+      },
+      {
+        "original": "nearly transparent",
+        "translation": "近乎透明"
+      },
+      {
+        "original": "ghostly white",
+        "translation": "幽白色"
+      },
+      {
+        "original": "emerald",
+        "translation": "翠绿色"
+      },
+      {
+        "original": "pale yellow",
+        "translation": "淡黄色"
+      },
+      {
+        "original": "blanched yellow",
+        "translation": "漂白黄色"
+      },
+      {
+        "original": "creamy lemon",
+        "translation": "奶油柠檬色"
+      },
+      {
+        "original": "muddy golden",
+        "translation": "浑浊金色"
+      },
+      {
+        "original": "cream colored",
+        "translation": "奶油色"
+      },
+      {
+        "original": "opaque white",
+        "translation": "不透明白色"
+      },
+      {
+        "original": "pure white",
+        "translation": "纯白色"
+      }
+    ],
+    "fluidViscosity": [
+      {
+        "original": "fluid",
+        "translation": "液态的"
+      },
+      {
+        "original": "creamy",
+        "translation": "乳脂般浓滑的"
+      },
+      {
+        "original": "thick",
+        "translation": "浓稠的"
+      },
+      {
+        "original": "slick",
+        "translation": "滑腻的"
+      },
+      {
+        "original": "slippery",
+        "translation": "滑溜的"
+      },
+      {
+        "original": "sticky",
+        "translation": "黏稠的"
+      },
+      {
+        "original": "syrupy",
+        "translation": "糖浆般黏稠的"
+      },
+      {
+        "original": "egg-filled",
+        "translation": "混有卵的"
+      },
+      {
+        "original": "eggy",
+        "translation": "含卵的"
+      },
+      {
+        "original": "bubbly",
+        "translation": "多泡的"
+      },
+      {
+        "original": "pulpy",
+        "translation": "带颗粒的"
+      },
+      {
+        "original": "oily",
+        "translation": "油腻的"
+      },
+      {
+        "original": "coating",
+        "translation": "覆着性强的"
+      },
+      {
+        "original": "viscous",
+        "translation": "高黏度的"
+      },
+      {
+        "original": "semi-thick",
+        "translation": "较浓稠的"
+      },
+      {
+        "original": "juicy",
+        "translation": "多汁的"
+      },
+      {
+        "original": "liquid",
+        "translation": "液态的"
+      },
+      {
+        "original": "drippy",
+        "translation": "易滴落的"
+      },
+      {
+        "original": "smooth",
+        "translation": "顺滑的"
+      },
+      {
+        "original": "gooey",
+        "translation": "黏糊的"
+      },
+      {
+        "original": "molasses-like",
+        "translation": "糖蜜般的"
+      }
+    ]
+  }
+}

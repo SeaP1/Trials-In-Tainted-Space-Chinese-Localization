@@ -1,0 +1,5134 @@
+{
+  "schemaVersion": 1,
+  "Characters": {},
+  "Locations": {},
+  "Items": {},
+  "Game & Engine Mechanics": {
+    "Runtime Display Mapping": {
+      "Character Creation Buttons": [
+        {
+          "original": "Human",
+          "translation": "人类",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Ausar",
+          "translation": "奥萨尔",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Kaithrit",
+          "translation": "凯斯里特",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Leithan",
+          "translation": "莱坦人",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Kui-Tan",
+          "translation": "奎坦",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Gryvain",
+          "translation": "格里文",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Suula",
+          "translation": "苏拉",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Herm",
+          "translation": "半性",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Pale",
+          "translation": "苍白",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Fair",
+          "translation": "白皙",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Tan",
+          "translation": "古铜色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Olive",
+          "translation": "橄榄色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Dusky",
+          "translation": "黝黑",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Dark",
+          "translation": "深色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Ebony",
+          "translation": "乌木色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Pink",
+          "translation": "粉色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Gray",
+          "translation": "灰色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Black",
+          "translation": "黑色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Dark Red",
+          "translation": "暗红色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Dark Green",
+          "translation": "深绿色",
+          "matchMode": "exact"
+        }
+      ],
+      "Pronoun Placeholder Values": [
+        {
+          "original": "he",
+          "translation": "他",
+          "matchMode": "value",
+          "placeholder": "heShe"
+        },
+        {
+          "original": "she",
+          "translation": "她",
+          "matchMode": "value",
+          "placeholder": "heShe"
+        },
+        {
+          "original": "it",
+          "translation": "它",
+          "matchMode": "value",
+          "placeholder": "heShe"
+        },
+        {
+          "original": "they",
+          "translation": "他们",
+          "matchMode": "value",
+          "placeholder": "heShe"
+        },
+        {
+          "original": "him",
+          "translation": "他",
+          "matchMode": "value",
+          "placeholder": "himHer"
+        },
+        {
+          "original": "her",
+          "translation": "她",
+          "matchMode": "value",
+          "placeholder": "himHer"
+        },
+        {
+          "original": "it",
+          "translation": "它",
+          "matchMode": "value",
+          "placeholder": "himHer"
+        },
+        {
+          "original": "them",
+          "translation": "他们",
+          "matchMode": "value",
+          "placeholder": "himHer"
+        },
+        {
+          "original": "his",
+          "translation": "他的",
+          "matchMode": "value",
+          "placeholder": "hisHer"
+        },
+        {
+          "original": "her",
+          "translation": "她的",
+          "matchMode": "value",
+          "placeholder": "hisHer"
+        },
+        {
+          "original": "its",
+          "translation": "它的",
+          "matchMode": "value",
+          "placeholder": "hisHer"
+        },
+        {
+          "original": "their",
+          "translation": "他们的",
+          "matchMode": "value",
+          "placeholder": "hisHer"
+        },
+        {
+          "original": "him",
+          "translation": "他",
+          "matchMode": "value",
+          "placeholder": "himHerIt"
+        },
+        {
+          "original": "her",
+          "translation": "她",
+          "matchMode": "value",
+          "placeholder": "himHerIt"
+        },
+        {
+          "original": "it",
+          "translation": "它",
+          "matchMode": "value",
+          "placeholder": "himHerIt"
+        },
+        {
+          "original": "boy",
+          "translation": "男孩",
+          "matchMode": "value",
+          "placeholder": "boyGirl"
+        },
+        {
+          "original": "girl",
+          "translation": "女孩",
+          "matchMode": "value",
+          "placeholder": "boyGirl"
+        },
+        {
+          "original": "man",
+          "translation": "男人",
+          "matchMode": "value",
+          "placeholder": "manWoman"
+        },
+        {
+          "original": "woman",
+          "translation": "女人",
+          "matchMode": "value",
+          "placeholder": "manWoman"
+        },
+        {
+          "original": "he",
+          "translation": "他",
+          "matchMode": "value",
+          "placeholder": "combatHeShe"
+        },
+        {
+          "original": "she",
+          "translation": "她",
+          "matchMode": "value",
+          "placeholder": "combatHeShe"
+        },
+        {
+          "original": "it",
+          "translation": "它",
+          "matchMode": "value",
+          "placeholder": "combatHeShe"
+        },
+        {
+          "original": "they",
+          "translation": "他们",
+          "matchMode": "value",
+          "placeholder": "combatHeShe"
+        },
+        {
+          "original": "you",
+          "translation": "你",
+          "matchMode": "value",
+          "placeholder": "combatHeShe"
+        },
+        {
+          "original": "him",
+          "translation": "他",
+          "matchMode": "value",
+          "placeholder": "combatHimHer"
+        },
+        {
+          "original": "her",
+          "translation": "她",
+          "matchMode": "value",
+          "placeholder": "combatHimHer"
+        },
+        {
+          "original": "it",
+          "translation": "它",
+          "matchMode": "value",
+          "placeholder": "combatHimHer"
+        },
+        {
+          "original": "them",
+          "translation": "他们",
+          "matchMode": "value",
+          "placeholder": "combatHimHer"
+        },
+        {
+          "original": "you",
+          "translation": "你",
+          "matchMode": "value",
+          "placeholder": "combatHimHer"
+        },
+        {
+          "original": "him",
+          "translation": "他",
+          "matchMode": "value",
+          "placeholder": "combatPronoun"
+        },
+        {
+          "original": "her",
+          "translation": "她",
+          "matchMode": "value",
+          "placeholder": "combatPronoun"
+        },
+        {
+          "original": "it",
+          "translation": "它",
+          "matchMode": "value",
+          "placeholder": "combatPronoun"
+        },
+        {
+          "original": "them",
+          "translation": "他们",
+          "matchMode": "value",
+          "placeholder": "combatPronoun"
+        },
+        {
+          "original": "you",
+          "translation": "你",
+          "matchMode": "value",
+          "placeholder": "combatPronoun"
+        },
+        {
+          "original": "his",
+          "translation": "他的",
+          "matchMode": "value",
+          "placeholder": "combatHisHer"
+        },
+        {
+          "original": "her",
+          "translation": "她的",
+          "matchMode": "value",
+          "placeholder": "combatHisHer"
+        },
+        {
+          "original": "its",
+          "translation": "它的",
+          "matchMode": "value",
+          "placeholder": "combatHisHer"
+        },
+        {
+          "original": "their",
+          "translation": "他们的",
+          "matchMode": "value",
+          "placeholder": "combatHisHer"
+        },
+        {
+          "original": "your",
+          "translation": "你的",
+          "matchMode": "value",
+          "placeholder": "combatHisHer"
+        },
+        {
+          "original": "his",
+          "translation": "他的",
+          "matchMode": "value",
+          "placeholder": "combatHisHers"
+        },
+        {
+          "original": "hers",
+          "translation": "她的",
+          "matchMode": "value",
+          "placeholder": "combatHisHers"
+        },
+        {
+          "original": "its",
+          "translation": "它的",
+          "matchMode": "value",
+          "placeholder": "combatHisHers"
+        },
+        {
+          "original": "theirs",
+          "translation": "他们的",
+          "matchMode": "value",
+          "placeholder": "combatHisHers"
+        },
+        {
+          "original": "yours",
+          "translation": "你的",
+          "matchMode": "value",
+          "placeholder": "combatHisHers"
+        },
+        {
+          "original": "he",
+          "translation": "他",
+          "matchMode": "value",
+          "placeholders": [
+            "he",
+            "she",
+            "ey"
+          ]
+        },
+        {
+          "original": "she",
+          "translation": "她",
+          "matchMode": "value",
+          "placeholders": [
+            "he",
+            "she",
+            "ey"
+          ]
+        },
+        {
+          "original": "him",
+          "translation": "他",
+          "matchMode": "value",
+          "placeholders": [
+            "him",
+            "em"
+          ]
+        },
+        {
+          "original": "her",
+          "translation": "她",
+          "matchMode": "value",
+          "placeholders": [
+            "him",
+            "em"
+          ]
+        },
+        {
+          "original": "his",
+          "translation": "他的",
+          "matchMode": "value",
+          "placeholders": [
+            "his",
+            "eir"
+          ]
+        },
+        {
+          "original": "her",
+          "translation": "她的",
+          "matchMode": "value",
+          "placeholders": [
+            "his",
+            "eir"
+          ]
+        },
+        {
+          "original": "his",
+          "translation": "他的",
+          "matchMode": "value",
+          "placeholders": [
+            "hisHers",
+            "eirs"
+          ]
+        },
+        {
+          "original": "hers",
+          "translation": "她的",
+          "matchMode": "value",
+          "placeholders": [
+            "hisHers",
+            "eirs"
+          ]
+        },
+        {
+          "original": "boy",
+          "translation": "男孩",
+          "matchMode": "value",
+          "placeholders": [
+            "boy",
+            "girl",
+            "girlBoy"
+          ]
+        },
+        {
+          "original": "girl",
+          "translation": "女孩",
+          "matchMode": "value",
+          "placeholders": [
+            "boy",
+            "girl",
+            "girlBoy"
+          ]
+        },
+        {
+          "original": "man",
+          "translation": "男人",
+          "matchMode": "value",
+          "placeholders": [
+            "man",
+            "woman"
+          ]
+        },
+        {
+          "original": "woman",
+          "translation": "女人",
+          "matchMode": "value",
+          "placeholders": [
+            "man",
+            "woman"
+          ]
+        },
+        {
+          "original": "mister",
+          "translation": "先生",
+          "matchMode": "value",
+          "placeholders": [
+            "mister",
+            "miss",
+            "misterMiss",
+            "missMister"
+          ]
+        },
+        {
+          "original": "miss",
+          "translation": "小姐",
+          "matchMode": "value",
+          "placeholders": [
+            "mister",
+            "miss",
+            "misterMiss",
+            "missMister"
+          ]
+        },
+        {
+          "original": "Mr",
+          "translation": "先生",
+          "matchMode": "value",
+          "placeholders": [
+            "mr",
+            "ms"
+          ]
+        },
+        {
+          "original": "Ms",
+          "translation": "女士",
+          "matchMode": "value",
+          "placeholders": [
+            "mr",
+            "ms"
+          ]
+        },
+        {
+          "original": "guy",
+          "translation": "男人",
+          "matchMode": "value",
+          "placeholders": [
+            "guy",
+            "guyGirl"
+          ]
+        },
+        {
+          "original": "girl",
+          "translation": "女孩",
+          "matchMode": "value",
+          "placeholders": [
+            "guy",
+            "guyGirl"
+          ]
+        },
+        {
+          "original": "son",
+          "translation": "儿子",
+          "matchMode": "value",
+          "placeholders": [
+            "son",
+            "daughter",
+            "sonDaughter",
+            "daughterSon"
+          ]
+        },
+        {
+          "original": "daughter",
+          "translation": "女儿",
+          "matchMode": "value",
+          "placeholders": [
+            "son",
+            "daughter",
+            "sonDaughter",
+            "daughterSon"
+          ]
+        },
+        {
+          "original": "daddy",
+          "translation": "爸爸",
+          "matchMode": "value",
+          "placeholders": [
+            "daddy",
+            "mommy",
+            "daddyMommy"
+          ]
+        },
+        {
+          "original": "mommy",
+          "translation": "妈妈",
+          "matchMode": "value",
+          "placeholders": [
+            "daddy",
+            "mommy",
+            "daddyMommy"
+          ]
+        }
+      ],
+      "Foot Descriptor Phrases": [
+        {
+          "original": "clawed foot",
+          "translation": "利爪足",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "clawed feet",
+          "translation": "利爪足",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "webbed foot",
+          "translation": "蹼足",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "webbed feet",
+          "translation": "蹼足",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "tentacle foot",
+          "translation": "触手足",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "tentacle feet",
+          "translation": "触手足",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "writhing lower body",
+          "translation": "扭动的下身",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "high-heel",
+          "translation": "高跟足",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "high-heels",
+          "translation": "高跟足",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "footclaw",
+          "translation": "足爪",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "footclaws",
+          "translation": "足爪",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "tail-tip",
+          "translation": "尾尖",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "tail-tips",
+          "translation": "尾尖",
+          "matchMode": "phrase"
+        }
+      ],
+      "Foot Descriptor Components": [
+        {
+          "original": "equine",
+          "translation": "马型",
+          "matchMode": "component"
+        },
+        {
+          "original": "horse-like",
+          "translation": "马形",
+          "matchMode": "component"
+        },
+        {
+          "original": "bestial",
+          "translation": "兽形",
+          "matchMode": "component"
+        },
+        {
+          "original": "bovine",
+          "translation": "牛型",
+          "matchMode": "component"
+        },
+        {
+          "original": "cow-like",
+          "translation": "牛形",
+          "matchMode": "component"
+        },
+        {
+          "original": "swine",
+          "translation": "猪型",
+          "matchMode": "component"
+        },
+        {
+          "original": "pig-like",
+          "translation": "猪形",
+          "matchMode": "component"
+        },
+        {
+          "original": "canine",
+          "translation": "犬型",
+          "matchMode": "component"
+        },
+        {
+          "original": "dog-like",
+          "translation": "犬形",
+          "matchMode": "component"
+        },
+        {
+          "original": "feline",
+          "translation": "猫型",
+          "matchMode": "component"
+        },
+        {
+          "original": "cat-like",
+          "translation": "猫形",
+          "matchMode": "component"
+        },
+        {
+          "original": "leonine",
+          "translation": "狮型",
+          "matchMode": "component"
+        },
+        {
+          "original": "lion-like",
+          "translation": "狮形",
+          "matchMode": "component"
+        },
+        {
+          "original": "vulpine",
+          "translation": "狐型",
+          "matchMode": "component"
+        },
+        {
+          "original": "fox-like",
+          "translation": "狐形",
+          "matchMode": "component"
+        },
+        {
+          "original": "lupine",
+          "translation": "狼型",
+          "matchMode": "component"
+        },
+        {
+          "original": "wolf-like",
+          "translation": "狼形",
+          "matchMode": "component"
+        },
+        {
+          "original": "chitinous",
+          "translation": "几丁质",
+          "matchMode": "component"
+        },
+        {
+          "original": "armored",
+          "translation": "覆甲",
+          "matchMode": "component"
+        },
+        {
+          "original": "insect-like",
+          "translation": "昆虫状",
+          "matchMode": "component"
+        },
+        {
+          "original": "carapace-covered",
+          "translation": "覆有甲壳的",
+          "matchMode": "component"
+        },
+        {
+          "original": "lapine",
+          "translation": "兔型",
+          "matchMode": "component"
+        },
+        {
+          "original": "rabbit-like",
+          "translation": "兔形",
+          "matchMode": "component"
+        },
+        {
+          "original": "avian",
+          "translation": "鸟型",
+          "matchMode": "component"
+        },
+        {
+          "original": "bird-like",
+          "translation": "鸟形",
+          "matchMode": "component"
+        },
+        {
+          "original": "taloned",
+          "translation": "带利爪的",
+          "matchMode": "component"
+        },
+        {
+          "original": "draconic",
+          "translation": "龙形",
+          "matchMode": "component"
+        },
+        {
+          "original": "clawed",
+          "translation": "利爪",
+          "matchMode": "component"
+        },
+        {
+          "original": "reptilian",
+          "translation": "爬虫状",
+          "matchMode": "component"
+        },
+        {
+          "original": "lizan",
+          "translation": "蜥蜴状",
+          "matchMode": "component"
+        },
+        {
+          "original": "leithan",
+          "translation": "莱坦式",
+          "matchMode": "component"
+        },
+        {
+          "original": "demonic",
+          "translation": "恶魔状",
+          "matchMode": "component"
+        },
+        {
+          "original": "gooey",
+          "translation": "胶质",
+          "matchMode": "component"
+        },
+        {
+          "original": "semi-solid",
+          "translation": "半固态",
+          "matchMode": "component"
+        },
+        {
+          "original": "gelatinous",
+          "translation": "凝胶状",
+          "matchMode": "component"
+        },
+        {
+          "original": "kangaroo-like",
+          "translation": "袋鼠状",
+          "matchMode": "component"
+        },
+        {
+          "original": "tanuki-like",
+          "translation": "狸猫状",
+          "matchMode": "component"
+        },
+        {
+          "original": "deer-like",
+          "translation": "鹿形",
+          "matchMode": "component"
+        },
+        {
+          "original": "panda",
+          "translation": "熊猫式",
+          "matchMode": "component"
+        },
+        {
+          "original": "bear-like",
+          "translation": "熊形",
+          "matchMode": "component"
+        },
+        {
+          "original": "pony-like",
+          "translation": "小马形",
+          "matchMode": "component"
+        },
+        {
+          "original": "human-like",
+          "translation": "人类般",
+          "matchMode": "component"
+        },
+        {
+          "original": "shark-like",
+          "translation": "鲨鱼状",
+          "matchMode": "component"
+        },
+        {
+          "original": "webbed",
+          "translation": "蹼状",
+          "matchMode": "component"
+        },
+        {
+          "original": "sheep-like",
+          "translation": "绵羊状",
+          "matchMode": "component"
+        },
+        {
+          "original": "lamb-like",
+          "translation": "羊羔状",
+          "matchMode": "component"
+        },
+        {
+          "original": "goat-like",
+          "translation": "山羊状",
+          "matchMode": "component"
+        },
+        {
+          "original": "caprine",
+          "translation": "山羊科",
+          "matchMode": "component"
+        },
+        {
+          "original": "simian",
+          "translation": "猿型",
+          "matchMode": "component"
+        },
+        {
+          "original": "ape-like",
+          "translation": "类人猿状",
+          "matchMode": "component"
+        },
+        {
+          "original": "anisodactyl",
+          "translation": "不等趾",
+          "matchMode": "component"
+        },
+        {
+          "original": "four toed",
+          "translation": "四趾",
+          "matchMode": "component"
+        },
+        {
+          "original": "tiptoed",
+          "translation": "踮趾",
+          "matchMode": "component"
+        },
+        {
+          "original": "stripper-heeled",
+          "translation": "舞娘高跟式",
+          "matchMode": "component"
+        },
+        {
+          "original": "alien",
+          "translation": "异星",
+          "matchMode": "component"
+        },
+        {
+          "original": "bunny",
+          "translation": "兔子般",
+          "matchMode": "component"
+        },
+        {
+          "original": "cartoony",
+          "translation": "卡通化",
+          "matchMode": "component"
+        },
+        {
+          "original": "corrupted-looking",
+          "translation": "腐化外观的",
+          "matchMode": "component"
+        },
+        {
+          "original": "cute",
+          "translation": "可爱的",
+          "matchMode": "component"
+        },
+        {
+          "original": "dexterous",
+          "translation": "灵巧的",
+          "matchMode": "component"
+        },
+        {
+          "original": "foxy",
+          "translation": "狐狸般",
+          "matchMode": "component"
+        },
+        {
+          "original": "goat",
+          "translation": "山羊式",
+          "matchMode": "component"
+        },
+        {
+          "original": "heavy",
+          "translation": "厚重的",
+          "matchMode": "component"
+        },
+        {
+          "original": "jiggly",
+          "translation": "颤动的",
+          "matchMode": "component"
+        },
+        {
+          "original": "nimble",
+          "translation": "轻盈的",
+          "matchMode": "component"
+        },
+        {
+          "original": "pointed",
+          "translation": "尖锐的",
+          "matchMode": "component"
+        },
+        {
+          "original": "pony",
+          "translation": "小马式",
+          "matchMode": "component"
+        },
+        {
+          "original": "powerful",
+          "translation": "强健的",
+          "matchMode": "component"
+        },
+        {
+          "original": "sexy",
+          "translation": "性感的",
+          "matchMode": "component"
+        },
+        {
+          "original": "sheep",
+          "translation": "绵羊式",
+          "matchMode": "component"
+        },
+        {
+          "original": "spike-supported",
+          "translation": "尖刺支撑的",
+          "matchMode": "component"
+        },
+        {
+          "original": "thick",
+          "translation": "粗壮的",
+          "matchMode": "component"
+        },
+        {
+          "original": "‘roo",
+          "translation": "袋鼠式",
+          "matchMode": "component"
+        },
+        {
+          "original": "tattooed",
+          "translation": "带纹身的",
+          "matchMode": "component"
+        },
+        {
+          "original": "scaled",
+          "translation": "覆鳞",
+          "matchMode": "component"
+        },
+        {
+          "original": "scaly",
+          "translation": "鳞片状",
+          "matchMode": "component"
+        },
+        {
+          "original": "furry",
+          "translation": "毛茸茸的",
+          "matchMode": "component"
+        },
+        {
+          "original": "fuzzy",
+          "translation": "覆有绒毛的",
+          "matchMode": "component"
+        },
+        {
+          "original": "fur-covered",
+          "translation": "覆毛",
+          "matchMode": "component"
+        },
+        {
+          "original": "wiggling",
+          "translation": "扭动的",
+          "matchMode": "component"
+        },
+        {
+          "original": "underbelly",
+          "translation": "腹侧",
+          "matchMode": "component"
+        },
+        {
+          "original": "tail",
+          "translation": "尾部",
+          "matchMode": "component"
+        },
+        {
+          "original": "tails",
+          "translation": "尾部",
+          "matchMode": "component"
+        },
+        {
+          "original": "hoof",
+          "translation": "蹄",
+          "matchMode": "component"
+        },
+        {
+          "original": "hooves",
+          "translation": "蹄",
+          "matchMode": "component"
+        },
+        {
+          "original": "talon",
+          "translation": "爪",
+          "matchMode": "component"
+        },
+        {
+          "original": "talons",
+          "translation": "爪",
+          "matchMode": "component"
+        },
+        {
+          "original": "paw",
+          "translation": "爪掌",
+          "matchMode": "component"
+        },
+        {
+          "original": "paws",
+          "translation": "爪掌",
+          "matchMode": "component"
+        },
+        {
+          "original": "undercarriage",
+          "translation": "下身",
+          "matchMode": "component"
+        },
+        {
+          "original": "foot",
+          "translation": "足部",
+          "matchMode": "component"
+        },
+        {
+          "original": "feet",
+          "translation": "双足",
+          "matchMode": "component"
+        }
+      ],
+      "General Body Descriptor Components": [
+        {
+          "original": "legs",
+          "translation": "双腿",
+          "matchMode": "component"
+        },
+        {
+          "original": "leg",
+          "translation": "腿",
+          "matchMode": "component"
+        },
+        {
+          "original": "skin",
+          "translation": "皮肤",
+          "matchMode": "component"
+        },
+        {
+          "original": "fur",
+          "translation": "毛皮",
+          "matchMode": "component"
+        },
+        {
+          "original": "scales",
+          "translation": "鳞片",
+          "matchMode": "component"
+        },
+        {
+          "original": "chitin",
+          "translation": "甲壳",
+          "matchMode": "component"
+        },
+        {
+          "original": "feathers",
+          "translation": "羽毛",
+          "matchMode": "component"
+        },
+        {
+          "original": "hair",
+          "translation": "头发",
+          "matchMode": "component"
+        },
+        {
+          "original": "lip",
+          "translation": "嘴唇",
+          "matchMode": "component"
+        },
+        {
+          "original": "lips",
+          "translation": "嘴唇",
+          "matchMode": "component"
+        },
+        {
+          "original": "tongue",
+          "translation": "舌头",
+          "matchMode": "component"
+        },
+        {
+          "original": "hip",
+          "translation": "胯部",
+          "matchMode": "component"
+        },
+        {
+          "original": "hips",
+          "translation": "胯部",
+          "matchMode": "component"
+        },
+        {
+          "original": "thigh",
+          "translation": "大腿",
+          "matchMode": "component"
+        },
+        {
+          "original": "thighs",
+          "translation": "大腿",
+          "matchMode": "component"
+        },
+        {
+          "original": "belly",
+          "translation": "腹部",
+          "matchMode": "component"
+        },
+        {
+          "original": "butt",
+          "translation": "臀部",
+          "matchMode": "component"
+        },
+        {
+          "original": "ass",
+          "translation": "屁股",
+          "matchMode": "component"
+        },
+        {
+          "original": "tush",
+          "translation": "小屁股",
+          "matchMode": "component"
+        },
+        {
+          "original": "breast",
+          "translation": "乳房",
+          "matchMode": "component"
+        },
+        {
+          "original": "breasts",
+          "translation": "乳房",
+          "matchMode": "component"
+        },
+        {
+          "original": "boob",
+          "translation": "乳房",
+          "matchMode": "component"
+        },
+        {
+          "original": "boobs",
+          "translation": "乳房",
+          "matchMode": "component"
+        },
+        {
+          "original": "nipple",
+          "translation": "乳头",
+          "matchMode": "component"
+        },
+        {
+          "original": "nipples",
+          "translation": "乳头",
+          "matchMode": "component"
+        },
+        {
+          "original": "areola",
+          "translation": "乳晕",
+          "matchMode": "component"
+        },
+        {
+          "original": "areolae",
+          "translation": "乳晕",
+          "matchMode": "component"
+        },
+        {
+          "original": "cock",
+          "translation": "肉棒",
+          "matchMode": "component"
+        },
+        {
+          "original": "cocks",
+          "translation": "肉棒",
+          "matchMode": "component"
+        },
+        {
+          "original": "penis",
+          "translation": "阴茎",
+          "matchMode": "component"
+        },
+        {
+          "original": "dick",
+          "translation": "鸡巴",
+          "matchMode": "component"
+        },
+        {
+          "original": "ball",
+          "translation": "睾丸",
+          "matchMode": "component"
+        },
+        {
+          "original": "balls",
+          "translation": "睾丸",
+          "matchMode": "component"
+        },
+        {
+          "original": "testicle",
+          "translation": "睾丸",
+          "matchMode": "component"
+        },
+        {
+          "original": "testicles",
+          "translation": "睾丸",
+          "matchMode": "component"
+        },
+        {
+          "original": "vagina",
+          "translation": "阴道",
+          "matchMode": "component"
+        },
+        {
+          "original": "pussy",
+          "translation": "小穴",
+          "matchMode": "component"
+        },
+        {
+          "original": "clit",
+          "translation": "阴蒂",
+          "matchMode": "component"
+        },
+        {
+          "original": "clitoris",
+          "translation": "阴蒂",
+          "matchMode": "component"
+        },
+        {
+          "original": "asshole",
+          "translation": "屁眼",
+          "matchMode": "component"
+        },
+        {
+          "original": "sphincter",
+          "translation": "肛门",
+          "matchMode": "component"
+        },
+        {
+          "original": "juicy",
+          "translation": "湿润多汁的",
+          "matchMode": "component"
+        },
+        {
+          "original": "slick",
+          "translation": "滑腻的",
+          "matchMode": "component"
+        },
+        {
+          "original": "derriere",
+          "translation": "臀部",
+          "matchMode": "component"
+        },
+        {
+          "original": "buttocks",
+          "translation": "臀瓣",
+          "matchMode": "component"
+        },
+        {
+          "original": "glans",
+          "translation": "龟头",
+          "matchMode": "component"
+        },
+        {
+          "original": "sack",
+          "translation": "阴囊",
+          "matchMode": "component"
+        },
+        {
+          "original": "slit",
+          "translation": "肉缝",
+          "matchMode": "component"
+        },
+        {
+          "original": "backdoor",
+          "translation": "后庭",
+          "matchMode": "component"
+        },
+        {
+          "original": "segmented",
+          "translation": "分节的",
+          "matchMode": "component"
+        }
+      ],
+      "Dynamic Fluid Nouns": [
+        {
+          "original": "cum",
+          "translation": "精液",
+          "matchMode": "phrase"
+        }
+      ],
+      "Observed Body Descriptor Phrases": [
+        {
+          "original": "girly hips",
+          "translation": "女性化的胯部",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "noticeable hips",
+          "translation": "显眼的胯部",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "two boobs",
+          "translation": "一对乳房",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "lengthy wyrm-phallus",
+          "translation": "修长龙形阴茎",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "wyrm-phallus",
+          "translation": "龙形阴茎",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "dragon-phallus",
+          "translation": "龙形阴茎",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "dragon-cock",
+          "translation": "龙形肉棒",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "wyrm-cock",
+          "translation": "龙形肉棒",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "dragon-dick",
+          "translation": "龙形阴茎",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "wyrm-dick",
+          "translation": "龙形阴茎",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "dragon-prick",
+          "translation": "龙形阴茎",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "wyrm-prick",
+          "translation": "龙形阴茎",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "dragon-tool",
+          "translation": "龙形肉棒",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "wyrm-tool",
+          "translation": "龙形肉棒",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "panty-drenching gryvain-pussy",
+          "translation": "湿透内裤的格里文阴部",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "gryvain-pussy",
+          "translation": "格里文阴部",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "panty-drenching",
+          "translation": "湿透内裤的",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "dark green draconic box",
+          "translation": "深绿色龙形阴部",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "dark green",
+          "translation": "深绿色",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "wrench-length, segmented tool",
+          "translation": "扳手般长的分节阴茎",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "segmented tool",
+          "translation": "分节阴茎",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "dragon-like legs",
+          "translation": "龙形双腿",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "unspoiled butthole",
+          "translation": "未经开发的肛门",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "bulbous, tapered phallus",
+          "translation": "球状渐细的阴茎",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "dark green slit",
+          "translation": "深绿色肉缝",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "nice, cushiony bottom",
+          "translation": "漂亮柔软的臀部",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "nicely-rounded, heart-shaped backside",
+          "translation": "圆润的心形翘臀",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "tight, slippery dragon-cunt",
+          "translation": "紧致滑腻的龙形阴穴",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "segmented dragon-cock",
+          "translation": "分节龙形肉棒",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "dry pink skin",
+          "translation": "干燥的粉色皮肤",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "gryvain cunt",
+          "translation": "格里文阴穴",
+          "matchMode": "phrase"
+        }
+      ],
+      "Observed Placeholder Values": [
+        {
+          "original": "go",
+          "translation": "前行",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "move",
+          "translation": "移动",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "walk",
+          "translation": "步行",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "step",
+          "translation": "迈步",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "crawl",
+          "translation": "爬行",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "slide",
+          "translation": "滑行",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "slither",
+          "translation": "蛇行",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "slink",
+          "translation": "潜行",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "wriggle",
+          "translation": "扭动前行",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "gallop",
+          "translation": "飞奔",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "canter",
+          "translation": "小跑",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "trot",
+          "translation": "快步前进",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "lope",
+          "translation": "大步前进",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "skitter",
+          "translation": "疾爬",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "flit",
+          "translation": "轻快移动",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "tip-toe",
+          "translation": "踮脚前行",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "hoof it",
+          "translation": "撒蹄奔跑",
+          "matchMode": "value",
+          "placeholders": [
+            "move",
+            "walk"
+          ]
+        },
+        {
+          "original": "hands",
+          "translation": "双手",
+          "matchMode": "value",
+          "placeholder": "hands"
+        },
+        {
+          "original": "paws",
+          "translation": "双爪掌",
+          "matchMode": "value",
+          "placeholder": "hands"
+        },
+        {
+          "original": "talons",
+          "translation": "双爪",
+          "matchMode": "value",
+          "placeholder": "hands"
+        },
+        {
+          "original": "melons",
+          "translation": "巨乳",
+          "matchMode": "value",
+          "placeholders": [
+            "breast",
+            "breasts",
+            "breastDescript",
+            "biggestBreastDescript",
+            "chestFull"
+          ]
+        },
+        {
+          "original": "box",
+          "translation": "阴部",
+          "matchMode": "value",
+          "placeholders": [
+            "vagina",
+            "vaginas",
+            "vaginaNoun",
+            "vaginaNounSimple",
+            "pussy",
+            "pussyNoun"
+          ]
+        },
+        {
+          "original": "knee",
+          "translation": "膝盖",
+          "matchMode": "value",
+          "placeholders": [
+            "knee",
+            "knees",
+            "kneeDescript",
+            "kneesDescript"
+          ]
+        },
+        {
+          "original": "knees",
+          "translation": "双膝",
+          "matchMode": "value",
+          "placeholders": [
+            "knee",
+            "knees",
+            "kneeDescript",
+            "kneesDescript"
+          ]
+        },
+        {
+          "original": "trunk",
+          "translation": "蛇躯",
+          "matchMode": "value",
+          "placeholders": [
+            "knee",
+            "knees",
+            "kneeDescript",
+            "kneesDescript"
+          ]
+        },
+        {
+          "original": "cilium",
+          "translation": "纤毛",
+          "matchMode": "value",
+          "placeholders": [
+            "knee",
+            "knees",
+            "kneeDescript",
+            "kneesDescript"
+          ]
+        },
+        {
+          "original": "cilia",
+          "translation": "纤毛",
+          "matchMode": "value",
+          "placeholders": [
+            "knee",
+            "knees",
+            "kneeDescript",
+            "kneesDescript"
+          ]
+        },
+        {
+          "original": "cushy derriere",
+          "translation": "柔软的臀部",
+          "matchMode": "value",
+          "placeholders": [
+            "butt",
+            "butts",
+            "buttDescript"
+          ]
+        },
+        {
+          "original": "derriere",
+          "translation": "臀部",
+          "matchMode": "value",
+          "placeholders": [
+            "butt",
+            "butts",
+            "buttDescript"
+          ]
+        },
+        {
+          "original": "bottom",
+          "translation": "臀部",
+          "matchMode": "value",
+          "placeholders": [
+            "butt",
+            "butts",
+            "buttDescript"
+          ]
+        },
+        {
+          "original": "backside",
+          "translation": "后臀",
+          "matchMode": "value",
+          "placeholders": [
+            "butt",
+            "butts",
+            "buttDescript"
+          ]
+        },
+        {
+          "original": "booty",
+          "translation": "翘臀",
+          "matchMode": "value",
+          "placeholders": [
+            "butt",
+            "butts",
+            "buttDescript"
+          ]
+        },
+        {
+          "original": "rump",
+          "translation": "臀部",
+          "matchMode": "value",
+          "placeholders": [
+            "butt",
+            "butts",
+            "buttDescript"
+          ]
+        },
+        {
+          "original": "tush",
+          "translation": "小屁股",
+          "matchMode": "value",
+          "placeholders": [
+            "butt",
+            "butts",
+            "buttDescript"
+          ]
+        },
+        {
+          "original": "rear end",
+          "translation": "后臀",
+          "matchMode": "value",
+          "placeholders": [
+            "butt",
+            "butts",
+            "buttDescript"
+          ]
+        },
+        {
+          "original": "pucker",
+          "translation": "菊穴",
+          "matchMode": "value",
+          "placeholders": [
+            "asshole",
+            "anus",
+            "assholeDescript",
+            "anusDescript"
+          ]
+        },
+        {
+          "original": "hole",
+          "translation": "穴口",
+          "matchMode": "value",
+          "placeholders": [
+            "asshole",
+            "anus",
+            "assholeDescript",
+            "anusDescript"
+          ]
+        },
+        {
+          "original": "backdoor",
+          "translation": "后庭",
+          "matchMode": "value",
+          "placeholders": [
+            "asshole",
+            "anus",
+            "assholeDescript",
+            "anusDescript",
+            "butthole"
+          ]
+        },
+        {
+          "original": "sack",
+          "translation": "阴囊",
+          "matchMode": "value",
+          "placeholders": [
+            "sack",
+            "ballsack",
+            "ballSack",
+            "nutsack",
+            "scrotum",
+            "prostate"
+          ]
+        },
+        {
+          "original": "glans",
+          "translation": "龟头",
+          "matchMode": "value",
+          "placeholders": [
+            "cockHead",
+            "cockhead",
+            "cockHeadNoun",
+            "cockheadNoun",
+            "biggestCockHeadNoun",
+            "biggestCockheadNoun"
+          ]
+        },
+        {
+          "original": "mistress",
+          "translation": "女主人",
+          "matchMode": "value",
+          "placeholders": [
+            "mistress",
+            "master",
+            "masterMistress"
+          ]
+        },
+        {
+          "original": "master",
+          "translation": "主人",
+          "matchMode": "value",
+          "placeholders": [
+            "mistress",
+            "master",
+            "masterMistress"
+          ]
+        },
+        {
+          "original": "slit",
+          "translation": "肉缝",
+          "matchMode": "value",
+          "placeholders": [
+            "vagina",
+            "vaginas",
+            "vaginaNoun",
+            "vaginaNounSimple",
+            "pussy",
+            "pussyNoun"
+          ]
+        },
+        {
+          "original": "member",
+          "translation": "阳具",
+          "matchMode": "value",
+          "placeholders": [
+            "cock",
+            "cocks",
+            "cockNoun",
+            "cockNounSimple",
+            "simpleCockNoun",
+            "cockDescript",
+            "cocksDescript",
+            "cockNounComplex"
+          ]
+        },
+        {
+          "original": "tool",
+          "translation": "肉棒",
+          "matchMode": "value",
+          "placeholders": [
+            "cock",
+            "cocks",
+            "cockNoun",
+            "cockNounSimple",
+            "simpleCockNoun",
+            "cockDescript",
+            "cocksDescript",
+            "cockNounComplex"
+          ]
+        },
+        {
+          "original": "dragon-phallus",
+          "translation": "龙形阴茎",
+          "matchMode": "value",
+          "placeholders": [
+            "cock",
+            "cocks",
+            "cockNoun",
+            "cockNounSimple",
+            "simpleCockNoun",
+            "cockDescript",
+            "cocksDescript",
+            "cockNounComplex"
+          ]
+        },
+        {
+          "original": "wyrm-phallus",
+          "translation": "龙形阴茎",
+          "matchMode": "value",
+          "placeholders": [
+            "cock",
+            "cocks",
+            "cockNoun",
+            "cockNounSimple",
+            "simpleCockNoun",
+            "cockDescript",
+            "cocksDescript",
+            "cockNounComplex"
+          ]
+        }
+      ],
+      "Sense Preference Labels": [
+        {
+          "original": "feminine facial features",
+          "translation": "女性化面部特征",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "masculine facial features",
+          "translation": "男性化面部特征",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "hermaphrodite genitalia",
+          "translation": "双性生殖器",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "big booty",
+          "translation": "丰满臀部",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "small booty",
+          "translation": "小巧臀部",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "big breasts",
+          "translation": "巨乳",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "petite breasts",
+          "translation": "小巧乳房",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "wide hips",
+          "translation": "宽胯",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "narrow hips",
+          "translation": "窄胯",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "male genitals",
+          "translation": "男性生殖器",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "female genitals",
+          "translation": "女性生殖器",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "ballsack",
+          "translation": "阴囊",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "big dick",
+          "translation": "巨根",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "petite dick",
+          "translation": "小巧阴茎",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "multiple anatomy",
+          "translation": "多重性器官",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "hyper-sized anatomy",
+          "translation": "超巨型器官",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "gape",
+          "translation": "扩张洞口",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "wet pussy",
+          "translation": "湿润小穴",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "less-lubricated pussy",
+          "translation": "润滑较少的小穴",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "tail-genitals",
+          "translation": "尾部生殖器",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "milkiness",
+          "translation": "泌乳特征",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "nipplecunts",
+          "translation": "乳头阴穴",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "exotic body-shape",
+          "translation": "异形体型",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "baldness",
+          "translation": "秃头",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "long hair",
+          "translation": "长发",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "sweat",
+          "translation": "汗液",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "lack of genitals",
+          "translation": "无生殖器",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "coat of sex-juice",
+          "translation": "性液覆盖",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "muzzle",
+          "translation": "兽吻",
+          "matchMode": "phrase"
+        }
+      ],
+      "Combat Damage Display Names": [
+        {
+          "original": "Kinetic",
+          "translation": "动能",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Electric",
+          "translation": "电击",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Burning",
+          "translation": "灼烧",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Freezing",
+          "translation": "冰冻",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Corrosive",
+          "translation": "腐蚀",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Poison",
+          "translation": "毒素",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "True Damage",
+          "translation": "真实伤害",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Tru.Damage",
+          "translation": "真实伤害",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Psionic",
+          "translation": "灵能",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Drug",
+          "translation": "药物",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Pheromone",
+          "translation": "信息素",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Tease",
+          "translation": "挑逗",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "True Lust",
+          "translation": "真实欲望",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Tru.Lust",
+          "translation": "真实欲望",
+          "matchMode": "phrase"
+        }
+      ],
+      "Combat And Ability Button Labels": [
+        {
+          "original": "Headbutt",
+          "translation": "头槌",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Dick Slap",
+          "translation": "肉棒拍击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Milk Squirt",
+          "translation": "乳汁喷射",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Musk Waft",
+          "translation": "麝香飘散",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Myr Venom",
+          "translation": "米尔毒液",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Myr Venom Bite",
+          "translation": "米尔毒液啃咬",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Power Cock Slap",
+          "translation": "强力肉棒拍击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Slut Stare",
+          "translation": "淫荡凝视",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Spunk Shot",
+          "translation": "精液射击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Rapid Fire",
+          "translation": "速射",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Pummel",
+          "translation": "猛击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Lust Grenade",
+          "translation": "欲望手榴弹",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Power Strike",
+          "translation": "强力打击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Sturm&Drang",
+          "translation": "狂飙突进",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Sturm and Drang",
+          "translation": "狂飙突进",
+          "matchMode": "exact"
+        },
+        {
+          "original": "V.Strike",
+          "translation": "腾跃打击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Vaulting Strike",
+          "translation": "腾跃打击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "C. Grenades",
+          "translation": "地毯式手榴弹",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Carpet Grenades",
+          "translation": "地毯式手榴弹",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Det. Charge",
+          "translation": "爆破装药",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Detonation Charge",
+          "translation": "爆破装药",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Blood Frenzy",
+          "translation": "血性狂乱",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Tracer Rounds",
+          "translation": "曳光弹",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Take Cover",
+          "translation": "寻找掩护",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Second Wind",
+          "translation": "重振旗鼓",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Drink Milk",
+          "translation": "饮乳",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Use Biostimpack",
+          "translation": "使用生物刺激包",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Musk Cloud",
+          "translation": "麝香云",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Dong Doctor",
+          "translation": "肉棒医生",
+          "matchMode": "exact"
+        },
+        {
+          "original": "P. Shock",
+          "translation": "麻痹电击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Paralyzing Shock",
+          "translation": "麻痹电击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Volley",
+          "translation": "齐射",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Charge Weap.",
+          "translation": "武器充能",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Charge Weapon",
+          "translation": "武器充能",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Overcharge",
+          "translation": "过载射击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "D. Regen",
+          "translation": "偏导护盾再生",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Deflector Regeneration",
+          "translation": "偏导护盾再生",
+          "matchMode": "exact"
+        },
+        {
+          "original": "P. Surge",
+          "translation": "能量涌动",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Power Surge",
+          "translation": "能量涌动",
+          "matchMode": "exact"
+        },
+        {
+          "original": "T. Disrupt",
+          "translation": "热能干扰",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Thermal Disruptor",
+          "translation": "热能干扰",
+          "matchMode": "exact"
+        },
+        {
+          "original": "G. Disrupt",
+          "translation": "重力干扰",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Gravidic Disruptor",
+          "translation": "重力干扰",
+          "matchMode": "exact"
+        },
+        {
+          "original": "S. Hack",
+          "translation": "护盾入侵",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Shield Hack",
+          "translation": "护盾入侵",
+          "matchMode": "exact"
+        },
+        {
+          "original": "W. Hack",
+          "translation": "武器入侵",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Weapon Hack",
+          "translation": "武器入侵",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Charge Sh.",
+          "translation": "护盾充能",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Charge Shield",
+          "translation": "护盾充能",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Overclock",
+          "translation": "超频",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Deploy Turret",
+          "translation": "部署炮塔",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Molten Shot",
+          "translation": "熔火射击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Static Strike",
+          "translation": "静电打击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "P. Sand",
+          "translation": "扬沙",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Pocket Sand",
+          "translation": "扬沙",
+          "matchMode": "exact"
+        },
+        {
+          "original": "F. Grenade",
+          "translation": "闪光手榴弹",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Flash Grenade",
+          "translation": "闪光手榴弹",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Low Blow",
+          "translation": "下盘攻击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Disarm Shot",
+          "translation": "缴械射击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Disarming Shot",
+          "translation": "缴械射击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Stealth Field",
+          "translation": "隐形力场",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Stealth Field Generator",
+          "translation": "隐形力场发生器",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Grenade",
+          "translation": "手榴弹",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Gas Grenade",
+          "translation": "毒气手榴弹",
+          "matchMode": "exact"
+        },
+        {
+          "original": "S. Stimulant",
+          "translation": "走私兴奋剂",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Smuggled Stimulant",
+          "translation": "走私兴奋剂",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Bst. Energy",
+          "translation": "能量爆发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Burst of Energy",
+          "translation": "能量爆发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "MagBindrs",
+          "translation": "磁力束缚器",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Mag Binders",
+          "translation": "磁力束缚器",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Called Shot",
+          "translation": "精确射击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Assassinate",
+          "translation": "暗杀",
+          "matchMode": "exact"
+        },
+        {
+          "original": "BoosterPack",
+          "translation": "助推背包",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Booster Pack",
+          "translation": "助推背包",
+          "matchMode": "exact"
+        },
+        {
+          "original": "C. Shot",
+          "translation": "震荡射击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Concussive Shot",
+          "translation": "震荡射击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Force Darts",
+          "translation": "力场飞镖",
+          "matchMode": "exact"
+        },
+        {
+          "original": "E. Leech",
+          "translation": "熵能汲取",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Entropic Leech",
+          "translation": "熵能汲取",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Kinetic Burst",
+          "translation": "动能爆发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Thermal Sunder",
+          "translation": "热能裂解",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Psychogenic Vim",
+          "translation": "心生活力",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Vitality Siphon",
+          "translation": "生命虹吸",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Entropy Waves",
+          "translation": "熵能波",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Gravity Flux",
+          "translation": "重力流变",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Vortex Brand",
+          "translation": "涡旋烙印",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Debris Field",
+          "translation": "碎片场",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Geothermal Spike",
+          "translation": "地热尖刺",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Entropic Whip",
+          "translation": "熵能之鞭",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Acid Cloud",
+          "translation": "酸雾",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Mind Crush",
+          "translation": "心灵粉碎",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Haste",
+          "translation": "加速",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Reality Schism",
+          "translation": "现实裂隙",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Psychic Slam",
+          "translation": "心灵猛击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Gravity Crush",
+          "translation": "重力碾压",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Invert Decay",
+          "translation": "逆转衰变",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Void Sight",
+          "translation": "虚空视界",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Goozooka",
+          "translation": "胶质火箭炮",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Resin",
+          "translation": "树脂",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Pollen Veil",
+          "translation": "花粉帷幕",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Stupefy",
+          "translation": "致懵",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Stupefy Shot",
+          "translation": "致懵射击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Psy.Leech",
+          "translation": "灵能汲取",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Psychic Leech",
+          "translation": "灵能汲取",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Shriek",
+          "translation": "尖啸",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Evade!",
+          "translation": "闪避！",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Recharge!",
+          "translation": "充能！",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Special Attacks",
+          "translation": "特殊攻击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "large wings",
+          "translation": "大型翅膀",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Slash",
+          "translation": "斩击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Shoot",
+          "translation": "射击",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Ability",
+          "translation": "能力",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Abilities",
+          "translation": "能力",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Lift Off",
+          "translation": "起飞",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Special Abilities",
+          "translation": "特殊能力",
+          "matchMode": "exact"
+        }
+      ],
+      "Appearance Dynamic Output": [
+        {
+          "original": "half-gryvain",
+          "translation": "半格里文",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "a set of plain panties",
+          "translation": "一条普通内裤",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "plain panties",
+          "translation": "普通内裤",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "a plain bra",
+          "translation": "一件普通胸罩",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "plain bra",
+          "translation": "普通胸罩",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "an adorable nose",
+          "translation": "可爱的鼻子",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "dark yellow iris",
+          "translation": "深黄色虹膜",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "soaked wyrm-cunt",
+          "translation": "湿透的龙穴",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "your humanoid waist",
+          "translation": "你的人形腰部",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Overall, your visage has",
+          "translation": "总体而言，你的面容呈现出",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "Your slim middle",
+          "translation": "你纤细的腰腹",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "your ample",
+          "translation": "你宽阔的",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "your hefty",
+          "translation": "你粗壮的",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "you need",
+          "translation": "你",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "You have a",
+          "translation": "你有一个",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "You have",
+          "translation": "你有",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "It is",
+          "translation": "它",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "Two",
+          "translation": "两",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "trappy",
+          "translation": "伪娘风的",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "jacquesian",
+          "translation": "雅克式夸张的",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "shapely",
+          "translation": "优美的",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "a dark yellow",
+          "translation": "深黄色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "scrotum",
+          "translation": "阴囊",
+          "matchMode": "component"
+        },
+        {
+          "original": "a pair of large gonads",
+          "translation": "一对硕大的性腺",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "prick",
+          "translation": "肉棒",
+          "matchMode": "component"
+        },
+        {
+          "original": "bud",
+          "translation": "乳芽",
+          "matchMode": "component"
+        },
+        {
+          "original": "Wings",
+          "translation": "翅膀",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Adjust Wings",
+          "translation": "调整翅膀",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Adjust your Wings.",
+          "translation": "调整你的翅膀。",
+          "matchMode": "exact"
+        }
+      ],
+      "Contextual Pronouns Before Chinese Text": [
+        {
+          "original": "You",
+          "translation": "你",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "Your",
+          "translation": "你的",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "He",
+          "translation": "他",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "She",
+          "translation": "她",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "They",
+          "translation": "他们",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "his",
+          "translation": "他的",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "her",
+          "translation": "她的",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "its",
+          "translation": "它的",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "their",
+          "translation": "他们的",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "your",
+          "translation": "你的",
+          "matchMode": "beforeChinese"
+        }
+      ],
+      "Dynamic Possessive Suffixes": [
+        {
+          "original": "’s",
+          "translation": "的",
+          "matchMode": "possessiveSuffix"
+        },
+        {
+          "original": "'s",
+          "translation": "的",
+          "matchMode": "possessiveSuffix"
+        }
+      ],
+      "Dynamic Ordinals Before Chinese Text": [
+        {
+          "original": "first",
+          "translation": "第一",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "second",
+          "translation": "第二",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "third",
+          "translation": "第三",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "fourth",
+          "translation": "第四",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "fifth",
+          "translation": "第五",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "sixth",
+          "translation": "第六",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "seventh",
+          "translation": "第七",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "eighth",
+          "translation": "第八",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "ninth",
+          "translation": "第九",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "tenth",
+          "translation": "第十",
+          "matchMode": "beforeChinese"
+        }
+      ],
+      "Dynamic Cardinal Numbers Before Chinese Text": [
+        {
+          "original": "Two",
+          "translation": "两",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "Three",
+          "translation": "三",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "Four",
+          "translation": "四",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "Five",
+          "translation": "五",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "Six",
+          "translation": "六",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "Seven",
+          "translation": "七",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "Eight",
+          "translation": "八",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "Nine",
+          "translation": "九",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "Ten",
+          "translation": "十",
+          "matchMode": "beforeChinese"
+        }
+      ],
+      "Dynamic Colors Before Chinese Text": [
+        {
+          "original": "luminous pink",
+          "translation": "荧光粉色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous violet",
+          "translation": "荧光紫罗兰色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous yellow-green",
+          "translation": "荧光黄绿色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous yellow",
+          "translation": "荧光黄色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous orange",
+          "translation": "荧光橙色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous azure",
+          "translation": "荧光蔚蓝色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous crimson",
+          "translation": "荧光绯红色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous purple",
+          "translation": "荧光紫色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous blue",
+          "translation": "荧光蓝色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous green",
+          "translation": "荧光绿色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous silver",
+          "translation": "荧光银色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous cerulean",
+          "translation": "荧光天蓝色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous celeste",
+          "translation": "荧光天青色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "luminous cyan",
+          "translation": "荧光青色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "pink",
+          "translation": "粉色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "white",
+          "translation": "白色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "ivory",
+          "translation": "象牙色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "black",
+          "translation": "黑色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "gray",
+          "translation": "灰色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "red",
+          "translation": "红色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "blue",
+          "translation": "蓝色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "green",
+          "translation": "绿色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "dark green",
+          "translation": "深绿色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "emerald",
+          "translation": "祖母绿色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "ruby",
+          "translation": "红宝石色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "sapphire",
+          "translation": "蓝宝石色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "amethyst",
+          "translation": "紫水晶色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "ametrine",
+          "translation": "紫黄晶色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "azurite",
+          "translation": "蓝铜矿色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "opal",
+          "translation": "蛋白石色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "onyx",
+          "translation": "缟玛瑙色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "azure",
+          "translation": "蔚蓝色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "indigo",
+          "translation": "靛青色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "purple and yellow",
+          "translation": "紫黄色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "golden",
+          "translation": "金色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "iridescent",
+          "translation": "虹彩色",
+          "matchMode": "beforeChinese"
+        },
+        {
+          "original": "smoky-white",
+          "translation": "烟白色",
+          "matchMode": "beforeChinese"
+        }
+      ],
+      "Dynamic Personality Display": [
+        {
+          "original": "Personality",
+          "translation": "性格",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Mischievous",
+          "translation": "顽皮",
+          "matchMode": "phrase"
+        }
+      ],
+      "Visible Status Labels": [
+        {
+          "original": "Home Cooking",
+          "translation": "家常料理",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Mare Musk",
+          "translation": "母马麝香",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Cum Soaked",
+          "translation": "浸满精液",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Cum Socked",
+          "translation": "浸满精液",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Cum socked",
+          "translation": "浸满精液",
+          "matchMode": "exact"
+        },
+        {
+          "original": "While you are well fed, you recover more while resting.",
+          "translation": "吃饱后，休息时的恢复效果会提高。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Orally-Filled",
+          "translation": "口腔灌满",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Vaginally-Filled",
+          "translation": "阴道灌满",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Anally-Filled",
+          "translation": "肛门灌满",
+          "matchMode": "exact"
+        }
+      ],
+      "Visible Perk Labels": [
+        {
+          "original": "Incubator",
+          "translation": "孵化器",
+          "matchMode": "exact"
+        },
+        {
+          "original": "STD Immune",
+          "translation": "性病免疫",
+          "matchMode": "exact"
+        }
+      ],
+      "Masturbation And Rest Buttons": [
+        {
+          "original": "Random",
+          "translation": "随机",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Simple",
+          "translation": "简单",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Crew",
+          "translation": "船员",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Toys",
+          "translation": "玩具",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Installed",
+          "translation": "已安装",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Panty Fap",
+          "translation": "内裤撸管",
+          "matchMode": "exact"
+        },
+        {
+          "original": "PantySchlick",
+          "translation": "内裤自慰",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Panty Schlick",
+          "translation": "内裤自慰",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Use a pair of panties that you’ve collected as a cumrag.",
+          "translation": "用一条你收藏的内裤当作射精布。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Use a pair of panties that you’ve collected as fuel for feminine masturbation.",
+          "translation": "用一条你收藏的内裤助兴，进行女性自慰。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Tent Sleep",
+          "translation": "帐篷睡眠",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Tent On CD",
+          "translation": "帐篷冷却中",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Tent on Cooldown",
+          "translation": "帐篷冷却中",
+          "matchMode": "exact"
+        },
+        {
+          "original": "You have no tent equipped in your tent slot right now.",
+          "translation": "你目前没有在帐篷栏位中装备帐篷。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "You do not have any options for this category.",
+          "translation": "此分类中没有可用选项。",
+          "matchMode": "exact"
+        }
+      ],
+      "Statistics Display": [
+        {
+          "original": "Personal",
+          "translation": "个人",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Combat",
+          "translation": "战斗",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Location",
+          "translation": "地点",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Race",
+          "translation": "种族",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Medical",
+          "translation": "医疗",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Other",
+          "translation": "其他",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Personal Statistics",
+          "translation": "个人统计",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Combat Statistics",
+          "translation": "战斗统计",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Location Information",
+          "translation": "地点信息",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Racial Scores",
+          "translation": "种族评分",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Medical Statistics",
+          "translation": "医疗统计",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Other Statistics",
+          "translation": "其他统计",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Show information about yourself.",
+          "translation": "查看你的个人信息。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Show your combat statistics.",
+          "translation": "查看你的战斗统计。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Show information about the current location.",
+          "translation": "查看当前地点的信息。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Show your categorized genetic makeup.",
+          "translation": "查看按种族分类的基因构成。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Show your medical statistics.",
+          "translation": "查看你的医疗统计。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Show your other statistics.",
+          "translation": "查看其他统计。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Crew",
+          "translation": "船员",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Travel",
+          "translation": "旅行",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Total Recruited",
+          "translation": "招募总数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Total Onboard",
+          "translation": "船上总数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Time Spent Moving From Room to Room",
+          "translation": "往返房间耗时",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Time Spent Flying",
+          "translation": "飞行耗时",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Sexploration",
+          "translation": "性探索",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Personal Virginity",
+          "translation": "个人贞洁",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Sleeping With",
+          "translation": "同床对象",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Virginities Claimed",
+          "translation": "夺取贞洁数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Panties Owned",
+          "translation": "拥有内裤数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Other’s Orgasms",
+          "translation": "他人高潮次数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "No data found!",
+          "translation": "未找到数据！",
+          "matchMode": "exact"
+        }
+      ],
+      "Statistics Dynamic Components": [
+        {
+          "original": "Profile",
+          "translation": "档案",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Mercenary",
+          "translation": "佣兵",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Balanced",
+          "translation": "均衡",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Aim",
+          "translation": "瞄准",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Hermaphrodite",
+          "translation": "双性人",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Clothed",
+          "translation": "穿着整齐",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Head",
+          "translation": "头部",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Body",
+          "translation": "身体",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Chest",
+          "translation": "胸部",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Breast Row",
+          "translation": "乳房组",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Abdomen",
+          "translation": "腹部",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Sexuality",
+          "translation": "性功能",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Dark Yellow",
+          "translation": "深黄色",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Full",
+          "translation": "丰满",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Plantigrade",
+          "translation": "跖行",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Tapered",
+          "translation": "渐细",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Prehensile",
+          "translation": "可抓握",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Waist",
+          "translation": "腰部",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Big DD-Cups",
+          "translation": "大号DD罩杯",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Round",
+          "translation": "圆形",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Reproductivity",
+          "translation": "生殖情况",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "SSTDs",
+          "translation": "太空性传播疾病",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Not Available",
+          "translation": "暂无数据",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Not infected",
+          "translation": "未感染",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Immune to SSTDs",
+          "translation": "免疫太空性传播疾病",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Physical Combat",
+          "translation": "物理战斗",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Sexual Combat",
+          "translation": "性战斗",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Combat Performance",
+          "translation": "战斗表现",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Active Stats",
+          "translation": "主动属性",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Passive Stats",
+          "translation": "被动属性",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "per",
+          "translation": "比例",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "min",
+          "translation": "最小",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "cur",
+          "translation": "当前",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "max",
+          "translation": "最大",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "mod",
+          "translation": "修正",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Health",
+          "translation": "生命值",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Lust",
+          "translation": "欲望",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Physique",
+          "translation": "体魄",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Reflexes",
+          "translation": "反应",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Intelligence",
+          "translation": "智力",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Willpower",
+          "translation": "意志力",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Libido",
+          "translation": "性欲",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Taint",
+          "translation": "腐化度",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Damage",
+          "translation": "伤害",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Flag Information",
+          "translation": "标记信息",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Penetrating",
+          "translation": "穿透",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Bullet",
+          "translation": "弹道",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Shields",
+          "translation": "护盾",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Attire",
+          "translation": "衣着",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Upper Undergarment",
+          "translation": "上身内衣",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Lower Undergarment",
+          "translation": "下身内衣",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Losses",
+          "translation": "失败",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Victories",
+          "translation": "胜利",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Date and Time",
+          "translation": "日期与时间",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Jungle Edge",
+          "translation": "丛林边缘",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Outdoors",
+          "translation": "户外",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Forest",
+          "translation": "森林",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Current Ship Details",
+          "translation": "当前飞船详情",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Your Ship",
+          "translation": "你的飞船",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Manufacturer/Model",
+          "translation": "制造商／型号",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Shield Defense",
+          "translation": "护盾防御",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Shield Resistances",
+          "translation": "护盾抗性",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Armor Defense",
+          "translation": "装甲防御",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Armor Resistances",
+          "translation": "装甲抗性",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Energy",
+          "translation": "能量",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Power Generation",
+          "translation": "能量生成",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Agility",
+          "translation": "机动性",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Sensors",
+          "translation": "传感器",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Systems",
+          "translation": "系统",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Thrust",
+          "translation": "推力",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Accuracy",
+          "translation": "命中",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Evasion",
+          "translation": "闪避",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Wardrobe Capacity",
+          "translation": "服装容量",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Equipment Capacity",
+          "translation": "装备容量",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Consumables Capacity",
+          "translation": "消耗品容量",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Valuables Capacity",
+          "translation": "贵重品容量",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Toys Capacity",
+          "translation": "玩具容量",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Unused Upgrade Slots",
+          "translation": "未使用升级槽位",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Unused Weapon Hardpoints",
+          "translation": "未使用武器挂点",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Current Crew Capacity",
+          "translation": "当前船员容量",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Module/Crew Capacity",
+          "translation": "模块／船员容量",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Weapon Capacity",
+          "translation": "武器容量",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Modules Installed",
+          "translation": "已安装模块",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Weapons Installed",
+          "translation": "已安装武器",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Gadgets Installed",
+          "translation": "已安装装置",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Purchase Cost",
+          "translation": "购买价格",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Ship Location",
+          "translation": "飞船位置",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Size Rating, Total",
+          "translation": "尺寸评级，总计",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Ejaculation Volume, Total Ejaculated",
+          "translation": "射精量，累计射出",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Female Ejaculation Volume, Total Ejaculated",
+          "translation": "女性射液量，累计射出",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Times Used Ass",
+          "translation": "使用臀部次数",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Times Used Chest",
+          "translation": "使用胸部次数",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Times Used Crotch",
+          "translation": "使用裆部次数",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Times Used Hips",
+          "translation": "使用胯部次数",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Times Used Oral",
+          "translation": "使用口部次数",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Ara Ara",
+          "translation": "阿拉阿拉",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Casstech Z14",
+          "translation": "卡斯科技Z14号",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Armor",
+          "translation": "装甲",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Base",
+          "translation": "基础值",
+          "matchMode": "codexExact"
+        },
+        {
+          "original": "Scaled",
+          "translation": "覆鳞",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Long",
+          "translation": "修长",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Knotted",
+          "translation": "带肉结",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Ribbed",
+          "translation": "带棱脊",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Gryvain Wings",
+          "translation": "格里文翅膀",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Gryvain",
+          "translation": "格里文",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Human",
+          "translation": "人类",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Normal",
+          "translation": "普通",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Pink",
+          "translation": "粉色",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Girl cum",
+          "translation": "女性爱液",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Nubby",
+          "translation": "颗粒状",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Womb",
+          "translation": "子宫",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Oral",
+          "translation": "口腔",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "days",
+          "translation": "天",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "day",
+          "translation": "天",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "hours",
+          "translation": "小时",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "hour",
+          "translation": "小时",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "minutes",
+          "translation": "分钟",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "minute",
+          "translation": "分钟",
+          "matchMode": "codexPhrase"
+        },
+        {
+          "original": "Credits",
+          "translation": "信用点",
+          "matchMode": "codexPhrase"
+        }
+      ],
+      "Encounter Log Display": [
+        {
+          "original": "Met her",
+          "translation": "见过她",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Met him",
+          "translation": "见过他",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Met them",
+          "translation": "见过他们",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Crew member",
+          "translation": "船员",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Onboard Ship",
+          "translation": "在船上",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "With You",
+          "translation": "与你同行",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Sexed him",
+          "translation": "与他发生过性关系",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Sexed her",
+          "translation": "与她发生过性关系",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Whoring",
+          "translation": "卖淫中",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Vented her frustrations",
+          "translation": "发泄过她的欲望",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Trapped in chastity belt",
+          "translation": "被困在贞操带中",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Talked about and sampled Lactaid",
+          "translation": "谈论并品尝过催乳剂",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "In heat",
+          "translation": "发情中",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Helped her",
+          "translation": "帮助过她",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Mentioned SSTDs",
+          "translation": "提到过太空性传播疾病",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Into exhibitionism",
+          "translation": "喜好暴露",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Active",
+          "translation": "活跃",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Times Encountered",
+          "translation": "遭遇次数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Combat, Times He Defeated You",
+          "translation": "战斗中被他击败次数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Times He Gave You a Creampie",
+          "translation": "被他内射次数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Times Sexed",
+          "translation": "性交次数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Times She Rode You",
+          "translation": "她骑乘你的次数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Race, Losses, Total",
+          "translation": "竞速失败总数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Human cock",
+          "translation": "人类阴茎",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Human vagina",
+          "translation": "人类阴道",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "with a clit",
+          "translation": "带一枚阴蒂",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "with two balls",
+          "translation": "带两颗睾丸",
+          "matchMode": "phrase"
+        },
+        {
+          "original": "Light Purple",
+          "translation": "浅紫色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Switch",
+          "translation": "双向",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Hangar Bay",
+          "translation": "机库湾",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Merchant Deck",
+          "translation": "商业甲板",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Residential Deck",
+          "translation": "居住甲板",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Nursery",
+          "translation": "育儿室",
+          "matchMode": "exact"
+        },
+        {
+          "original": "The Station",
+          "translation": "空间站",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Roaming Encounters",
+          "translation": "漫游遭遇",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Crew Team Building",
+          "translation": "船员团队建设",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Space Travel Encounters",
+          "translation": "太空航行遭遇",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Friendly Ships",
+          "translation": "友方舰船",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Beach ‘n Surf",
+          "translation": "海滩冲浪店",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Beth’s Busty Broads",
+          "translation": "贝丝爆乳美女屋",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Friendly Vessels",
+          "translation": "友方舰船",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Hostile Vessels",
+          "translation": "敌对舰船",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Times Raced",
+          "translation": "竞速次数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Race, Wins, Total",
+          "translation": "竞速胜利总数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Race, Surrenders, Total",
+          "translation": "竞速投降总数",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Total Credits Won",
+          "translation": "赢得信用点总额",
+          "matchMode": "exact"
+        }
+      ],
+      "Core Sidebar Labels": [
+        {
+          "original": "Menu",
+          "translation": "菜单",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Main Menu",
+          "translation": "主菜单",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Return to the Main Menu.",
+          "translation": "返回主菜单。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Panic",
+          "translation": "应急",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Panic!",
+          "translation": "应急！",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Utilize various apps from the workstation.",
+          "translation": "使用工作站上的各种应用。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Screen",
+          "translation": "屏幕",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Restore",
+          "translation": "还原",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Fullscreen",
+          "translation": "全屏",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Toggle the full-screen view of the game.",
+          "translation": "切换游戏的全屏显示。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Data",
+          "translation": "数据",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Data Menu",
+          "translation": "数据菜单",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Load a file.",
+          "translation": "读取文件。",
+          "matchMode": "exact"
+        },
+        {
+          "original": " Save or load a file.",
+          "translation": "保存或读取文件。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Mast.",
+          "translation": "自慰",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Masturbation",
+          "translation": "自慰",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Tend to your arousal.",
+          "translation": "处理你的性欲。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Rest",
+          "translation": "休息",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Take some time to recover.",
+          "translation": "花些时间恢复。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Inv.",
+          "translation": "物品",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Inventory",
+          "translation": "物品栏",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Your inventory is not accessible now.",
+          "translation": "现在无法访问物品栏。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "View and use items.",
+          "translation": "查看并使用物品。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Codex",
+          "translation": "CODEX终端",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Use your CODEX™.",
+          "translation": "使用你的CODEX™终端。",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Review information from your CODEX™.",
+          "translation": "查看CODEX™终端中的信息。",
+          "matchMode": "exact"
+        }
+      ],
+      "Barber Length Buttons": [
+        {
+          "original": "Shave",
+          "translation": "剃光",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Short",
+          "translation": "短发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Ear Length",
+          "translation": "齐耳",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Neck Length",
+          "translation": "齐颈",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Shoulders",
+          "translation": "齐肩",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Long",
+          "translation": "长发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Ass Length",
+          "translation": "及臀",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Thigh Length",
+          "translation": "及大腿",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Knee Length",
+          "translation": "及膝",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Calf Length",
+          "translation": "及小腿",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Ankle Length",
+          "translation": "及踝",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Floor Length",
+          "translation": "曳地",
+          "matchMode": "exact"
+        }
+      ],
+      "Hairstyle Buttons": [
+        {
+          "original": "Straight",
+          "translation": "直发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Ponytail",
+          "translation": "马尾",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Pigtails",
+          "translation": "双辫",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Curls",
+          "translation": "卷发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Braided",
+          "translation": "编发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Afro",
+          "translation": "爆炸头",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Mohawk",
+          "translation": "莫西干头",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Spikes",
+          "translation": "刺猬头",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Messy Curls",
+          "translation": "凌乱卷发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Front Wave",
+          "translation": "前额波浪",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Back Slick",
+          "translation": "后梳油头",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Ruff.Layers",
+          "translation": "凌乱层次",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Simple Part",
+          "translation": "简单分缝",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Side Part",
+          "translation": "侧分",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Bob",
+          "translation": "波波头",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Hime",
+          "translation": "姬发式",
+          "matchMode": "exact"
+        },
+        {
+          "original": "M.Chignon",
+          "translation": "松散发髻",
+          "matchMode": "exact"
+        },
+        {
+          "original": "T.Chignon",
+          "translation": "紧致发髻",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Side Plait",
+          "translation": "侧编发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Single Braid",
+          "translation": "单辫",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Crown Braid",
+          "translation": "皇冠辫",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Pigtail Buns",
+          "translation": "双辫发髻",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Twintails",
+          "translation": "双马尾",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Side Cut",
+          "translation": "侧削发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Side Ponytail",
+          "translation": "侧马尾",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Beehive",
+          "translation": "蜂巢头",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Fade",
+          "translation": "渐层短发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Box Braids",
+          "translation": "方格辫",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Micro Braids",
+          "translation": "细辫",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Dreadlocks",
+          "translation": "脏辫",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Pompadour",
+          "translation": "蓬巴杜头",
+          "matchMode": "exact"
+        }
+      ],
+      "Barber Color Buttons": [
+        {
+          "original": "Standard",
+          "translation": "标准色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Standard (1)",
+          "translation": "标准色（1）",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Standard (2)",
+          "translation": "标准色（2）",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Metallic",
+          "translation": "金属色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Glowing",
+          "translation": "发光色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Black",
+          "translation": "黑色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Chocolate",
+          "translation": "巧克力色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Brown",
+          "translation": "棕色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Dirty Blonde",
+          "translation": "深金发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Blonde",
+          "translation": "金发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "P.Blonde",
+          "translation": "铂金发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "S.B.Blonde",
+          "translation": "草莓金发",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Auburn",
+          "translation": "赤褐色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Red",
+          "translation": "红色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Crimson",
+          "translation": "绯红色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "R.Orange",
+          "translation": "红橙色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Orange",
+          "translation": "橙色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Y.Orange",
+          "translation": "黄橙色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Yellow",
+          "translation": "黄色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Y.Green",
+          "translation": "黄绿色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Green",
+          "translation": "绿色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "D.Green",
+          "translation": "深绿色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Turquoise",
+          "translation": "绿松石色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Cerulean",
+          "translation": "蔚蓝色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Blue",
+          "translation": "蓝色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Violet",
+          "translation": "紫罗兰色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Indigo",
+          "translation": "靛蓝色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Purple",
+          "translation": "紫色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Lavender",
+          "translation": "薰衣草紫",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Pink",
+          "translation": "粉色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "White",
+          "translation": "白色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Ivory",
+          "translation": "象牙色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Gray",
+          "translation": "灰色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Chrome",
+          "translation": "铬色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Bronze",
+          "translation": "青铜色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Gold",
+          "translation": "金色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Copper",
+          "translation": "铜色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Cobalt",
+          "translation": "钴蓝色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Silver",
+          "translation": "银色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Rusty",
+          "translation": "锈色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Steel",
+          "translation": "钢色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Sable",
+          "translation": "黑貂色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "M.Black",
+          "translation": "金属黑",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Pearl",
+          "translation": "珍珠色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Rose Gold",
+          "translation": "玫瑰金",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Amethyst",
+          "translation": "紫水晶色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Emerald",
+          "translation": "祖母绿色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "G.Red",
+          "translation": "发光红",
+          "matchMode": "exact"
+        },
+        {
+          "original": "G.Orange",
+          "translation": "发光橙",
+          "matchMode": "exact"
+        },
+        {
+          "original": "G.Gold",
+          "translation": "发光金",
+          "matchMode": "exact"
+        },
+        {
+          "original": "G.Green",
+          "translation": "发光绿",
+          "matchMode": "exact"
+        },
+        {
+          "original": "G.Blue",
+          "translation": "发光蓝",
+          "matchMode": "exact"
+        },
+        {
+          "original": "G.Purple",
+          "translation": "发光紫",
+          "matchMode": "exact"
+        },
+        {
+          "original": "G.Pink",
+          "translation": "发光粉",
+          "matchMode": "exact"
+        },
+        {
+          "original": "G.Silver",
+          "translation": "发光银",
+          "matchMode": "exact"
+        },
+        {
+          "original": "G.White",
+          "translation": "发光白",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Iridescent",
+          "translation": "虹彩色",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Foxfire",
+          "translation": "狐火",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Frostfire",
+          "translation": "霜火",
+          "matchMode": "exact"
+        }
+      ],
+      "Ilaria Food And Drink Display": [
+        {
+          "original": "Sin-a-Bunny",
+          "translation": "罪欲兔兔卷",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Vanilla Iced Teats",
+          "translation": "香草冰乳",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Kaithrit Kittycake",
+          "translation": "凯斯里特猫咪蛋糕",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Ausar Pup Pie",
+          "translation": "奥萨尔幼犬派",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Dzaan Cream Smoothie",
+          "translation": "德赞奶油冰沙",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Raxxian Road",
+          "translation": "拉克希安碎石路",
+          "matchMode": "exact"
+        },
+        {
+          "original": "Gryvain Jigglers",
+          "translation": "格里文摇摇冻",
+          "matchMode": "exact"
+        }
+      ]
+    }
+  },
+  "Universe, Lore & Mechanics": {}
+}
