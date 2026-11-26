@@ -126,7 +126,7 @@
         var e = i.L.sector.findOrAddSystem("POE", "Poe"),
           t = new a.Nx();
         ((t.locationIndex = "POEA"),
-          (t.locationName = "坡A星"),
+          (t.locationName = "Poe A"),
           e.addLocation(t));
         var o = new a.du();
         ((o.index = "POESPACE"),

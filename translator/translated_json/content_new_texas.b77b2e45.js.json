@@ -95,7 +95,7 @@
     {
       "id": "content_new_texas.b77b2e45.js:1511:1525:ea6ee1202944",
       "file": "content_new_texas.b77b2e45.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -56809,7 +56809,7 @@
     {
       "id": "content_new_texas.b77b2e45.js:616541:616556:04d03947b4eb",
       "file": "content_new_texas.b77b2e45.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -117165,7 +117165,7 @@
     {
       "id": "content_new_texas.b77b2e45.js:1651505:1651525:74306f63d7fc",
       "file": "content_new_texas.b77b2e45.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -478602,7 +478602,7 @@
     {
       "id": "content_new_texas.b77b2e45.js:6218691:6218700:349f8095c825",
       "file": "content_new_texas.b77b2e45.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -520335,7 +520335,7 @@
     {
       "id": "content_new_texas.b77b2e45.js:6743101:6743112:0ede654dc110",
       "file": "content_new_texas.b77b2e45.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -520371,7 +520371,7 @@
     {
       "id": "content_new_texas.b77b2e45.js:6743273:6743291:2e692e32a306",
       "file": "content_new_texas.b77b2e45.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -529794,7 +529794,7 @@
     {
       "id": "content_new_texas.b77b2e45.js:6824346:6824357:0ede654dc110",
       "file": "content_new_texas.b77b2e45.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -529886,7 +529886,7 @@
     {
       "id": "content_new_texas.b77b2e45.js:6825013:6825024:0ede654dc110",
       "file": "content_new_texas.b77b2e45.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -529960,7 +529960,7 @@
     {
       "id": "content_new_texas.b77b2e45.js:6825429:6825440:0ede654dc110",
       "file": "content_new_texas.b77b2e45.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,

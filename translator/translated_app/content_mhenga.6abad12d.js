@@ -49,7 +49,7 @@
             ((e = t.call(this)).stackSize = 20),
             (e.type = GLOBAL.GEM),
             (e.shortName = "Oxonium"),
-            (e.longName = "奥克索尼姆水晶"),
+            (e.longName = "oxonium crystal"),
             (e.description = "一块奥克索尼姆水晶"),
             (e.tooltip =
               "这块小型奥克索尼姆晶体近乎纯净，漆黑如墨，却又像火山玻璃制成的镜子般反射着奇异光泽。某些亚文化群体虽珍视这类宝石，将其用于珠宝和装饰，但它们的主要用途仍在工业领域；现代全息技术离不开奥克索尼姆衍射镜，硬光技术对这种墨色晶体的依赖更甚。若没有奥克索尼姆，便携式护盾发生器恐怕只能是梦想。"),
@@ -4922,13 +4922,13 @@
             (e.type = GLOBAL.MELEE_WEAPON),
             (e.isUsable = !1),
             (e.shortName = "Quarterstaff"),
-            (e.longName = "长棍"),
+            (e.longName = "quarterstaff"),
             q.g.addFullName(e.shortName, v.m.toTitleCase(e.longName)),
             (e.description = "一根长棍"),
             (e.tooltip =
               "<i>“长棍（复数形式为quarterstaffs或quarterstaves），又称短棍或简称棍，是一种传统欧洲长柄武器，在近代早期的英格兰尤其盛行。”</i>-古代维基百科\n\n这根棍杖特别适合格挡迎面袭来的攻击。"),
             (e.attackVerb = "swing"),
-            (e.attackNoun = "猛击"),
+            (e.attackNoun = "smash"),
             q.g.addTooltip(e.shortName, e.tooltip),
             (e.basePrice = 100),
             (e.attack = 0),
@@ -48106,13 +48106,13 @@
             (e.type = GLOBAL.MELEE_WEAPON),
             (e.isUsable = !1),
             (e.shortName = "SizzlePodStaff"),
-            (e.longName = "滋滋荚杖"),
+            (e.longName = "sizzlepod staff"),
             q.g.addFullName(e.shortName, v.m.toTitleCase(e.longName)),
             (e.description = "一根滋滋荚杖"),
             (e.tooltip =
               "滋滋荚杖是门加的本土产物，某些兹尔和瓦奈部族会用它抵御利爪锋锐的纳林。顾名思义，滋滋荚树因枝条边缘受到撞击时会长出球状酸性结节而得名。这种防御机制能有效阻止许多生物啃食植物，却也使其成为本地人极其宝贵的工具。只要处理宽阔枝条的中线以阻止结节生长，就能制成酸性威力强大的武器；两端都足以致命，握持处却对使用者安全。\n\n早期报告表明，经过妥善处理的滋滋荚枝条能在数月内继续长出荚体 - 若接触到充足湿气，以及泰伦人与相近种族皮肤分泌的滋养油脂，甚至还能维持更久。"),
             (e.attackVerb = "swing"),
-            (e.attackNoun = "酸液猛击"),
+            (e.attackNoun = "acidic smash"),
             q.g.addTooltip(e.shortName, e.tooltip),
             (e.basePrice = 1985),
             (e.attack = 4),
@@ -60281,7 +60281,7 @@
             (e.stackSize = 10),
             (e.type = GLOBAL.EXPLOSIVECONSUMABLE),
             (e.shortName = "Haywire G."),
-            (e.longName = "失控手雷"),
+            (e.longName = "Haywire grenade"),
             q.g.addFullName(e.shortName, v.m.toTitleCase(e.longName)),
             (e.description = "一枚失控手雷"),
             (e.tooltip =
@@ -89929,7 +89929,7 @@
           var e = s.L.sector.findOrAddSystem("ARA ARA", "Ara Ara"),
             t = new Gp.Nx();
           ((t.locationIndex = "MHEN’GA"),
-            (t.locationName = "门加"),
+            (t.locationName = "Mhen’ga"),
             (t.isPlanet = !0),
             e.addLocation(t),
             (s.L.planetMhenga = [t]),
@@ -93189,7 +93189,7 @@
           var e = s.L.sector.findOrAddSystem("ARA ARA", "Ara Ara"),
             t = new Gp.Nx();
           ((t.locationIndex = "PennyCaves"),
-            (t.locationName = "门加"),
+            (t.locationName = "Mhen’ga"),
             (t.isPlanet = !0),
             e.addLocation(t),
             s.L.planetMhenga.push(t));

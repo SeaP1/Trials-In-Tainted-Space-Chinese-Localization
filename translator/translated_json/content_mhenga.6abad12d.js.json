@@ -92,7 +92,7 @@
     {
       "id": "content_mhenga.6abad12d.js:1465:1482:16dc710d6577",
       "file": "content_mhenga.6abad12d.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -33319,7 +33319,7 @@
     {
       "id": "content_mhenga.6abad12d.js:378434:378448:a214b87892ef",
       "file": "content_mhenga.6abad12d.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -33394,7 +33394,7 @@
     {
       "id": "content_mhenga.6abad12d.js:378982:378989:31fe827aea4c",
       "file": "content_mhenga.6abad12d.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -320981,7 +320981,7 @@
     {
       "id": "content_mhenga.6abad12d.js:4103260:4103277:033a7d0b7d0e",
       "file": "content_mhenga.6abad12d.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -321053,7 +321053,7 @@
     {
       "id": "content_mhenga.6abad12d.js:4104379:4104393:a6caa61037c6",
       "file": "content_mhenga.6abad12d.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -399754,7 +399754,7 @@
     {
       "id": "content_mhenga.6abad12d.js:5277681:5277698:286c12224bcb",
       "file": "content_mhenga.6abad12d.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -614454,7 +614454,7 @@
     {
       "id": "content_mhenga.6abad12d.js:7595462:7595471:dcef0a1f5167",
       "file": "content_mhenga.6abad12d.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -624429,7 +624429,7 @@
     {
       "id": "content_mhenga.6abad12d.js:7773089:7773098:dcef0a1f5167",
       "file": "content_mhenga.6abad12d.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,

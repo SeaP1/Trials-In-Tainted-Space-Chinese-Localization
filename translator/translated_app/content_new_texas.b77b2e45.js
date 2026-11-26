@@ -52,7 +52,7 @@
             ((e = t.call(this)).stackSize = 10),
             (e.type = GLOBAL.PILL),
             (e.shortName = "KreFroot"),
-            (e.longName = "果味奶糖"),
+            (e.longName = "Kreamy Froot"),
             d.g.addFullName(e.shortName, g.m.toTitleCase(e.longName)),
             (e.description = "一袋果味奶糖"),
             (e.tooltip =
@@ -7993,7 +7993,7 @@
             (e.level = 2),
             (e.rarity = GLOBAL.COMMON),
             (e.shortName = "CowboyOutfit"),
-            (e.longName = "牛仔装"),
+            (e.longName = "cowboy outfit"),
             Z.g.addFullName(e.shortName, y.m.toTitleCase(e.longName)),
             (e.description = "一套牛仔装"),
             (e.tooltip =
@@ -17063,7 +17063,7 @@
             ((e = t.call(this)).stackSize = 1),
             (e.type = GLOBAL.LOWER_UNDERGARMENT),
             (e.shortName = "CowP BBra"),
-            (e.longName = "奶牛纹睾丸胸罩"),
+            (e.longName = "cow-print ball bra"),
             Z.g.addFullName(e.shortName, y.m.toTitleCase(e.longName)),
             (e.description = "一件奶牛纹睾丸胸罩"),
             (e.tooltip =
@@ -70570,7 +70570,7 @@
                     )),
             processTime(32),
             (flags.VARMINT_IS_CREW = void 0),
-            (varmintpet.short = "害兽"),
+            (varmintpet.short = "varmint"),
             (varmintpet.a = "那只"),
             (varmintpet.capitalA = "The "),
             addButton(0, "继续", mainGameMenu));
@@ -77097,12 +77097,12 @@
         var e = Fn.L.sector.findOrAddSystem("NYE", "Nye"),
           t = new Fd.Nx();
         ((t.locationIndex = "NEWTEXAS"),
-          (t.locationName = "新德克萨斯"),
+          (t.locationName = "New Texas"),
           (t.isPlanet = !0),
           e.addLocation(t));
         var o = new Fd.Nx();
         ((o.locationIndex = "NT_FACTORY"),
-          (o.locationName = "装瓶厂"),
+          (o.locationName = "Bottling Factory"),
           (o.isPlanet = !1),
           e.addLocation(o),
           (Fn.L.planetNewTexas = [t]));
@@ -78990,7 +78990,7 @@
           o.addRoom(De));
         var Fe = new Fd.Nx();
         ((Fe.locationIndex = "NT:BUNKHOUSE"),
-          (Fe.locationName = "新德克萨斯"),
+          (Fe.locationName = "New Texas"),
           e.addLocation(Fe),
           Fn.L.planetNewTexas.push(Fe));
         var Ve = new Fd.du();
@@ -79008,7 +79008,7 @@
           Fe.addRoom(Ve));
         var Ue = new Fd.Nx();
         ((Ue.locationIndex = "NT:APARTMENT"),
-          (Ue.locationName = "新德克萨斯"),
+          (Ue.locationName = "New Texas"),
           e.addLocation(Ue),
           Fn.L.planetNewTexas.push(Ue));
         var Ke = new Fd.du();
@@ -79019,7 +79019,7 @@
           Ue.addRoom(Ke));
         var Ze = new Fd.Nx();
         ((Ze.locationIndex = "NT:MIRRIN"),
-          (Ze.locationName = "新德克萨斯"),
+          (Ze.locationName = "New Texas"),
           e.addLocation(Ze),
           Fn.L.planetNewTexas.push(Ze));
         var Qe = new Fd.du();

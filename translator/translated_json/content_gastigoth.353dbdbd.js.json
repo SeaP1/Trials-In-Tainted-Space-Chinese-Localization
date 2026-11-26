@@ -19084,7 +19084,7 @@
     {
       "id": "content_gastigoth.353dbdbd.js:204620:204639:686ff0e5f1de",
       "file": "content_gastigoth.353dbdbd.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,

@@ -94,7 +94,7 @@
     {
       "id": "content_zhengshi.63abe6e6.js:1471:1488:16dc710d6577",
       "file": "content_zhengshi.63abe6e6.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -239647,7 +239647,7 @@
     {
       "id": "content_zhengshi.63abe6e6.js:2750662:2750671:5a2eadd9e983",
       "file": "content_zhengshi.63abe6e6.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -273022,7 +273022,7 @@
     {
       "id": "content_zhengshi.63abe6e6.js:3091416:3091432:88a122f4cc13",
       "file": "content_zhengshi.63abe6e6.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -273080,7 +273080,7 @@
     {
       "id": "content_zhengshi.63abe6e6.js:3091492:3091502:f77516644a1d",
       "file": "content_zhengshi.63abe6e6.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -493407,7 +493407,7 @@
     {
       "id": "content_zhengshi.63abe6e6.js:5241314:5241319:52c8f93ea3e8",
       "file": "content_zhengshi.63abe6e6.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -501804,7 +501804,7 @@
     {
       "id": "content_zhengshi.63abe6e6.js:5323309:5323326:87962bc7b599",
       "file": "content_zhengshi.63abe6e6.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -718457,7 +718457,7 @@
     {
       "id": "content_zhengshi.63abe6e6.js:8506414:8506435:526798fa198c",
       "file": "content_zhengshi.63abe6e6.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -721733,7 +721733,7 @@
     {
       "id": "content_zhengshi.63abe6e6.js:8543960:8543972:0b85d1323586",
       "file": "content_zhengshi.63abe6e6.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -731882,7 +731882,7 @@
     {
       "id": "content_zhengshi.63abe6e6.js:8658189:8658208:2c8bf4c54bde",
       "file": "content_zhengshi.63abe6e6.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -753045,7 +753045,7 @@
     {
       "id": "content_zhengshi.63abe6e6.js:8893141:8893153:90a48476eac2",
       "file": "content_zhengshi.63abe6e6.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -754106,7 +754106,7 @@
     {
       "id": "content_zhengshi.63abe6e6.js:8909341:8909349:edf0da1af3b6",
       "file": "content_zhengshi.63abe6e6.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,

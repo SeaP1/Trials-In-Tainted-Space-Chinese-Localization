@@ -25478,7 +25478,7 @@
                   output(
                     "\n\n<i>“...我有点喜欢贝尔。这是个传统的奥莫里名字，在我家族里也有人用过。它是新的，但同时仍然是我，你懂吗？”</i>",
                   ),
-                  (embry.short = "贝尔"),
+                  (embry.short = "Belle"),
                   t());
               }));
           }
@@ -25998,14 +25998,14 @@
             (e.type = GLOBAL.MELEE_WEAPON),
             (e.isUsable = !1),
             (e.shortName = "Shield Staff"),
-            (e.longName = "盾墙杖"),
+            (e.longName = "shieldwall staff"),
             ot.g.addFullName(e.shortName, i.m.toTitleCase(e.longName)),
             (e.description = "一根盾墙杖"),
             (e.tooltip =
               "<i>盾墙杖：坚固得足以供军队使用，却为平民而造。</i>\n\n大多数现代军队都将研发预算投入更大的枪炮、更好的护盾与更优良的载具，把近战武器视为迫不得已时才会动用的工具，认为它们不值得大笔投资。对于罗德尼安这类体形更小、体重更轻的生物而言，这一点更是如此。在别人眼中，那是战斗方式遥远的过去；基哈公司看到的却是商机。他们将现代护盾投射技术融入一根用于敲击的长杖，使一件近战武器同时变成了防御屏障与工具。军用版本能够凭借尖锐的杖尖插入地面，并与附近其他盾墙杖相互连接，形成名副其实的防御壁垒：它强韧得足以挡住手持轨道武器的狙击手、偏转炮弹，据说甚至能抵消一辆斯拉根坦克的主激光炮，不过这则报道的真实性至今仍是外网上争论不休的热门话题。\n\n民用版本不具备多杖互联功能，转而让自身的发射器从属于使用者的专用护盾投射腰带，以增强其效能。在最近一轮行星淘金热来临前，它的销量极为出色；准冒险者们明智地把自身防御放在首位 - 同时也很看重这件武器能当作手杖使用的便利。"),
             ot.g.addTooltip(e.shortName, e.tooltip),
             (e.attackVerb = "slash"),
-            (e.attackNoun = "灼热斩击"),
+            (e.attackNoun = "burning slash"),
             (e.basePrice = 6400),
             (e.baseDamage.kinetic.damageValue = 18),
             e.baseDamage.addFlag(S.G.CRUSHING),
@@ -34218,7 +34218,7 @@
                                         (e.shiftCock(t, GLOBAL.TYPE_CANINE),
                                           (e.cocks[t].cLengthRaw = 14));
                                       ((pc.credits = -1 * (856e3 + rand(985))),
-                                        (pc.short = "辛迪"),
+                                        (pc.short = "Cindi"),
                                         (pc.tongueType = GLOBAL.TYPE_DRACONIC),
                                         (pc.tongueFlags = [
                                           GLOBAL.FLAG_LONG,
@@ -38706,7 +38706,7 @@
                 return (
                   (e.a = ""),
                   (e.capitalA = ""),
-                  (e.short = "梅格雷兹"),
+                  (e.short = "Megrez"),
                   (e.originalRace = "kaithrit"),
                   e.createCock(),
                   e.shiftCock(0, GLOBAL.TYPE_EQUINE),
@@ -41495,7 +41495,7 @@
           (pc.credits = 0),
           pc.inventory.removeAllEquipment(),
           (pc.inventory.armor = new uo.E()),
-          (pc.inventory.armor.longName = "监狱连身服"),
+          (pc.inventory.armor.longName = "prison jumpsuit"),
           (pc.inventory.armor.description = "一件橙色监狱连身服"),
           processTime(240 + rand(16)),
           badEnd());
@@ -55610,7 +55610,7 @@
                 (output(
                   "\n\n<i>“哦！顺便说一句，我叫布里哈。我想你至少应该知道自己孩子母亲的名字，对吧？”</i>",
                 ),
-                (myrredfemaledeserter.short = "布里哈"),
+                (myrredfemaledeserter.short = "Briha"),
                 (flags.KNOW_RED_MYR_NAME = 1));
               var e = 0 === rand(2);
               void 0 === flags.RED_MYR_BIRTHS
@@ -55936,7 +55936,7 @@
                     ? ((flags.KNOW_GOLD_MYR_NAME = 1), output("莉丝"))
                     : ((flags.KNOW_RED_MYR_NAME = 1),
                       output("布里哈"),
-                      (myrredfemaledeserter.short = "布里哈")),
+                      (myrredfemaledeserter.short = "Briha")),
                   output(".”</i>")))
               : (output(
                   "\n\n你正[pc.walking]在荒凉而饱受战争摧残的荒原上。附近站着一名衣衫褴褛的红军逃兵。",
@@ -55992,7 +55992,7 @@
                   (output(
                     "\n\n<i>“哦！对了，我叫布里哈。你至少该知道自己孩子母亲的名字，对吧？”</i>",
                   ),
-                  (myrredfemaledeserter.short = "布里哈"),
+                  (myrredfemaledeserter.short = "Briha"),
                   (flags.KNOW_RED_MYR_NAME = 1))),
             processTime(5),
             (function t() {
@@ -57864,13 +57864,13 @@
             (e.isUsable = !1),
             (e.rarity = GLOBAL.RARE),
             (e.shortName = "Magmace"),
-            (e.longName = "岩浆粉碎锤"),
+            (e.longName = "magma crusher"),
             ot.g.addFullName(e.shortName, i.m.toTitleCase(e.longName)),
             (e.description = "一把岩浆粉碎锤"),
             (e.tooltip =
               "一把由妮妙设计的凶恶流星锤。这柄笨重的战锤采用了与熔岩军刀相同的技术，让炽热岩浆流经沉重的锤柄，大幅提升了它的重量与破坏潜力。你亲眼见识过，它的圆形锤头所产生的灼热高温足以熔化并击碎比星际工程所用强化合金更坚固的矿物。尽管设计粗暴，它的平衡性却很好，使用起来也很直观，只不过那股火山般的热度很难长时间承受。"),
             (e.attackVerb = "smash"),
-            (e.attackNoun = "猛砸"),
+            (e.attackNoun = "smash"),
             ot.g.addTooltip(e.shortName, e.tooltip),
             (e.basePrice = 4e4),
             (e.attack = -4),
@@ -57989,7 +57989,7 @@
               (e = t.call(this)),
               window.autobind((0, Qn.Z)(e), o.prototype),
               (e.neverSerialize = !0),
-              (e.short = "天空之母"),
+              (e.short = "Sky Mother"),
               (e.originalRace = "vanae"),
               (e.a = "这位"),
               (e.capitalA = "The "),
@@ -68426,7 +68426,7 @@
                     processTime(1200 + rand(16)),
                     pc.inventory.removeAllEquipment(),
                     (pc.inventory.armor = new Mi._()),
-                    (pc.inventory.armor.longName = "尼瑞安皇家后宫服"),
+                    (pc.inventory.armor.longName = "royal nyrea harem clothes"),
                     (pc.inventory.armor.description =
                       "一套尼瑞安皇家后宫服"),
                     pc.libido(25),
@@ -82787,7 +82787,7 @@
                     ),
                     (pc.inventory.lowerUndergarment = new Uh.A()),
                     (pc.inventory.lowerUndergarment.longName =
-                      "铁制贞操笼"),
+                      "iron chastity cage"),
                     (pc.inventory.lowerUndergarment.description =
                       "一个铁制贞操笼"))
                   : pc.cocks.length > 1 &&
@@ -82810,7 +82810,7 @@
                     ),
                     (pc.inventory.lowerUndergarment = new Uh.A()),
                     (pc.inventory.lowerUndergarment.longName =
-                      "铁制贞操笼"),
+                      "iron chastity cage"),
                     (pc.inventory.lowerUndergarment.description =
                       "一个铁制贞操笼")));
               pc.hasVagina() &&
@@ -83662,7 +83662,7 @@
             (e.stackSize = 1),
             (e.type = GLOBAL.LOWER_UNDERGARMENT),
             (e.shortName = "B.Brassiere&Stockings"),
-            (e.longName = "阴囊托罩与护套"),
+            (e.longName = "ball brassiere and stocking"),
             ot.g.addFullName(e.shortName, i.m.toTitleCase(e.longName)),
             ot.g.addTooltip(e.shortName, e.tooltip),
             (e.basePrice = 1100),
@@ -83795,7 +83795,7 @@
             ((e = t.call(this)).stackSize = 1),
             (e.type = GLOBAL.COCKWEAR),
             (e.shortName = "CockSock"),
-            (e.longName = "阴茎套"),
+            (e.longName = "Cock Sock"),
             ot.g.addFullName(e.shortName, i.m.toTitleCase(e.longName)),
             (e.description = "一只看起来很舒适的套袜"),
             (e.tooltip =
@@ -83874,7 +83874,7 @@
             ((e = t.call(this)).stackSize = 1),
             (e.type = GLOBAL.COCKWEAR),
             (e.shortName = "CuteRibbon"),
-            (e.longName = "可爱丝带"),
+            (e.longName = "Cute Ribbon"),
             ot.g.addFullName(e.shortName, i.m.toTitleCase(e.longName)),
             (e.description = "一条可爱又闪亮的丝带"),
             (e.tooltip =
@@ -90472,13 +90472,13 @@
               (e.rarity = GLOBAL.RARE),
               (e.isUsable = !1),
               (e.shortName = "XukwoodStaff"),
-              (e.longName = "旭克木杖"),
+              (e.longName = "Xukwood staff"),
               ot.g.addFullName(e.shortName, i.m.toTitleCase(e.longName)),
               (e.description = "一根旭克木杖"),
               (e.tooltip =
                 "米瑞利昂原生的旭克木并非来自树木，而是一种地下真菌；但它富含金属的纤维状有机结构能形成一种极为耐用（而且沉重）的类木物质。这根旭克木杖的两端都制成了锤头形状，适合施展沉重而凶狠的打击，想必是这颗星球某个交战派系中高级军官使用的仪仗武器。你绝不会想挨上它的一击。"),
               (e.attackVerb = "swing"),
-              (e.attackNoun = "猛砸"),
+              (e.attackNoun = "smash"),
               ot.g.addTooltip(e.shortName, e.tooltip),
               (e.basePrice = 100),
               (e.attack = 0),
@@ -90523,7 +90523,7 @@
           var e = At.L.sector.findOrAddSystem("SINDATHU", "Sindathu"),
             t = new ld.Nx();
           ((t.locationIndex = "MYRELLION"),
-            (t.locationName = "迈瑞利恩"),
+            (t.locationName = "Myrellion"),
             (t.isPlanet = !0),
             e.addLocation(t),
             (At.L.planetMyrellion = [t]),

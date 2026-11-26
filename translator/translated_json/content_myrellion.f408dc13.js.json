@@ -188752,7 +188752,7 @@
     {
       "id": "content_myrellion.f408dc13.js:1970708:1970715:1791e69f2994",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -191883,7 +191883,7 @@
     {
       "id": "content_myrellion.f408dc13.js:2002613:2002631:adb505d7280b",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -191955,7 +191955,7 @@
     {
       "id": "content_myrellion.f408dc13.js:2004279:2004294:aecc86cf46b3",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -248559,7 +248559,7 @@
     {
       "id": "content_myrellion.f408dc13.js:2605133:2605140:90654d90e717",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -277360,7 +277360,7 @@
     {
       "id": "content_myrellion.f408dc13.js:2969478:2969486:b261438fd76d",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -295704,7 +295704,7 @@
     {
       "id": "content_myrellion.f408dc13.js:3208663:3208680:2720265549dd",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -393724,7 +393724,7 @@
     {
       "id": "content_myrellion.f408dc13.js:4254141:4254148:5aa4a8d73051",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -396225,7 +396225,7 @@
     {
       "id": "content_myrellion.f408dc13.js:4273216:4273223:5aa4a8d73051",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -396629,7 +396629,7 @@
     {
       "id": "content_myrellion.f408dc13.js:4276502:4276509:5aa4a8d73051",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -408558,7 +408558,7 @@
     {
       "id": "content_myrellion.f408dc13.js:4422274:4422289:fb702d296465",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -408630,7 +408630,7 @@
     {
       "id": "content_myrellion.f408dc13.js:4423107:4423114:31fe827aea4c",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -408739,7 +408739,7 @@
     {
       "id": "content_myrellion.f408dc13.js:4426110:4426122:25af37902c6a",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -474600,7 +474600,7 @@
     {
       "id": "content_myrellion.f408dc13.js:5319739:5319766:0036d7aee830",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -567611,7 +567611,7 @@
     {
       "id": "content_myrellion.f408dc13.js:6420934:6420954:847971af04f3",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -567791,7 +567791,7 @@
     {
       "id": "content_myrellion.f408dc13.js:6423026:6423046:847971af04f3",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -572881,7 +572881,7 @@
     {
       "id": "content_myrellion.f408dc13.js:6494264:6494293:2d830d9378ad",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -573318,7 +573318,7 @@
     {
       "id": "content_myrellion.f408dc13.js:6498931:6498942:2085edfe41ee",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -573499,7 +573499,7 @@
     {
       "id": "content_myrellion.f408dc13.js:6501558:6501571:5c47b22cfcd6",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -613943,7 +613943,7 @@
     {
       "id": "content_myrellion.f408dc13.js:6968087:6968102:4113c321c04a",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -614015,7 +614015,7 @@
     {
       "id": "content_myrellion.f408dc13.js:6968785:6968792:31fe827aea4c",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -614141,7 +614141,7 @@
     {
       "id": "content_myrellion.f408dc13.js:6970153:6970164:6874a3f93d7f",
       "file": "content_myrellion.f408dc13.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,

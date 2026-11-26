@@ -6838,7 +6838,7 @@
     {
       "id": "content_follower.ba76c355.js:65135:65155:96c8dde69a2a",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -75451,7 +75451,7 @@
     {
       "id": "content_follower.ba76c355.js:790497:790510:163673a24821",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -75526,7 +75526,7 @@
     {
       "id": "content_follower.ba76c355.js:791747:791754:31fe827aea4c",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -195538,7 +195538,7 @@
     {
       "id": "content_follower.ba76c355.js:2212929:2212939:e3f64b1ecc60",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -361701,7 +361701,7 @@
     {
       "id": "content_follower.ba76c355.js:3978863:3978873:2046d0e0a801",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -361896,7 +361896,7 @@
     {
       "id": "content_follower.ba76c355.js:3979497:3979507:495260012517",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -361914,7 +361914,7 @@
     {
       "id": "content_follower.ba76c355.js:3979669:3979679:495260012517",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -361932,7 +361932,7 @@
     {
       "id": "content_follower.ba76c355.js:3979840:3979854:aab9d8ec9e58",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -369119,7 +369119,7 @@
     {
       "id": "content_follower.ba76c355.js:4024584:4024600:c906de8edea2",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -369307,7 +369307,7 @@
     {
       "id": "content_follower.ba76c355.js:4025137:4025152:a4d39158d8ec",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -369363,7 +369363,7 @@
     {
       "id": "content_follower.ba76c355.js:4025339:4025345:8faccbbfbfdb",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -369381,7 +369381,7 @@
     {
       "id": "content_follower.ba76c355.js:4025503:4025515:bad04b79b542",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -371000,7 +371000,7 @@
     {
       "id": "content_follower.ba76c355.js:4042684:4042701:377c9e2a7a61",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -371186,7 +371186,7 @@
     {
       "id": "content_follower.ba76c355.js:4043376:4043385:2f9096fbb749",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -371242,7 +371242,7 @@
     {
       "id": "content_follower.ba76c355.js:4043566:4043576:a84786a56bcf",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -371261,7 +371261,7 @@
     {
       "id": "content_follower.ba76c355.js:4043734:4043747:97be8c959165",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -455735,7 +455735,7 @@
     {
       "id": "content_follower.ba76c355.js:4911733:4911747:010732921f33",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1278544,7 +1278544,7 @@
       "end": 15025844,
       "line": 175765,
       "raw": "\" <i>“Gonna be a real tight fit, but that’s why you’ve got a dick this big, ain’t it?”</i> Shekka’s lips are already bowing to the immensity of your girth, inner muscles parting audibly. <i>“Gonna shhuck it reeeeally good!”</i>\"",
-      "translationStatus": "manual_context_checked_d41_2—",
+      "translationStatus": "manual_context_checked_d41_4—",
       "translationModel": "Manual",
       "translatedAt": "2026-10-26T16:02:02.283Z",
       "previousId": "content_follower.b4d0c3de.js:15009923:15010151:ac838392f5d8",
@@ -1385718,7 +1385718,7 @@
     {
       "id": "content_follower.ba76c355.js:16278397:16278414:cc9fd191d6b3",
       "file": "content_follower.ba76c355.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1464546,7 +1464546,7 @@
       "end": 17512752,
       "line": 202145,
       "raw": "\" - a small thing compared to your [pc.cocks] shooting off all over Yammi’s chest\"",
-      "translationStatus": "manual_context_checked_d41_1—",
+      "translationStatus": "manual_context_checked_d41_2—",
       "translationModel": "Manual_d41",
       "translatedAt": "2026-10-26T16:02:02.283Z",
       "previousId": "content_follower.b4d0c3de.js:17505760:17505842:dfee73779b40",

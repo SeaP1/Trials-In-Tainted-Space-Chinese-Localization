@@ -171917,7 +171917,7 @@
     {
       "id": "content_vesperia.bb91f607.js:2173418:2173433:6d1ed4b49102",
       "file": "content_vesperia.bb91f607.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -172262,7 +172262,7 @@
     {
       "id": "content_vesperia.bb91f607.js:2178220:2178238:ac584bdc949a",
       "file": "content_vesperia.bb91f607.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -173883,7 +173883,7 @@
     {
       "id": "content_vesperia.bb91f607.js:2199448:2199470:926dd987f787",
       "file": "content_vesperia.bb91f607.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,

@@ -3516,7 +3516,7 @@
               (e = t.call(this)),
               window.autobind((0, ye.Z)(e), o.prototype),
               (e.neverSerialize = !0),
-              (e.short = "拾荒者壮汉"),
+              (e.short = "salvager brute"),
               (e.btnTargetText = "SalvBrute"),
               (e.originalRace = "kaithrit"),
               (e.a = "这只"),

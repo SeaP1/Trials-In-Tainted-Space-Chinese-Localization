@@ -1067,7 +1067,7 @@
     {
       "id": "content_poea.67465771.js:5945:5952:75d14d3c74b7",
       "file": "content_poea.67465771.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,

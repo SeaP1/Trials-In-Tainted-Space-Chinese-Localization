@@ -32838,7 +32838,7 @@
     {
       "id": "content_uveto.00e559a9.js:431604:431619:d439322f68a7",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -33037,7 +33037,7 @@
     {
       "id": "content_uveto.00e559a9.js:434434:434449:21c3dbb662df",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -33200,7 +33200,7 @@
     {
       "id": "content_uveto.00e559a9.js:436832:436848:bd9bedea97cf",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -66529,7 +66529,7 @@
     {
       "id": "content_uveto.00e559a9.js:820318:820326:949f56739997",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -66788,7 +66788,7 @@
     {
       "id": "content_uveto.00e559a9.js:823166:823173:c8c30b29f29a",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -70849,7 +70849,7 @@
     {
       "id": "content_uveto.00e559a9.js:871886:871902:6d8db64fd2ab",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -512996,7 +512996,7 @@
     {
       "id": "content_uveto.00e559a9.js:6362242:6362253:70ee35a2873c",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -513071,7 +513071,7 @@
     {
       "id": "content_uveto.00e559a9.js:6362671:6362678:31fe827aea4c",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -513199,7 +513199,7 @@
     {
       "id": "content_uveto.00e559a9.js:6365260:6365279:34595972f473",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -513365,7 +513365,7 @@
     {
       "id": "content_uveto.00e559a9.js:6368095:6368112:8206bf634d86",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -646679,7 +646679,7 @@
     {
       "id": "content_uveto.00e559a9.js:7729719:7729728:e0af35a58270",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -826717,7 +826717,7 @@
     {
       "id": "content_uveto.00e559a9.js:9699507:9699520:a1842a228920",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -826792,7 +826792,7 @@
     {
       "id": "content_uveto.00e559a9.js:9700338:9700345:31fe827aea4c",
       "file": "content_uveto.00e559a9.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,

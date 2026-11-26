@@ -52,7 +52,7 @@
             ((e = t.call(this)).stackSize = 10),
             (e.type = GLOBAL.PILL),
             (e.shortName = "KreFroot"),
-            (e.longName = "果味奶糖"),
+            (e.longName = "Kreamy Froot"),
             d.g.addFullName(e.shortName, c.m.toTitleCase(e.longName)),
             (e.description = "一袋果味奶糖"),
             (e.tooltip =
@@ -8674,7 +8674,7 @@
           return (
             (0, L.Z)(this, o),
             ((e = t.call(this)).shortName = "HLBoxers"),
-            (e.longName = "硬光四角裤"),
+            (e.longName = "hardlight boxers"),
             (e.basePrice += 3e3),
             (e.hardLightEquipped = !0),
             e
@@ -12681,7 +12681,7 @@
             (e = t.call(this)),
             window.autobind((0, pe.Z)(e), o.prototype),
             (e.neverSerialize = !0),
-            (e.short = "凯特"),
+            (e.short = "Kat"),
             e.createVagina(),
             e
           );
@@ -42389,7 +42389,7 @@
             ((e = t.call(this)).stackSize = 1),
             (e.type = GLOBAL.COCKWEAR),
             (e.shortName = "BallCinch"),
-            (e.longName = "束睾环"),
+            (e.longName = "Ball Cinch"),
             Ai.g.addFullName(e.shortName, we.m.toTitleCase(e.longName)),
             (e.description = "一个色彩鲜艳的超弹性小环"),
             (e.tooltip =
@@ -42499,7 +42499,7 @@
             ((e = t.call(this)).stackSize = 1),
             (e.type = GLOBAL.UPPER_UNDERGARMENT),
             (e.shortName = "T. Harness"),
-            (e.longName = "斯拉根束带"),
+            (e.longName = "thraggen harness"),
             Ai.g.addFullName(e.shortName, we.m.toTitleCase(e.longName)),
             (e.description =
               "一件腹部带有额外皮带的皮革束带"),
@@ -42583,7 +42583,7 @@
             (e.stackSize = 1),
             (e.type = GLOBAL.COCKWEAR),
             (e.shortName = "H. CockR"),
-            (e.longName = "硬光阴茎环"),
+            (e.longName = "Hardlight Cockring"),
             Ai.g.addFullName(e.shortName, we.m.toTitleCase(e.longName)),
             (e.description = "一个硬光阴茎环"),
             (e.tooltip =
@@ -116723,7 +116723,7 @@
               (e.type = GLOBAL.GADGET),
               (e.customIcon = "lips_glossed"),
               (e.shortName = "P.Shine"),
-              (e.longName = "凤凰闪耀唇膏"),
+              (e.longName = "Phoenix’s Shine"),
               (e.description = "一管凤凰闪耀唇膏"),
               (e.tooltip =
                 "这款夸张艳丽、光泽十足的红色唇膏是塔玛妮公司的得意之作之一。它由一种非常特殊的化学品和定向微型外科机器人混合制成，能够自动识别并避开使用者的DNA特征，却会在接触另一名智慧生物时激活，引发迅速且惊人的精液分泌。有了它，只需一吻就能让别人饱受睾丸胀痛！".concat(
@@ -116843,7 +116843,7 @@
             (e.type = GLOBAL.GADGET),
             (e.customIcon = "lips_glossed"),
             (e.shortName = "C.Gloss"),
-            (e.longName = "炫彩唇彩"),
+            (e.longName = "Chroma Gloss"),
             (e.description = "一管炫彩唇彩"),
             (e.tooltip =
               "这款欢乐公司的品牌唇彩在边疆地区几乎和在核心世界一样受欢迎。炫彩唇彩能在几乎任何皮肤化学构成上涂出由用户选择、持久不褪的颜色，是外出时维持稳定美貌的理想化妆品！<i>只需旋转底部的转盘，即可选择适合你的炫彩（商标）！</i>".concat(
@@ -117094,7 +117094,7 @@
               (e.type = GLOBAL.GADGET),
               (e.customIcon = "lips_glossed"),
               (e.shortName = "F.A.Fuchsia"),
-              (e.longName = "急救紫红晶"),
+              (e.longName = "First Aid Fuchsia"),
               (e.description = "一管急救紫红晶唇膏"),
               (e.tooltip =
                 "作为欢乐公司化妆品系列的主打产品，这款唇膏装载了治疗微型外科机器人，一旦接触到另一个人的生殖器便会激活。它会把你的双唇染成鲜艳的粉色。".concat(
@@ -117214,7 +117214,7 @@
             (e.type = GLOBAL.GADGET),
             (e.customIcon = "lips_glossed"),
             (e.shortName = "EngEm"),
-            (e.longName = "活力翡翠"),
+            (e.longName = "Energizing Emerald"),
             (e.description = "一管活力翡翠唇膏"),
             (e.tooltip =
               "漫长的交配过后感到疲惫？塔玛妮公司的“活力翡翠”唇膏就是答案！其中装载了恢复能量的微型外科机器人，一旦接触到另一个人的生殖器便会激活。只需口交两三次，你们双方就都能准备好迎接一场性爱马拉松！\n\n".concat(
@@ -147085,12 +147085,12 @@
             t = $r.L.sector.findOrAddSystem("KALAS", "Kalas"),
             o = new Ij.Nx();
           ((o.locationIndex = "TAVROS"),
-            (o.locationName = "塔夫罗斯站"),
+            (o.locationName = "Tavros Station"),
             t.addLocation(o),
             ($r.L.tavrosStation = [o]));
           var a = new Ij.Nx();
           ((a.locationIndex = "UNKNOWN"),
-            (a.locationName = "未知"),
+            (a.locationName = "Unknown"),
             e.addLocation(a));
           var i = new Ij.hQ();
           ((i.index = "ISOROOM"),
@@ -147098,7 +147098,7 @@
             window.setIsolatedNonMappableRoom(i));
           var s = new Ij.Nx();
           ((s.locationIndex = "INTRO"),
-            (s.locationName = "塔夫罗斯站"),
+            (s.locationName = "Tavros Station"),
             t.addLocation(s));
           var r = new Ij.du();
           ((r.index = "INTRO_FUNERAL"),
@@ -147143,7 +147143,7 @@
             s.addRoom(d));
           var c = new Ij.Nx();
           ((c.locationIndex = "INTRO_SPACE_PLACE"),
-            (c.locationName = "太空"),
+            (c.locationName = "Space"),
             t.addLocation(c));
           var y = new Ij.du();
           ((y.index = "INTRO_SPACE"),
@@ -150068,7 +150068,7 @@
             o.addRoom(ht));
           var lt = new Ij.Nx();
           ((lt.locationIndex = "TAVROS_SX1"),
-            (lt.locationName = "塔弗罗斯空间站"),
+            (lt.locationName = "Tavros Station"),
             t.addLocation(lt));
           var dt = new Ij.du();
           ((dt.index = "SX1_ELEVATOR"),
@@ -150087,7 +150087,7 @@
             lt.addRoom(ct));
           var yt = new Ij.Nx();
           ((yt.locationIndex = "RAMIS"),
-            (yt.locationName = "塔弗罗斯空间站"),
+            (yt.locationName = "Tavros Station"),
             t.addLocation(yt));
           var gt = new Ij.du();
           ((gt.index = "RAMISBAR"),
@@ -150097,7 +150097,7 @@
             yt.addRoom(gt));
           var pt = new Ij.Nx();
           ((pt.locationIndex = "RIYAQUEST"),
-            (pt.locationName = "海盗基地"),
+            (pt.locationName = "Pirate Base"),
             t.addLocation(pt),
             $r.L.tavrosStation.push(pt));
           var mt = new Ij.du();
@@ -150108,7 +150108,7 @@
             pt.addRoom(mt));
           var ft = new Ij.Nx();
           ((ft.locationIndex = "RIYAPARTY"),
-            (ft.locationName = "塔弗罗斯空间站"),
+            (ft.locationName = "Tavros Station"),
             t.addLocation(ft));
           var wt = new Ij.du();
           ((wt.index = "RIYAPARTY"),
@@ -151297,32 +151297,32 @@
             "这" +
             i +
             "是在你的协助下，按照你的规格量身打造的。它是一把只需按下按钮便可开关的硬光武器，不过投影的性质会受到你所提供的各种水晶调谐与影响。"),
-          (t.short = "定制武器"),
+          (t.short = "C.Weapon"),
           (t.attackVerb = "swing"),
           (t.attackNoun = ""),
           e.weaponKey)
         ) {
           case "Sword":
-            t.attackNoun = "劈砍";
+            t.attackNoun = "slice";
             break;
           case "Axe":
-            t.attackNoun = "劈砍";
+            t.attackNoun = "cleave";
             break;
           case "Hammer":
-            t.attackNoun = "重砸";
+            t.attackNoun = "smash";
             break;
           case "Spear":
           case "Dagger":
-            t.attackNoun = "刺击";
+            t.attackNoun = "stab";
             break;
           case "Staff":
-            t.attackNoun = "抽打";
+            t.attackNoun = "smack";
             break;
           case "Whip":
-            t.attackNoun = "敲裂";
+            t.attackNoun = "crack";
             break;
           case "Knuckles":
-            t.attackNoun = "拳头";
+            t.attackNoun = "punch";
         }
         return t;
       }

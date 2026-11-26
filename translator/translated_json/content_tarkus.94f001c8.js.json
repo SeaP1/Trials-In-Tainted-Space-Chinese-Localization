@@ -94,7 +94,7 @@
     {
       "id": "content_tarkus.94f001c8.js:1483:1498:d9329fd921a5",
       "file": "content_tarkus.94f001c8.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -226100,7 +226100,7 @@
     {
       "id": "content_tarkus.94f001c8.js:2234144:2234155:ff24bea2c4a9",
       "file": "content_tarkus.94f001c8.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -246345,7 +246345,7 @@
     {
       "id": "content_tarkus.94f001c8.js:2477052:2477065:a7b6d6e944d3",
       "file": "content_tarkus.94f001c8.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -403316,7 +403316,7 @@
     {
       "id": "content_tarkus.94f001c8.js:4222401:4222407:419e4009477c",
       "file": "content_tarkus.94f001c8.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -565891,7 +565891,7 @@
     {
       "id": "content_tarkus.94f001c8.js:6505702:6505718:5b01c73a1fe0",
       "file": "content_tarkus.94f001c8.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -566017,7 +566017,7 @@
     {
       "id": "content_tarkus.94f001c8.js:6507078:6507087:2f9096fbb749",
       "file": "content_tarkus.94f001c8.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -566053,7 +566053,7 @@
     {
       "id": "content_tarkus.94f001c8.js:6507206:6507216:a84786a56bcf",
       "file": "content_tarkus.94f001c8.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -566071,7 +566071,7 @@
     {
       "id": "content_tarkus.94f001c8.js:6507379:6507393:3deaa803708c",
       "file": "content_tarkus.94f001c8.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -582447,7 +582447,7 @@
     {
       "id": "content_tarkus.94f001c8.js:6789084:6789098:64374b5a680c",
       "file": "content_tarkus.94f001c8.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -711918,7 +711918,7 @@
     {
       "id": "content_tarkus.94f001c8.js:8320828:8320836:f1f93e2664ce",
       "file": "content_tarkus.94f001c8.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -711954,7 +711954,7 @@
     {
       "id": "content_tarkus.94f001c8.js:8321000:8321015:c142f9a82a66",
       "file": "content_tarkus.94f001c8.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -726253,7 +726253,7 @@
     {
       "id": "content_tarkus.94f001c8.js:8472661:8472670:696c4b0f4ec5",
       "file": "content_tarkus.94f001c8.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,

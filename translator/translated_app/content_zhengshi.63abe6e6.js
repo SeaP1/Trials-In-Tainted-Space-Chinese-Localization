@@ -49,7 +49,7 @@
             ((e = t.call(this)).stackSize = 20),
             (e.type = GLOBAL.GEM),
             (e.shortName = "Oxonium"),
-            (e.longName = "奥克索尼姆水晶"),
+            (e.longName = "oxonium crystal"),
             (e.description = "一块奥克索尼姆水晶"),
             (e.tooltip =
               "这块小型奥克索尼姆水晶近乎纯净，漆黑如墨，却又如火山玻璃制成的镜子般反射着诡异光泽。某些亚文化群体珍视这些宝石，将其用于珠宝和饰品，但它们的主要用途仍在工业领域；没有奥克索尼姆衍射镜，现代全息技术便无法实现。硬光技术对这种墨色水晶的依赖甚至更深。若没有奥克索尼姆，便携式护盾发生器不过是一场幻梦。"),
@@ -31195,7 +31195,7 @@
           ),
           output("\n\n别搞砸了。"),
           output("\n\n你要怎么做？"),
-          (lorelei.short = "洛蕾莱"),
+          (lorelei.short = "Lorelei"),
           lorelei.header(void 0, void 0, "DRESS"),
           Ii(!0));
       }
@@ -35591,8 +35591,8 @@
         var e = new ta.s();
         if (
           (1 === flags.TIVF_MAIKE_TALK
-            ? ((e.short = "监督者迈克"), (e.capitalA = ""), (e.a = ""))
-            : ((e.short = "监工"), (e.capitalA = "The "), (e.a = "这个")),
+            ? ((e.short = "Overseer Maike"), (e.capitalA = ""), (e.a = ""))
+            : ((e.short = "overseer"), (e.capitalA = "The "), (e.a = "这个")),
           void 0 === flags.MAIKE_SLAVES_RELEASED &&
             (void 0 !== flags.MAIKE_BLUFF_BROKE ||
               void 0 !== flags.MAIKE_BLUFF_PEN ||
@@ -63213,7 +63213,7 @@
       function ys() {
         var e = enemy.lust() >= enemy.lustMax(),
           t = new ns.j();
-        ((t.short = "罗兹"),
+        ((t.short = "Roz"),
           (t.a = ""),
           (t.capitalA = ""),
           (t.long =
@@ -64387,7 +64387,7 @@
       function js() {
         (clearOutput(),
           author("Wsan"),
-          (pc.short = "寻宝者"),
+          (pc.short = "Treasure Hunter"),
           clearBust(),
           clearName(),
           output(blockHeader("多年以后")),
@@ -95929,7 +95929,7 @@
             (e.type = GLOBAL.ACCESSORY),
             (e.isUsable = !1),
             (e.shortName = "PsiNoiseGenerator"),
-            (e.longName = "灵能噪声发生器"),
+            (e.longName = "psi-noise generator"),
             tw.g.addFullName(e.shortName, r.m.toTitleCase(e.longName)),
             (e.description = "一台灵能噪声发生器"),
             (e.tooltip =
@@ -96671,7 +96671,7 @@
                     (o.rangedWeapon = new vt.KI()),
                     (o.accessory = new vt.KI()),
                     o.createPerk("PIRATE_GUN"),
-                    (o.short = "电磁炮塔"),
+                    (o.short = "EM Turrets"),
                     (o.btnTargetText = "Turrets"),
                     (o.isPlural = !0),
                     (o.isUniqueInFight = !0),
@@ -98705,7 +98705,7 @@
         var e = ka.L.sector.findOrAddSystem("HERISIOD", "Herisiod"),
           t = new Jv.Nx();
         ((t.locationIndex = "ZHENG SHI STATION"),
-          (t.locationName = "郑石空间站"),
+          (t.locationName = "Zhèng Shi Station"),
           (t.isPlanet = !1),
           e.addLocation(t),
           (ka.L.planetZhengShi = [t]),
@@ -103498,7 +103498,7 @@
           }),
           Hn.addFlags(nn.tb.INDOOR),
           ((t = new Jv.Nx()).locationIndex = "SHIP: SIDEWINDER"),
-          (t.locationName = "响尾蛇号"),
+          (t.locationName = "Sidewinder"),
           (t.isPlanet = !1),
           e.addLocation(t),
           ka.L.planetZhengShi.push(t));
@@ -103723,7 +103723,7 @@
           t.addRoom(Wn));
         var _n = new Jv.Nx();
         ((_n.locationIndex = "SPACEWALK"),
-          (_n.locationName = "太空！"),
+          (_n.locationName = "Space!"),
           (_n.isPlanet = !1),
           e.addLocation(_n));
         var Gn = new Jv.du();

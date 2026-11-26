@@ -2650,7 +2650,7 @@
         var e = p.L.sector.findOrAddSystem("SKALANI", "Skalani"),
           t = new D.Nx();
         ((t.locationIndex = "GASTIGOTH STATION"),
-          (t.locationName = "加斯提戈斯站"),
+          (t.locationName = "Gastigoth Station"),
           (t.isPlanet = !1),
           e.addLocation(t));
         var o = new D.du();

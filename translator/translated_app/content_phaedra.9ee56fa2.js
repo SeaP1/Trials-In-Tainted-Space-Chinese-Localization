@@ -49,7 +49,7 @@
             ((e = t.call(this)).stackSize = 1),
             (e.type = GLOBAL.SALVAGE),
             (e.shortName = "Q.COMM Transceiver"),
-            (e.longName = "Q.COMM收发器"),
+            (e.longName = "Q.COMM transceiver"),
             u.g.addFullName(e.shortName, l.m.toTitleCase(e.longName)),
             (e.description = "一台Q.COMM收发器"),
             (e.tooltip =
@@ -206,12 +206,12 @@
           ),
           t = new ot.Nx();
         ((t.locationIndex = "PHAEDRA: THE WASTES"),
-          (t.locationName = "菲德拉：荒原"),
+          (t.locationName = "Phaedra: The Wastes"),
           (t.isPlanet = !0),
           e.addLocation(t));
         var o = new ot.Nx();
         ((o.locationIndex = "DOWNED SHIP"),
-          (o.locationName = "坠毁飞船"),
+          (o.locationName = "Downed Ship"),
           e.addLocation(o),
           (nt.L.planetPhaedra = [t]),
           (t.roomConfigMutator = function (e) {
@@ -2404,7 +2404,7 @@
           t.addRoom(Fo));
         var qo = new ot.Nx();
         ((qo.locationIndex = "PHAEDRA: SHIELDROCK"),
-          (qo.locationName = "菲德拉：盾岩"),
+          (qo.locationName = "Phaedra: Shieldrock"),
           (qo.isPlanet = !0),
           e.addLocation(qo));
         var Wo = new ot.du();
@@ -3082,7 +3082,7 @@
             ),
             t = null;
           (((t = new ot.Nx()).locationIndex = "SHINEGLASS_TRAIN_START"),
-            (t.locationName = "菲德拉：辉晶列车"),
+            (t.locationName = "Phaedra: Shineglass Train"),
             (t.isPlanet = !0),
             e.addLocation(t));
           var o = new ot.du();
@@ -3132,7 +3132,7 @@
               t.addRoom(s));
           }
           (((t = new ot.Nx()).locationIndex = "SHINEGLASS_TRAIN_RIGS"),
-            (t.locationName = "菲德拉：游荡战车"),
+            (t.locationName = "Phaedra: Roving War Rigs"),
             (t.isPlanet = !0),
             e.addLocation(t));
           var r = new ot.du();
@@ -3349,7 +3349,7 @@
             (y.effectForeground = "speed_lines_e"),
             t.addRoom(y),
             ((t = new ot.Nx()).locationIndex = "SHINEGLASS_TRAIN_FRONT"),
-            (t.locationName = "菲德拉：辉晶列车"),
+            (t.locationName = "Phaedra: Shineglass Train"),
             (t.isPlanet = !0),
             e.addLocation(t));
           var p = new ot.du();
@@ -3476,7 +3476,7 @@
               t.addRoom(v));
           }
           (((t = new ot.Nx()).locationIndex = "MILITARY_BASE"),
-            (t.locationName = "菲德拉：军事基地"),
+            (t.locationName = "Phaedra: Military Base"),
             (t.isPlanet = !0),
             e.addLocation(t));
           var T = new ot.du();
@@ -3925,7 +3925,7 @@
             ((e = t.call(this)).stackSize = 10),
             (e.type = GLOBAL.EXPLOSIVECONSUMABLE),
             (e.shortName = "Pherologne"),
-            (e.longName = "诱情古龙水"),
+            (e.longName = "pherologne"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一剂诱情古龙水"),
             (e.tooltip =
@@ -4057,7 +4057,7 @@
             ((e = t.call(this)).stackSize = 20),
             (e.type = GLOBAL.GEM),
             (e.shortName = "M.VarmintTrophy"),
-            (e.longName = "巨型害兽角战利品"),
+            (e.longName = "megavarmint-horn trophy"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一件巨型害兽角战利品"),
             (e.tooltip =
@@ -4129,7 +4129,7 @@
             (e = t.call(this)),
             window.autobind((0, wt.Z)(e), o.prototype),
             (e.neverSerialize = !0),
-            (e.short = "硅胶吞噬者"),
+            (e.short = "silicone eater"),
             (e.btnTargetText = "Silicone Eater"),
             (e.originalRace = "????"),
             (e.a = "这只"),
@@ -4145,12 +4145,12 @@
             (e.inventory.meleeWeapon.attack = 2),
             (e.inventory.meleeWeapon.baseDamage.kinetic.damageValue = 1),
             e.inventory.meleeWeapon.baseDamage.addFlag(kt.G.PENETRATING),
-            (e.inventory.meleeWeapon.longName = "爪击"),
+            (e.inventory.meleeWeapon.longName = "claw"),
             (e.inventory.meleeWeapon.attackVerb = "claw"),
-            (e.inventory.meleeWeapon.attackNoun = "爪击"),
+            (e.inventory.meleeWeapon.attackNoun = "claw"),
             (e.inventory.meleeWeapon.hasDynamicProperties = !0),
             (e.inventory.armor = new ct.T4()),
-            (e.inventory.armor.longName = "坚韧兽皮"),
+            (e.inventory.armor.longName = "tough hide"),
             (e.inventory.armor.defense = 5),
             (e.inventory.armor.hasDynamicProperties = !0),
             (e.physiqueRaw = 56),
@@ -4390,7 +4390,7 @@
             (e = t.call(this)),
             window.autobind((0, wt.Z)(e), o.prototype),
             (e.neverSerialize = !0),
-            (e.short = "赛恩"),
+            (e.short = "Syne"),
             (e.originalRace = "companion droid"),
             (e.personality = 50),
             (e.a = ""),
@@ -7794,7 +7794,7 @@
               (e = t.call(this)),
               window.autobind((0, wt.Z)(e), o.prototype),
               (e.neverSerialize = !0),
-              (e.short = "辐光怪"),
+              (e.short = "radglow"),
               (e.btnTargetText = "Radglow"),
               (e.originalRace = "radglow"),
               (e.a = "这只"),
@@ -7806,16 +7806,16 @@
               (e.isLustImmune = !1));
             var n = new ct.pE();
             ((n.attackVerb = "lash"),
-              (n.attackNoun = "卷须"),
+              (n.attackNoun = "tendrils"),
               (n.attack = 2),
               (n.baseDamage.kinetic.damageValue = 4),
               n.baseDamage.addFlag(kt.G.PENETRATING),
-              (n.longName = "卷须"),
+              (n.longName = "tendrils"),
               (n.hasDynamicProperties = !0),
               e.inventory.equipItem(n));
             var a = new ct.T4();
             return (
-              (a.longName = "闪亮鳞片"),
+              (a.longName = "glittering scales"),
               (a.defense = 0),
               (a.hasDynamicProperties = !0),
               e.inventory.equipItem(a),
@@ -9298,7 +9298,7 @@
             window.autobind((0, wt.Z)(e), o.prototype),
             (e.neverSerialize = !0),
             (e.btnTargetText = "Clone"),
-            (e.short = "灵能分身"),
+            (e.short = "Psi-Clone"),
             (e.originalRace = "nuka"),
             (e.a = "这名"),
             (e.capitalA = "The "),
@@ -9311,7 +9311,7 @@
           e.inventory.equipItem(n);
           var a = new ct.T4();
           return (
-            (a.longName = "绑带"),
+            (a.longName = "straps"),
             (a.description = "一组绷紧的绑带"),
             (a.hasDynamicProperties = !0),
             e.inventory.equipItem(a),
@@ -9535,7 +9535,7 @@
               window.autobind((0, wt.Z)(e), o.prototype),
               (e.neverSerialize = !0),
               (e.btnTargetText = "Rancher"),
-              (e.short = "努卡牧场主"),
+              (e.short = "Nuka Rancher"),
               (e.originalRace = "nuka"),
               (e.a = "这名"),
               (e.capitalA = "The "),
@@ -9547,7 +9547,7 @@
             var n = new ct.Jq();
             e.inventory.equipItem(n);
             var a = new ct.T4();
-            ((a.longName = "绑带"),
+            ((a.longName = "straps"),
               (a.description = "一组绷紧的绑带"),
               (a.hasDynamicProperties = !0),
               e.inventory.equipItem(a),
@@ -10804,7 +10804,7 @@
               window.autobind((0, wt.Z)(e), o.prototype),
               (e.neverSerialize = !0),
               (e.boomstickUses = 0),
-              (e.short = "海拉克西掠夺者"),
+              (e.short = "hyraxi raider"),
               (e.btnTargetText = "Hyraxi Raider"),
               (e.originalRace = "hyrax"),
               (e.a = "这个"),
@@ -10814,8 +10814,8 @@
               (e.isPlural = !1));
             var n = new ct.pE();
             ((n.attackVerb = "swings"),
-              (n.attackNoun = "劈砍"),
-              (n.longName = "原始战斧"),
+              (n.attackNoun = "cleave"),
+              (n.longName = "primitive axe"),
               (n.description = "一把原始战斧"),
               (n.baseDamage.kinetic.damageValue = 10),
               n.baseDamage.addFlag(kt.G.PENETRATING),
@@ -10825,7 +10825,7 @@
             return (
               e.inventory.equipItem(a),
               (e.inventory.armor = new ct.T4()),
-              (e.inventory.armor.longName = "皮革束带"),
+              (e.inventory.armor.longName = "leather straps"),
               (e.inventory.armor.defense = 10),
               (e.inventory.armor.hasDynamicProperties = !0),
               (e.baseHPResistances = new Tt.x()),
@@ -11172,7 +11172,7 @@
               window.autobind((0, wt.Z)(e), o.prototype),
               (e.neverSerialize = !0),
               (e.boomstickUses = 0),
-              (e.short = "发光海拉克西掠夺者"),
+              (e.short = "glowing hyraxi raider"),
               (e.btnTargetText = "Hyraxi Raider"),
               (e.originalRace = "hyrax"),
               (e.a = "这个"),
@@ -11182,8 +11182,8 @@
               (e.isPlural = !1));
             var n = new ct.pE();
             ((n.attackVerb = "swings"),
-              (n.attackNoun = "劈砍"),
-              (n.longName = "原始战斧"),
+              (n.attackNoun = "cleave"),
+              (n.longName = "primitive axe"),
               (n.description = "一把原始战斧"),
               (n.baseDamage.kinetic.damageValue = 10),
               n.baseDamage.addFlag(kt.G.PENETRATING),
@@ -11193,7 +11193,7 @@
             return (
               e.inventory.equipItem(a),
               (e.inventory.armor = new ct.T4()),
-              (e.inventory.armor.longName = "皮革束带"),
+              (e.inventory.armor.longName = "leather straps"),
               (e.inventory.armor.defense = 10),
               (e.inventory.armor.hasDynamicProperties = !0),
               (e.baseHPResistances = new Tt.x()),
@@ -11538,7 +11538,7 @@
               window.autobind((0, wt.Z)(e), o.prototype),
               (e.neverSerialize = !0),
               (e.boomstickUses = 0),
-              (e.short = "海拉克西机车掠夺者"),
+              (e.short = "hyraxi bike raider"),
               (e.btnTargetText = "Hyraxi Raider"),
               (e.originalRace = "hyrax"),
               (e.a = "这个"),
@@ -11553,7 +11553,7 @@
             return (
               e.inventory.equipItem(a),
               (e.inventory.armor = new ct.T4()),
-              (e.inventory.armor.longName = "金属"),
+              (e.inventory.armor.longName = "metal"),
               (e.inventory.armor.defense = 20),
               (e.inventory.armor.hasDynamicProperties = !0),
               (e.baseHPResistances = new Tt.x()),
@@ -12022,7 +12022,7 @@
               1 === CombatManager.getHostileActors().length
             ) {
               var t = CombatManager.getHostileActors()[0];
-              ((t.short = "报废的机车"),
+              ((t.short = "wrecked motorbike"),
                 CombatManager.setHostileActors(e, t),
                 combatOutput(
                   "刚才那一击确实奏效了！掠夺者的机车浓烟滚滚，他费了九牛二虎之力才勉强稳住。他不断挣扎，直到引擎突然起火。他咒骂一声，从座驾上纵身跳下，任由机车滚进沙丘。火焰熄灭了，但车子大概坏得更彻底。 \n\n<i>“哦，你这个混蛋！”</i>他尖叫着爬起身。<i>“你最好带着一堆<b>该死的</b>好废料，不然就得是个特别会操的骚货！”</i>他抽出一把锯齿斧，冲你龇牙咆哮，准备开打！\n",
@@ -12711,7 +12711,7 @@
             (e = t.call(this)),
             window.autobind((0, wt.Z)(e), o.prototype),
             (e.neverSerialize = !0),
-            (e.short = "塞勒涅"),
+            (e.short = "Selene"),
             (e.btnTargetText = "Selene"),
             (e.originalRace = "galotian"),
             (e.a = ""),
@@ -12734,13 +12734,13 @@
             (e.inventory.rangedWeapon = new ct.Jq()),
             (e.inventory.rangedWeapon.baseDamage.kinetic.damageValue = 30),
             (e.inventory.rangedWeapon.attack = 10),
-            (e.inventory.rangedWeapon.longName = "巨石"),
+            (e.inventory.rangedWeapon.longName = "boulder"),
             (e.inventory.rangedWeapon.description = "一块巨石"),
             (e.inventory.rangedWeapon.attackVerb = "launch"),
-            (e.inventory.rangedWeapon.attackNoun = "砸击"),
+            (e.inventory.rangedWeapon.attackNoun = "smash"),
             (e.inventory.rangedWeapon.hasDynamicProperties = !0),
             (e.inventory.armor = new ct.T4()),
-            (e.inventory.armor.longName = "变形皮肤"),
+            (e.inventory.armor.longName = "morphic skin"),
             (e.inventory.armor.defense = 5),
             (e.inventory.armor.hasDynamicProperties = !0),
             (e.inventory.shield = new zs.S()),
@@ -13126,7 +13126,7 @@
               (e = t.call(this)),
               window.autobind((0, wt.Z)(e), o.prototype),
               (e.neverSerialize = !0),
-              (e.short = "尼尔"),
+              (e.short = "Neil"),
               (e.btnTargetText = "Neil"),
               (e.originalRace = "thraggen"),
               (e.a = ""),
@@ -13139,14 +13139,14 @@
             var n = new Fs.s();
             ((n.hasDynamicProperties = !0),
               (n.baseDamage.kinetic.damageValue = 1),
-              (n.longName = "腐蚀利爪"),
+              (n.longName = "corrosive claws"),
               (n.description = "一套利爪"),
               (n.attackVerb = "claw"),
-              (n.attackNoun = "强酸"),
+              (n.attackNoun = "acid"),
               e.inventory.equipItem(n));
             var a = new ct.T4();
             return (
-              (a.longName = "皮下装甲板"),
+              (a.longName = "subdermal plates"),
               (a.description = "一套皮下装甲系统"),
               (a.defense = 15),
               (a.hasDynamicProperties = !0),
@@ -17279,13 +17279,13 @@
             (e.rarity = GLOBAL.RARE),
             (e.isUsable = !1),
             (e.shortName = "Witchboy Totem"),
-            (e.longName = "巫童图腾"),
+            (e.longName = "Witchboy Totem"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一根巫童图腾"),
             (e.tooltip =
               "据说，海拉克西巫童会在一场持续数日、名为“磨顶”的古怪仪式中亲手雕刻图腾顶端。据称，吸入萨维石粉尘能同时增强他们的灵能与生殖能力。这根图腾被雕成了某种野生鬣狗——或者当地近似生物——咧嘴而笑的面孔。如此大量的萨维石，肯定能提升灵能能力的效果。"),
             (e.attackVerb = "swing"),
-            (e.attackNoun = "猛击"),
+            (e.attackNoun = "smash"),
             gt.g.addTooltip(e.shortName, e.tooltip),
             (e.basePrice = 60500),
             (e.attack = -1),
@@ -22941,13 +22941,13 @@
             (e.type = GLOBAL.RANGED_WEAPON),
             (e.isUsable = !1),
             (e.shortName = "D.Cannon"),
-            (e.longName = "解体炮"),
+            (e.longName = "disintegration cannon"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一门解体炮"),
             (e.tooltip =
               "解体炮通过发射装有高反应性化学糊剂的炮弹，将装甲像啮齿人啃奶酪一样蚀穿。适合你铁了心要把装甲轰成废铁的时候。"),
             (e.attackVerb = "shoot"),
-            (e.attackNoun = "热辐射"),
+            (e.attackNoun = "thermal radiation"),
             gt.g.addTooltip(e.shortName, e.tooltip),
             (e.basePrice = 12e3),
             (e.baseDamage.kinetic.damageValue = 200),
@@ -23064,7 +23064,7 @@
             var e;
             ((0, rt.Z)(this, o),
               ((e = t.call(this)).neverSerialize = !0),
-              (e.short = "烈焰守护者号"),
+              (e.short = "Guardian of Flame"),
               (e.btnTargetText = "G.of Flame"),
               (e.originalRace = "ship"),
               (e.shieldDisplayName = "SHIELDS"),
@@ -24233,7 +24233,7 @@
             window.autobind((0, wt.Z)(e), o.prototype),
             (e.neverSerialize = !0),
             (e.btnTargetText = "Vermillion"),
-            (e.short = "朱红"),
+            (e.short = "Vermillion"),
             (e.originalRace = "nuka"),
             (e.a = ""),
             (e.capitalA = ""),
@@ -24243,18 +24243,18 @@
             (e.isPlural = !1),
             (e.isUniqueInFight = !1));
           var n = new ct.pE();
-          ((n.longName = "阳炎拳"),
+          ((n.longName = "Sunfire Fists"),
             (n.attackVerb = "punch"),
-            (n.attackNoun = "拳头"),
+            (n.attackNoun = "punch"),
             (n.baseDamage.electric.damageValue = 34),
             (n.baseDamage.kinetic.damageValue = 22),
             n.baseDamage.addFlag(kt.G.CRUSHING),
             (n.hasDynamicProperties = !0),
             e.inventory.equipItem(n));
           var a = new ct.Jq();
-          ((a.longName = "阳炎拳"),
+          ((a.longName = "Sunfire Fists"),
             (a.attackVerb = "shoot"),
-            (a.attackNoun = "射击"),
+            (a.attackNoun = "shot"),
             (a.baseDamage.electric.damageValue = 34),
             (a.baseDamage.kinetic.damageValue = 22),
             a.baseDamage.addFlag(kt.G.CRUSHING),
@@ -24262,7 +24262,7 @@
             e.inventory.equipItem(a));
           var i = new ct.T4();
           return (
-            (i.longName = "努卡战斗法衣"),
+            (i.longName = "Nuka Battle Habit"),
             (i.description = "一套法衣"),
             (i.evasion = 5),
             (i.resistances.kinetic.resistanceValue = 10),
@@ -25879,7 +25879,7 @@
             ((e = t.call(this)).stackSize = 1),
             (e.type = GLOBAL.GEM),
             (e.shortName = "D.B.Crystal"),
-            (e.longName = "黯淡巨兽晶体"),
+            (e.longName = "dull behemoth crystal"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一块黯淡巨兽晶体"),
             (e.tooltip =
@@ -25958,7 +25958,7 @@
             (e = t.call(this)),
             window.autobind((0, wt.Z)(e), o.prototype),
             (e.neverSerialize = !0),
-            (e.short = "巨兽阿尔法"),
+            (e.short = "behemoth alpha"),
             (e.btnTargetText = "A.Behemoth"),
             (e.originalRace = "behemoth"),
             (e.a = "⁠ "),
@@ -25973,7 +25973,7 @@
             (e.inventory.meleeWeapon.attackNoun = ""),
             (e.inventory.meleeWeapon.hasDynamicProperties = !0),
             (e.inventory.armor = new ct.T4()),
-            (e.inventory.armor.longName = "厚皮"),
+            (e.inventory.armor.longName = "thick hide"),
             (e.inventory.armor.defense = 4),
             (e.inventory.armor.hasDynamicProperties = !0),
             (e.baseHPResistances = new Tt.x()),
@@ -26127,7 +26127,7 @@
                   var o = Math.max(1.1 * t.volume(), 100);
                   (e || 0 !== rand(2)
                     ? ((this.btnTargetText = "A.Behemoth"),
-                      (this.short = "阿尔法巨兽"),
+                      (this.short = "alpha behemoth"),
                       (this.inventory.armor.evasion = 25),
                       (this.inventory.armor.accuracy = 30),
                       (this.femininity = 70),
@@ -26694,10 +26694,10 @@
                     t = new ct.pE();
                   ((t.attack = 0),
                     (t.baseDamage.kinetic.damageValue = 5),
-                    (t.longName = "拳头"),
+                    (t.longName = "fist"),
                     (t.description = "一只拳头"),
                     (t.attackVerb = "swing"),
-                    (t.attackNoun = "拳头"),
+                    (t.attackNoun = "punch"),
                     (t.hasDynamicProperties = !0),
                     e
                       ? ((t.baseDamage.burning.damageValue = 20),
@@ -26886,7 +26886,7 @@
             (e = t.call(this)),
             window.autobind((0, wt.Z)(e), o.prototype),
             (e.neverSerialize = !0),
-            (e.short = "巨兽贝塔"),
+            (e.short = "behemoth beta"),
             (e.btnTargetText = "B.Behemoth"),
             (e.originalRace = "behemoth"),
             (e.a = "⁠ "),
@@ -26901,7 +26901,7 @@
             (e.inventory.meleeWeapon.attackNoun = ""),
             (e.inventory.meleeWeapon.hasDynamicProperties = !0),
             (e.inventory.armor = new ct.T4()),
-            (e.inventory.armor.longName = "厚皮"),
+            (e.inventory.armor.longName = "thick hide"),
             (e.inventory.armor.defense = 4),
             (e.inventory.armor.hasDynamicProperties = !0),
             (e.baseHPResistances = new Tt.x()),
@@ -32808,7 +32808,7 @@
               (e = t.call(this)),
               window.autobind((0, wt.Z)(e), o.prototype),
               (e.neverSerialize = !0),
-              (e.short = "邪教徒"),
+              (e.short = "cultist"),
               (e.btnTargetText = "Cultist"),
               (e.originalRace = "divrani"),
               (e.a = "这名"),
@@ -32820,16 +32820,16 @@
               (e.isLustImmune = !1));
             var n = new ct.pE();
             ((n.attackVerb = "lash"),
-              (n.attackNoun = "卷须"),
+              (n.attackNoun = "tendrils"),
               (n.attack = 2),
               (n.baseDamage.kinetic.damageValue = 4),
               n.baseDamage.addFlag(kt.G.PENETRATING),
-              (n.longName = "卷须"),
+              (n.longName = "tendrils"),
               (n.hasDynamicProperties = !0),
               e.inventory.equipItem(n));
             var a = new ct.T4();
             return (
-              (a.longName = "油亮的鳞片"),
+              (a.longName = "oily scales"),
               (a.defense = 0),
               (a.hasDynamicProperties = !0),
               e.inventory.equipItem(a),
@@ -34196,7 +34196,7 @@
               (e.tainted = n),
               (e.neverSerialize = !0),
               (e.btnTargetText = "Nuka Raider"),
-              (e.short = "努卡劫掠者"),
+              (e.short = "Nuka Raider"),
               (e.originalRace = "nuka"),
               (e.a = "⁠"),
               (e.capitalA = "The "),
@@ -34212,7 +34212,7 @@
             e.inventory.equipItem(a);
             var i = new ct.T4();
             return (
-              (i.longName = "绑带"),
+              (i.longName = "straps"),
               (i.description = "一组绷紧的绑带"),
               (i.resistances.kinetic.resistanceValue = 15),
               (i.resistances.burning.resistanceValue = 35),
@@ -36063,7 +36063,7 @@
               ((e = t.call(this)).stackSize = 10),
               (e.type = GLOBAL.GADGET),
               (e.shortName = "Use Manual"),
-              (e.longName = "第十一使用手册"),
+              (e.longName = "11th Manual of Use"),
               gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
               (e.description = "一本手册"),
               (e.tooltip =
@@ -36154,7 +36154,7 @@
               ((e = t.call(this)).stackSize = 10),
               (e.type = GLOBAL.GADGET),
               (e.shortName = "Use Manual"),
-              (e.longName = "第四使用手册"),
+              (e.longName = "4th Manual of Use"),
               gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
               (e.description = "一本手册"),
               (e.tooltip =
@@ -36249,7 +36249,7 @@
             ((e = t.call(this)).stackSize = 10),
             (e.type = GLOBAL.GADGET),
             (e.shortName = "Use Manual"),
-            (e.longName = "第九使用手册"),
+            (e.longName = "9th Manual of Use"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一本手册"),
             (e.tooltip =
@@ -36345,7 +36345,7 @@
             (e.stackSize = 1),
             (e.type = GLOBAL.CLOTHING),
             (e.shortName = "BlessedRaiments"),
-            (e.longName = "圣膏礼祭服"),
+            (e.longName = "Raiments of the Blessed Anointment"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "膏礼祭服"),
             (e.tooltip =
@@ -36476,14 +36476,14 @@
               (e.type = GLOBAL.MELEE_WEAPON),
               (e.isUsable = !1),
               (e.shortName = "CogSceptre"),
-              (e.longName = "齿轮饰权杖"),
+              (e.longName = "cog-adorned sceptre"),
               gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
               (e.description = "一柄齿轮饰权杖"),
               (e.tooltip =
                 "一柄黄铜权杖，长度约等于人类前臂。精心锻造的电线盘绕杖身，末端是一枚厚重齿轮，也就是基哈教派的象征。它原本挂着一条古老挂绳，连接着旧菲德拉基地的钥匙卡；卡片嵌在齿轮中央，仿佛一枚冠顶宝石。\n\n 握在手中时，它挥动起来流畅悦目，平衡得无可挑剔。基哈信徒无疑会从它那几何弧线中感受到某种美感。至于杖端的齿轮，不论信徒还是异端，照样都能砸烂脑袋。"),
               gt.g.addTooltip(e.shortName, e.tooltip),
               (e.attackVerb = "swing"),
-              (e.attackNoun = "猛击"),
+              (e.attackNoun = "bash"),
               (e.basePrice = 524e3),
               (e.baseDamage.kinetic.damageValue = 35),
               (e.attack = 4),
@@ -37819,13 +37819,13 @@
             (e.rarity = GLOBAL.CUSTOM),
             (e.type = GLOBAL.RANGED_WEAPON),
             (e.shortName = "ML Cannon"),
-            (e.longName = "雷神闪电炮"),
+            (e.longName = "Mjolnir Lightning Cannon"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一门雷神闪电炮"),
             (e.tooltip =
               "雷神闪电炮是基哈集团近期开发的武器，能够在武器与目标之间形成温和等离子体的层流通道，并将过度放大的高压电流导入目标；它能有效冲刷护盾，并将金属装甲加热至极高温。"),
             (e.attackVerb = "shoot"),
-            (e.attackNoun = "电脉冲"),
+            (e.attackNoun = "electric pulse"),
             gt.g.addTooltip(e.shortName, e.tooltip),
             (e.basePrice = 52e3),
             (e.baseDamage.electric.damageValue = 451),
@@ -37905,13 +37905,13 @@
             (e.type = GLOBAL.RANGED_WEAPON),
             (e.rarity = GLOBAL.CUSTOM),
             (e.shortName = "P.P.C."),
-            (e.longName = "迷途粒子炮"),
+            (e.longName = "Prodigal Particle Cannon"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一门迷途粒子炮"),
             (e.tooltip =
               "几十年来，浪子粒子一直只是纯粹的数学理论——一个比希格斯玻色子更值得追寻的物理学大奖。自从被发现以来，它的实际应用少之又少。捕获并定向引导浪子粒子所需的设备过于笨重昂贵，无法用于单兵武器，不过你曾看过有关基哈集团在星球大淘金期间部署原型机进行测试的报道。不知为何，那些原型最终落进了鲁米商店里的残骸堆。"),
             (e.attackVerb = "shoot"),
-            (e.attackNoun = "灼热粒子"),
+            (e.attackNoun = "burning particle"),
             gt.g.addTooltip(e.shortName, e.tooltip),
             (e.basePrice = 69e3),
             (e.baseDamage.burning.damageValue = 600),
@@ -37991,13 +37991,13 @@
             (e.type = GLOBAL.RANGED_WEAPON),
             (e.rarity = GLOBAL.CUSTOM),
             (e.shortName = "A.A. Beam"),
-            (e.longName = "原子磨蚀射线"),
+            (e.longName = "atomic abrasion beam"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一道原子磨蚀射线"),
             (e.tooltip =
               "动能冲击？名过其实。电力？没电到点子上。激光？光学上站不住脚。逐个原子地从分子层面拆解目标？完美。如今，多亏神盾造船有限责任公司，任何资金足够雄厚的私人军事企业——或是在遍地都是被击落原型机的行星上活动的探索者——都能掌握原子解构之力...."),
             (e.attackVerb = "shoot"),
-            (e.attackNoun = "灼热粒子"),
+            (e.attackNoun = "burning particle"),
             gt.g.addTooltip(e.shortName, e.tooltip),
             (e.basePrice = 75e3),
             (e.baseDamage.unresistable_hp.damageValue = 300),
@@ -38077,13 +38077,13 @@
             (e.type = GLOBAL.RANGED_WEAPON),
             (e.rarity = GLOBAL.CUSTOM),
             (e.shortName = "M.M. Rail Cannon"),
-            (e.longName = "极磁轨道炮"),
+            (e.longName = "MaxMag rail cannon"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一门极磁轨道炮"),
             (e.tooltip =
               "轨道炮早在几十年前就已臻于完善。大多数巨型企业把研究重点转向其他领域，开发远距离驾驭等离子体或解构硬化材料的新技术。麦克斯公司却毫无这种兴趣。他们拿起一项由竞争对手发现并完善的成熟技术，将其化为己用。他们开发出非政府组织所能取得的最大口径轨道炮，再装上竞争对手愿意出售的最深层电容器，最终造出了麦克斯巨磁轨道炮。"),
             (e.attackVerb = "shoot"),
-            (e.attackNoun = "轨道炮弹"),
+            (e.attackNoun = "rail shot"),
             gt.g.addTooltip(e.shortName, e.tooltip),
             (e.basePrice = 49e3),
             (e.baseDamage.kinetic.damageValue = 720),
@@ -38164,13 +38164,13 @@
             (e.type = GLOBAL.RANGED_WEAPON),
             (e.rarity = GLOBAL.RARE),
             (e.shortName = "Q. Howitzer T."),
-            (e.longName = "四联榴弹炮塔"),
+            (e.longName = "quad Howitzer turret"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一座四联榴弹炮塔"),
             (e.tooltip =
               "作为炮塔，它需要一名船员负责开火。\n\n尽管俗称榴弹炮，大口径火炮自火药时代早期起就已投入战争。菲德拉人赋予了它自己的特色，造出一台粗糙却有效的四联装怪物，能够向轨道上的其他舰船抛射高爆炮弹。鲁米的技术奇才本领展露无遗，使这些原始系统能够与像你的飞船这样真正隶属联合银河邦联的舰艇无缝整合。"),
             (e.attackVerb = "shoot"),
-            (e.attackNoun = "榴弹炮弹"),
+            (e.attackNoun = "artillery shell"),
             gt.g.addTooltip(e.shortName, e.tooltip),
             (e.basePrice = 35400),
             (e.baseDamage = new Tt.x()),
@@ -38255,7 +38255,7 @@
             (e.rarity = GLOBAL.RARE),
             (e.isUsable = !1),
             (e.shortName = "QL Armor Kit"),
-            (e.longName = "量子晶格装甲套件"),
+            (e.longName = "quantum lattice armor kit"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一套量子晶格装甲套件"),
             (e.tooltip =
@@ -38337,7 +38337,7 @@
             (e.rarity = GLOBAL.RARE),
             (e.isUsable = !1),
             (e.shortName = "GH Armor Layers"),
-            (e.longName = "杰达尼姆六角编织装甲层"),
+            (e.longName = "geddanium hexweave armor layers"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一套杰达尼姆六角编织装甲层升级件"),
             (e.tooltip =
@@ -38419,7 +38419,7 @@
             (e.rarity = GLOBAL.RARE),
             (e.isUsable = !1),
             (e.shortName = "A.S.Upgrade"),
-            (e.longName = "高级护盾升级件"),
+            (e.longName = "advanced shield upgrade"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一套高级护盾升级件"),
             (e.tooltip =
@@ -38501,7 +38501,7 @@
             (e.rarity = GLOBAL.RARE),
             (e.isUsable = !1),
             (e.shortName = "A.T.Emitters"),
-            (e.longName = "高级发射器调校"),
+            (e.longName = "advanced emitter tuning"),
             gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
             (e.description = "一套高级发射器调校组件"),
             (e.tooltip =
@@ -39821,7 +39821,7 @@
           xH() &&
             (e.keeperSell = "露米静静看着你浏览她的库存。"),
           (e.keeperBuy = e.keeperSell),
-          (e.short = "露玛雅尔"));
+          (e.short = "Rummaiyael"));
         var t = [OI, GI, RI, DI, BI];
         (st.xn && t.push(YH.Y, IH.B),
           HI.m.showShopkeepShipFitItemScreen(t, at.X0.Weapons, e, function () {
@@ -39845,7 +39845,7 @@
           xH() &&
             (e.keeperSell = "露米静静看着你浏览她的库存。"),
           (e.keeperBuy = e.keeperSell),
-          (e.short = "露玛雅尔"),
+          (e.short = "Rummaiyael"),
           HI.m.showShopkeepShipFitItemScreen(
             [zI.f, PI, qI, VI, ZI],
             at.X0.Gadgets,
@@ -39886,7 +39886,7 @@
               1 === CombatManager.getHostileActors().length
             ) {
               var t = CombatManager.getHostileActors()[0];
-              ((t.short = "报废的机车"),
+              ((t.short = "wrecked motorbike"),
                 CombatManager.setHostileActors(e, t),
                 combatOutput(
                   "刚才那一击真是正中要害！掠袭者的摩托正冒出滚滚浓烟，他费尽力气也难以让它保持稳定。他仍在苦苦挣扎，直到引擎燃起熊熊大火。他咒骂一声，从坐骑上飞扑下来，任由它翻滚着栽进沙丘；火是灭了，但车子恐怕也损坏得更严重了。 \n\n<i>“哦，你这个混蛋！”</i>他一边尖叫，一边挣扎着爬起。<i>“你他妈最好很会操！”</i>他抽出一把锯齿斧，冲你龇牙咆哮，准备大打出手！\n",
@@ -43881,7 +43881,7 @@
               (e = t.call(this)),
               window.autobind((0, wt.Z)(e), o.prototype),
               (e.neverSerialize = !0),
-              (e.short = "园丁"),
+              (e.short = "gardener"),
               (e.btnTargetText = "Gardener"),
               (e.originalRace = "divrani"),
               (e.a = "那位"),
@@ -43896,16 +43896,16 @@
               (e.isLustImmune = !1));
             var n = new ct.pE();
             ((n.attackVerb = "lash"),
-              (n.attackNoun = "卷须"),
+              (n.attackNoun = "tendrils"),
               (n.attack = 2),
               (n.baseDamage.kinetic.damageValue = 4),
               n.baseDamage.addFlag(kt.G.PENETRATING),
-              (n.longName = "卷须"),
+              (n.longName = "tendrils"),
               (n.hasDynamicProperties = !0),
               e.inventory.equipItem(n));
             var a = new ct.T4();
             return (
-              (a.longName = "油亮的鳞片"),
+              (a.longName = "oily scales"),
               (a.defense = 0),
               (a.hasDynamicProperties = !0),
               e.inventory.equipItem(a),
@@ -45514,12 +45514,12 @@
             (e.type = GLOBAL.RANGED_WEAPON),
             (e.isUsable = !1),
             (e.shortName = "C.C.Pistol"),
-            (e.longName = "定制震荡手枪"),
+            (e.longName = "custom concussion pistol"),
             (e.description = "一把定制震荡手枪"),
             (e.tooltip =
               "这是乔安娜·克里德的私人震荡手枪，经过大幅改装，以提升威力和易用性。它原本似乎是一把大口径火药—线圈混合式实弹武器，但有人改造了内部结构，使其能够使用维和精英级震荡弹药。震荡弹发射由硬光包覆的冲击波，以致残性动能伤害制服目标，却不会留下大多数动能武器常见的巨大血洞。伺服辅助装填把停机时间压到最低，符合人体工学的握把则让它握在手中时比放进枪套更显得理所当然。"),
             (e.attackVerb = "shoot"),
-            (e.attackNoun = "射击"),
+            (e.attackNoun = "shot"),
             gt.g.addTooltip(e.shortName, e.tooltip),
             (e.basePrice = 96e4),
             (e.attack = 0),
@@ -45637,7 +45637,7 @@
               (e.isUsable = !1),
               (e.rarity = GLOBAL.CUSTOM),
               (e.shortName = "T.Hat"),
-              (e.longName = "开拓者帽"),
+              (e.longName = "trailblazer hat"),
               gt.g.addFullName(e.shortName, yt.m.toTitleCase(e.longName)),
               (e.description = "一顶开拓者帽"),
               (e.tooltip =
@@ -46711,7 +46711,7 @@
               (e = t.call(this)),
               window.autobind((0, wt.Z)(e), o.prototype),
               (e.neverSerialize = !0),
-              (e.short = "花瓶女"),
+              (e.short = "Bimbo"),
               (e.btnTargetText = "Bimbo"),
               (e.originalRace = "Hyrax"),
               (e.a = ""),
@@ -46722,7 +46722,7 @@
                 "她跳着躲开，竟能让一次仓促闪避显得无比性感。"),
               (e.isPlural = !1),
               (e.inventory.armor = new ct.T4()),
-              (e.inventory.armor.longName = "一丝不挂"),
+              (e.inventory.armor.longName = "birthday suit"),
               (e.inventory.armor.defense = 0),
               (e.inventory.armor.hasDynamicProperties = !0),
               (e.baseHPResistances.electric.damageValue = -5),

@@ -94,7 +94,7 @@
     {
       "id": "content_tavros.c107a216.js:1518:1532:ea6ee1202944",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -57564,7 +57564,7 @@
     {
       "id": "content_tavros.c107a216.js:644454:644472:0b4283151ba7",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -82135,7 +82135,7 @@
     {
       "id": "content_tavros.c107a216.js:959416:959421:e1395fafc5a8",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -97156,7 +97156,7 @@
     {
       "id": "content_tavros.c107a216.js:1150959:1150963:4d134bc07221",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": false,
       "shouldTranslated": false,
@@ -265763,7 +265763,7 @@
     {
       "id": "content_tavros.c107a216.js:3746742:3746754:d2d79a668826",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -266019,7 +266019,7 @@
     {
       "id": "content_tavros.c107a216.js:3750481:3750499:47e87261f779",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -266185,7 +266185,7 @@
     {
       "id": "content_tavros.c107a216.js:3753239:3753259:715b4c397a35",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -808150,7 +808150,7 @@
     {
       "id": "content_tavros.c107a216.js:9607415:9607432:bafb84d667b7",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -808683,7 +808683,7 @@
     {
       "id": "content_tavros.c107a216.js:9612521:9612535:104c7e566201",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -810066,7 +810066,7 @@
     {
       "id": "content_tavros.c107a216.js:9622056:9622075:c0c452e925a0",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -810603,7 +810603,7 @@
     {
       "id": "content_tavros.c107a216.js:9626992:9627012:8b1157e3c836",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1014911,7 +1014911,7 @@
     {
       "id": "content_tavros.c107a216.js:11999133:11999149:9c632b7fc667",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1014948,7 +1014948,7 @@
     {
       "id": "content_tavros.c107a216.js:11999326:11999335:bc7819b34ff8",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1015004,7 +1015004,7 @@
     {
       "id": "content_tavros.c107a216.js:11999612:11999628:9c632b7fc667",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1015269,7 +1015269,7 @@
     {
       "id": "content_tavros.c107a216.js:12001159:12001166:6d8c9b124d52",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1026538,12 +1026538,12 @@
     {
       "id": "content_tavros.c107a216.js:12145971:12145987:9c632b7fc667",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
       "original": "Tavros Station",
-      "translation": "塔弗罗斯空间站",
+      "translation": "塔夫罗斯站",
       "start": 12145971,
       "end": 12145987,
       "line": 150071,
@@ -1026651,12 +1026651,12 @@
     {
       "id": "content_tavros.c107a216.js:12146657:12146673:9c632b7fc667",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
       "original": "Tavros Station",
-      "translation": "塔弗罗斯空间站",
+      "translation": "塔夫罗斯站",
       "start": 12146657,
       "end": 12146673,
       "line": 150090,
@@ -1026726,7 +1026726,7 @@
     {
       "id": "content_tavros.c107a216.js:12147049:12147062:d48fd3579d7c",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1026801,12 +1026801,12 @@
     {
       "id": "content_tavros.c107a216.js:12147455:12147471:9c632b7fc667",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
       "original": "Tavros Station",
-      "translation": "塔弗罗斯空间站",
+      "translation": "塔夫罗斯站",
       "start": 12147455,
       "end": 12147471,
       "line": 150111,
@@ -1027540,7 +1027540,7 @@
     {
       "id": "content_tavros.c107a216.js:12152357:12152359:da39a3ee5e6b",
       "file": "content_tavros.c107a216.js",
-      "category": "code",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": false,
       "shouldTranslated": false,
@@ -1027620,7 +1027620,7 @@
     {
       "id": "content_tavros.c107a216.js:12152570:12152572:da39a3ee5e6b",
       "file": "content_tavros.c107a216.js",
-      "category": "code",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": false,
       "shouldTranslated": false,
@@ -1034961,7 +1034961,7 @@
     {
       "id": "content_tavros.c107a216.js:12191578:12191581:b858cb282617",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": false,
       "shouldTranslated": false,
@@ -1034981,7 +1034981,7 @@
     {
       "id": "content_tavros.c107a216.js:12191588:12191591:b858cb282617",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": false,
       "shouldTranslated": false,
@@ -1035047,7 +1035047,7 @@
     {
       "id": "content_tavros.c107a216.js:12192009:12192019:379ff2bf3a29",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1035084,7 +1035084,7 @@
     {
       "id": "content_tavros.c107a216.js:12192084:12192086:da39a3ee5e6b",
       "file": "content_tavros.c107a216.js",
-      "category": "code",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": false,
       "shouldTranslated": false,
@@ -1035123,7 +1035123,7 @@
     {
       "id": "content_tavros.c107a216.js:12192175:12192182:0a5228e66df3",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1035161,7 +1035161,7 @@
     {
       "id": "content_tavros.c107a216.js:12192252:12192260:0d32aaae3ccc",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1035198,7 +1035198,7 @@
     {
       "id": "content_tavros.c107a216.js:12192333:12192340:31fe827aea4c",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1035255,7 +1035255,7 @@
     {
       "id": "content_tavros.c107a216.js:12192437:12192443:9a8b470c1212",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1035293,7 +1035293,7 @@
     {
       "id": "content_tavros.c107a216.js:12192515:12192522:619d5f943e25",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1035331,7 +1035331,7 @@
     {
       "id": "content_tavros.c107a216.js:12192593:12192600:e852191079ea",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -1035369,7 +1035369,7 @@
     {
       "id": "content_tavros.c107a216.js:12192675:12192682:408c26081aae",
       "file": "content_tavros.c107a216.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,

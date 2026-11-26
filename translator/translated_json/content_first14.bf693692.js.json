@@ -18964,7 +18964,7 @@
     {
       "id": "content_first14.bf693692.js:383635:383651:85382fc227b4",
       "file": "content_first14.bf693692.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -25695,7 +25695,7 @@
     {
       "id": "content_first14.bf693692.js:552799:552809:78e6c43d7a87",
       "file": "content_first14.bf693692.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,

@@ -25071,7 +25071,7 @@
             (e.type = GLOBAL.ACCESSORY),
             (e.isUsable = !1),
             (e.shortName = "S. Collar"),
-            (e.longName = "苏兹的项圈"),
+            (e.longName = "Suze's collar"),
             Xs.g.addFullName(e.shortName, r.m.toTitleCase(e.longName)),
             (e.description = "一条定制项圈"),
             (e.tooltip =
@@ -25226,7 +25226,7 @@
             (e.type = GLOBAL.PILL),
             (e.customIcon = "drug-vial"),
             (e.shortName = "Masc Off"),
-            (e.longName = "“雄性消退”注射器"),
+            (e.longName = "Masc Off syringe"),
             (e.description = "一支“雄性消退”自动注射器"),
             (e.tooltip =
               "杰琼制药试图打造廉价而有竞争力的女性化基因改造剂，其成果便是名为“去雄剂”的药物。与该公司的研发工作经常出现的情况一样，去雄剂没能实现最初目标，无法产生全面女性化效果。不过，他们制成的药物在生殖器转换方面异常可靠，而正是这一特性令它作为一款更精致小众的变形剂大受欢迎。公司目前正努力开发一款将阴道变成阴茎的对应产品。\n\n去雄剂会使服用者拥有的任何阴茎迅速转化为阴道。效果持续约24小时，随后恢复原状。该基因改造剂经过校准，服用双倍剂量会使效果永久化，包装上用红字明确写出了这一点。它看起来像一支不透明的双腔自动注射器，一侧腔体装着透明液体，另一侧装着粉色液体。"),
@@ -25779,7 +25779,7 @@
               ((e = t.call(this)).stackSize = 1),
               (e.type = GLOBAL.UPPER_UNDERGARMENT),
               (e.shortName = "Stl. Shirt"),
-              (e.longName = "小绿人T恤"),
+              (e.longName = "Little Green T-shirt"),
               Xs.g.addFullName(e.shortName, r.m.toTitleCase(e.longName)),
               (e.description = "一件蓝灰色衬衫"),
               Xs.g.addTooltip(e.shortName, e.tooltip),

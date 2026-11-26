@@ -49,7 +49,7 @@
             ((e = t.call(this)).stackSize = 1),
             (e.type = GLOBAL.COMBAT_IMPLANT),
             (e.shortName = "B.Bulwark"),
-            (e.longName = "巨乳壁垒"),
+            (e.longName = "Busty Bulwark"),
             h.g.addFullName(e.shortName, l.m.toTitleCase(e.longName)),
             (e.description = "一对可强化护盾的乳房植入体"),
             (e.tooltip =
@@ -31819,7 +31819,7 @@
                   function n() {
                     (pc.inventory.removeAllEquipment(),
                       (pc.inventory.armor = new xo.t()),
-                      (pc.inventory.armor.longName = "科技服"),
+                      (pc.inventory.armor.longName = "tech suit"),
                       (pc.inventory.armor.description =
                         "设计淫荡的科技服"),
                       pc.inventory.armor.itemFlags.push(
@@ -34933,7 +34933,7 @@
             (e.type = GLOBAL.GADGET),
             (e.customIcon = "lips_glossed"),
             (e.shortName = "SemDem"),
-            (e.longName = "精液恶魔"),
+            (e.longName = "Semen Demon"),
             (e.description = "一管精液恶魔唇膏"),
             (e.tooltip =
               "这管来源可疑的紫色唇膏没有任何识别信息。上面只写着：其中增强射精量的微型外科机器人，可以暂时增加它接触到的任何阴茎的射精量，因此对于想尽可能吞下更多精液的人而言，是最完美的唇膏！\n\n谁知道它还会带来哪些其他效果？".concat(
@@ -56974,7 +56974,7 @@
                     (clearOutput(),
                       author("Savin"),
                       showGrayGooArmor(),
-                      (gooarmor.short = "新星"),
+                      (gooarmor.short = "Nova"),
                       output(
                         "<i>“当然。我是[pc.name]，”</i>你说着向凝胶伸出手。",
                       ),
@@ -81285,7 +81285,7 @@
               (e = t.call(this)),
               window.autobind((0, uc.Z)(e), o.prototype),
               (e.neverSerialize = !0),
-              (e.short = "湿透的拉斯克维尔"),
+              (e.short = "soaked raskvel"),
               (e.long =
                 "她穿着粉色背心和同色粉色短裙，裙摆垂到大腿中部。这条短裙看起来很廉价，要不是腰间系着一条黑色工具带，很容易就会滑落。带上挂着各种小工具和玩意，色情与实用性各占一半。其中有一根亮粉色双头马形假阳具、一把左轮手枪、左轮手枪专用的可拆卸金属枪托、一个看起来像微型飞船推进器的东西，还有颇多微型手雷。"),
               (e.btnTargetText = "Raskvel"),
@@ -81301,12 +81301,12 @@
               (e.inventory.rangedWeapon.baseDamage.kinetic.damageValue = 30),
               e.inventory.rangedWeapon.baseDamage.addFlag(O.G.BULLET),
               (e.inventory.rangedWeapon.attack = 10),
-              (e.inventory.rangedWeapon.longName = "散弹枪"),
+              (e.inventory.rangedWeapon.longName = "shotgun"),
               (e.inventory.rangedWeapon.attackVerb = "shoot"),
-              (e.inventory.rangedWeapon.attackNoun = "鹿弹"),
+              (e.inventory.rangedWeapon.attackNoun = "buckshot"),
               (e.inventory.rangedWeapon.hasDynamicProperties = !0),
               (e.inventory.armor = new p.T4()),
-              (e.inventory.armor.longName = "粉色背心"),
+              (e.inventory.armor.longName = "pink tanktop"),
               (e.inventory.armor.defense = 2),
               (e.inventory.armor.evasion = 13),
               (e.inventory.armor.sexiness = 5),
@@ -84331,7 +84331,7 @@
                       output("<b>数月过去</b>"),
                       pc.inventory.removeAllEquipment(),
                       (pc.inventory.armor = new my.e()),
-                      (pc.inventory.armor.longName = "皮革服"),
+                      (pc.inventory.armor.longName = "leather suit"),
                       (pc.inventory.armor.description = "一套皮革服"),
                       (pc.inventory.armor.itemFlags = [
                         GLOBAL.ITEM_FLAG_EXPOSE_FULL,
@@ -104037,12 +104037,12 @@
         var e = At.L.sector.findOrAddSystem("INGNAM", "Ingnam"),
           t = new ab.Nx();
         ((t.locationIndex = "TARKUS"),
-          (t.locationName = "塔库斯"),
+          (t.locationName = "Tarkus"),
           (t.isPlanet = !0),
           e.addLocation(t));
         var o = new ab.Nx();
         ((o.locationIndex = "TARKUS TETHER"),
-          (o.locationName = "塔库斯系链"),
+          (o.locationName = "Tarkus Tether"),
           e.addLocation(o),
           (At.L.planetTarkus = [t]),
           At.L.planetTarkus.push(o),
@@ -107137,7 +107137,7 @@
           t.addRoom(Ht));
         var xt = new ab.Nx();
         ((xt.locationIndex = "DECK 13"),
-          (xt.locationName = "第13层甲板"),
+          (xt.locationName = "Deck 13"),
           e.addLocation(xt),
           At.L.planetTarkus.push(xt));
         var Ot = new ab.du();

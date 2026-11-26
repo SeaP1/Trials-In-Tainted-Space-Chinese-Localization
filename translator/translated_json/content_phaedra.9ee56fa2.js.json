@@ -94,7 +94,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:1480:1500:96c8dde69a2a",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -259,7 +259,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:4270:4291:a09dbeb0a88a",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -296,7 +296,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:4453:4466:858a68bb6dcb",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -11480,7 +11480,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:107036:107057:0626dcd5fd04",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -15783,7 +15783,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:134513:134540:06471abba144",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -16263,7 +16263,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:136643:136669:6b647664642d",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -17493,7 +17493,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:148373:148400:06471abba144",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -18273,7 +18273,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:154943:154967:b0a93d35cda6",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.locationName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -20756,7 +20756,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:172526:172538:acaa98b8650e",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -21103,7 +21103,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:176991:177016:08fb89956ae6",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -21248,7 +21248,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:179258:179274:1a855f8a5ec1",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -21392,7 +21392,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:180459:180465:0383b9a5c02b",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -21428,7 +21428,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:180577:180583:0383b9a5c02b",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -21446,7 +21446,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:180740:180752:0b7ee8e55af6",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -21971,7 +21971,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:189213:189219:d2a8e713145b",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -40000,7 +40000,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:475753:475762:32c8a89cd993",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -40148,7 +40148,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:476196:476206:495260012517",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -40167,7 +40167,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:476375:476385:495260012517",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -40186,7 +40186,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:476556:476575:58bde9c04f87",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -45487,7 +45487,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:703705:703716:46760a3916b3",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -45618,7 +45618,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:704221:704229:ae3590694434",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -46019,7 +46019,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:711524:711538:22e60630c389",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -46150,7 +46150,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:712047:712055:ae3590694434",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -53773,7 +53773,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:892057:892072:a609320c5662",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -53902,7 +53902,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:893131:893139:0d32aaae3ccc",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -53921,7 +53921,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:893170:893185:3cf218710c27",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -53959,7 +53959,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:893621:893637:4ad2d8a123a7",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -56098,7 +56098,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:908804:908827:8e8a34c8f7ea",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -56227,7 +56227,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:909983:909991:0d32aaae3ccc",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -56246,7 +56246,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:910022:910037:3cf218710c27",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -56284,7 +56284,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:910473:910489:4ad2d8a123a7",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -57426,7 +57426,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:925934:925954:a6f3d9cf9c4e",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -57537,7 +57537,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:926777:926784:4963bb059132",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -60692,7 +60692,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:948029:948048:bc1811623172",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -62589,7 +62589,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:1058680:1058688:993b451e52e8",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -62739,7 +62739,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:1060064:1060073:82b384ce62e2",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -62793,7 +62793,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:1060255:1060262:31fe827aea4c",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -62811,7 +62811,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:1060420:1060434:88fb0f0b96d4",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -64268,7 +64268,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:1074496:1074502:29408adfe1bd",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -64416,7 +64416,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:1075559:1075576:da26806f408d",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -64470,7 +64470,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:1075708:1075714:434b0a6daa53",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -64488,7 +64488,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:1075840:1075858:6387f96e0239",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -87927,7 +87927,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:1597650:1597666:df20ca084109",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -87999,7 +87999,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:1598302:1598309:31fe827aea4c",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -118994,7 +118994,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2366321:2366344:c7b1649bec95",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -119066,7 +119066,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2366793:2366812:20904c18c56e",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -119175,7 +119175,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2369563:2369582:aab137e3b666",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -124768,7 +124768,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2496221:2496233:b6352502f219",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -124900,7 +124900,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2496611:2496626:2b69ee651ee5",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -124936,7 +124936,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2496695:2496702:408c26081aae",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -124954,7 +124954,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2496999:2497014:2b69ee651ee5",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -124990,7 +124990,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2497083:2497089:8faccbbfbfdb",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -125008,7 +125008,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2497406:2497425:0d5469086706",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -131403,7 +131403,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2697387:2697410:373664d1866e",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -131566,7 +131566,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2699858:2699874:323adb0d3164",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -131656,7 +131656,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2700285:2700287:da39a3ee5e6b",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "code",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": false,
       "shouldTranslated": false,
@@ -131716,7 +131716,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2700451:2700453:da39a3ee5e6b",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "code",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": false,
       "shouldTranslated": false,
@@ -131736,7 +131736,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2700610:2700622:cac76033127c",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -132042,7 +132042,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2706449:2706465:1f20442fb953",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -137573,7 +137573,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2732852:2732858:3e6b71ea5801",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -137627,7 +137627,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2732991:2732998:408c26081aae",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -139044,7 +139044,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2741278:2741293:33d707272ee2",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -139134,7 +139134,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2741704:2741706:da39a3ee5e6b",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "code",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": false,
       "shouldTranslated": false,
@@ -139194,7 +139194,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2741870:2741872:da39a3ee5e6b",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "code",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": false,
       "shouldTranslated": false,
@@ -139214,7 +139214,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:2742029:2742041:cac76033127c",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -175608,7 +175608,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3163423:3163432:84c3c9130950",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -175754,7 +175754,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3163865:3163875:495260012517",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -175772,7 +175772,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3164044:3164054:495260012517",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -175790,7 +175790,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3164225:3164238:2e96d749d7bd",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -179740,7 +179740,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3413514:3413527:0cf3bf6fb363",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -179884,7 +179884,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3416390:3416398:ae3590694434",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -189551,7 +189551,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3663166:3663186:52a65396b073",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -189806,7 +189806,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3667668:3667687:21d5139c89d3",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -190062,7 +190062,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3672415:3672434:967efe89ccb4",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -190318,7 +190318,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3676594:3676630:c58c65314776",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -190481,7 +190481,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3680416:3680437:4ab96adf0283",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -190553,7 +190553,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3681290:3681296:c8a16b493c48",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -195922,7 +195922,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3820271:3820297:67be4c4bc0b9",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -195994,7 +195994,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3820832:3820848:acf6aa02cc81",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -196122,7 +196122,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3823206:3823232:0fbbf7fbea90",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -196194,7 +196194,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3823942:3823960:27b28ba8b232",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -196321,7 +196321,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3826320:3826342:b8bc66b89ede",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -196393,7 +196393,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3826956:3826974:27b28ba8b232",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -196520,7 +196520,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3829345:3829365:1c1ebc5beb56",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -196592,7 +196592,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3830106:3830117:bdf49c13b236",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -196719,7 +196719,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3832521:3832543:53e54b3351e9",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -196791,7 +196791,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3833308:3833325:a414c68d4324",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -196918,7 +196918,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3835860:3835887:512b6916251a",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -197081,7 +197081,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3838613:3838646:33d6188f5090",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -197244,7 +197244,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3841309:3841334:21ce40480d30",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -197407,7 +197407,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3843938:3843963:2ad582d966d5",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -204355,7 +204355,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3913524:3913536:fbebca601766",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -204507,7 +204507,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3914531:3914543:fbebca601766",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -204600,7 +204600,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:3916553:3916572:bc1811623172",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -232898,7 +232898,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:4222774:4222784:746aced590a1",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -233060,7 +233060,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:4224632:4224642:495260012517",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -233078,7 +233078,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:4224811:4224821:495260012517",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -233096,7 +233096,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:4224992:4225005:2e96d749d7bd",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -239406,7 +239406,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:4457734:4457760:da2c2a12d0b5",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -239478,7 +239478,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:4458515:4458521:8faccbbfbfdb",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.attackNoun",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -239605,7 +239605,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:4461316:4461333:f964fa7b3494",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -245099,7 +245099,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:4573524:4573531:b36a844eab95",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.short",
       "shouldTranslate": true,
       "shouldTranslated": true,
@@ -245251,7 +245251,7 @@
     {
       "id": "content_phaedra.9ee56fa2.js:4573991:4574006:d54bb981cf35",
       "file": "content_phaedra.9ee56fa2.js",
-      "category": "property_text",
+      "category": "internal_display",
       "context": "assignment.longName",
       "shouldTranslate": true,
       "shouldTranslated": true,
